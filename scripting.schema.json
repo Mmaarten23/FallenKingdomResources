@@ -1,4 +1,27 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/Mmaarten23/FallenKingdomResources/blob/adbad1859973fe5989a60deea4c9035714e866cb/scripting.schema.json"
+  "$id": "https://github.com/Mmaarten23/FallenKingdomResources/blob/adbad1859973fe5989a60deea4c9035714e866cb/scripting.schema.json",
+  "title": "FallenKingdomScript",
+  "description": "A schema to validate scripts in FallenKingdom",
+  "type": "object",
+  "properties": {
+    "Add": {
+      "description": "Adds something to a variable. Same as Set stage, but adds rather than sets.",
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "boolean"
+        }
+      ]
+    }
+  }
 }
