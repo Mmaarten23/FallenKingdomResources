@@ -1,0 +1,11 @@
+{
+  "CreateEntity": {
+    "key": "",
+    "entity": "",
+    "location": [5, 5.6, 20.33],
+    "villager_profession": "Fisherman",
+    "villager_type": "Savana",
+    "sleeping": true,
+    "speed": 0.3
+  }
+}
