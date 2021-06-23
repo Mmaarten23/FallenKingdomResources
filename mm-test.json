@@ -34,5 +34,25 @@
   ],
   "Leave": [],
   "Comment": "Can_gamble",
-  "SendMessage": "Ready to gamble huh?"
+  "If": [],
+  "Completed": [],
+  "Skip": "Returning_gambler",
+  "Dialog": [
+    {
+      "&6&lDoran": "Hey there!",
+      "&6&lDoran": "You look like a fun someone!",
+      "&6&lDoran": "Can I invite you to a game?",
+      "[PLAYER]": "Eeeuh sure?",
+      "&6&lDoran": "Perfect! Now... This place may be a bit unusual.",
+      "[PLAYER]": "Unusual?",
+      "&6&lDoran": "You see, other -less qualified- places seem to ask for gold all the time.",
+      "&6&lDoran": "We don't do gold around here. We want those precious feathers!",
+      "[PLAYER]": "So... I can use feathers to play a game here?",
+      "&6&lDoran": "EXACTLY! Just bring me &l32 feathers &rand I will show you!",
+      "[PLAYER]": "That sounds like a great deal!",
+    }
+  ],
+  "Leave": [],
+  "Comment": "Returning_gambler",
+  "SendMessage": "Rest of script"
 }
