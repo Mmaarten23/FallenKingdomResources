@@ -35,7 +35,7 @@
     "storyTeller"
   ],
   "EntityLookAtPlayer": "storyTeller",
-  "Freeze": true,
+  "Freeze": [],
   "Dialog": [
     {
       "&5&lAgnes": "He- Hell-o?",
@@ -53,6 +53,7 @@
       "[PLAYER]": "I am intrigued! Tell me everything."
     }
   ],
+  "Unfreeze": [],
   "Fade": [],
   "Teleport": [
     2003.5,
@@ -61,6 +62,7 @@
     0,
     10
   ],
+  "Freeze": [],
   "TeleportEntity": [
     "storyTeller",
     2008.5,
@@ -78,5 +80,6 @@
       "&5&lAgnes": "It... did not.",
       "&5&lAgnes": "One day, the king came to our quarters while we were taking our notes for the day."
     }
-  ]
+  ],
+  "Unfreeze":[]
 }
