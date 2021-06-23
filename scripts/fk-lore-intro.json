@@ -3,7 +3,7 @@
   "Author": "Mmaarten",
   "AllowRejoining": true,
 
-  "NotCompleted": [],
+
   "CreateEntity": {
     "key": "storyTeller",
     "entity": "PLAYER",
@@ -24,5 +24,8 @@
     "hand": {
       "material": "written_book"
     }
-  }
+  },
+  "Hide": "storyTeller",
+  "NotCompleted": [],
+  "Show": "storyTeller"
 }
