@@ -164,29 +164,29 @@
   "Skip": "gold_lvl1",
   "Skip": "gems_lvl1",
   "Skip": "Lost",
-  "Skip": "rotten_flesh_lvl1",
+  "Comment": "rotten_flesh_lvl1",
   "GiveItem": [
     "rotten_flesh",
     16
   ],
   "Skip": "End",
-  "Skip": "bone_lvl1",
+  "Comment": "bone_lvl1",
   "GiveItem": [
     "bone",
     16
   ],
   "Skip": "End",
-  "Skip": "rp_lvl1",
+  "Comment": "rp_lvl1",
   "GiveRaidPoints": [
     20
   ],
   "Skip": "End",
-  "Skip": "gold_lvl1",
+  "Comment": "gold_lvl1",
   "GiveKingdomGold": [
     1000
   ],
   "Skip": "End",
-  "Skip": "gems_lvl1",
+  "Comment": "gems_lvl1",
   "GiveKingdomGems": [
     20
   ],
