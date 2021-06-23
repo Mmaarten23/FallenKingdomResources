@@ -2,8 +2,6 @@
   "Key": "fk_lore_intro",
   "Author": "Mmaarten",
   "AllowRejoining": true,
-
-
   "CreateEntity": {
     "key": "storyTeller",
     "entity": "PLAYER",
@@ -23,9 +21,62 @@
     ],
     "hand": {
       "material": "written_book"
-    }
+    },
+    "look": false
   },
+  "PlayerJoin": [],
   "Hide": "storyTeller",
+  "If": [],
   "NotCompleted": [],
-  "Show": "storyTeller"
+  "Skip": "Show",
+  "Leave": [],
+  "Show": "storyTeller",
+  "HighlightClickEntity": [
+    "storyTeller"
+  ],
+  "EntityLookAtPlayer": "storyTeller",
+  "Freeze": true,
+  "Dialog": [
+    {
+      "&5&lAgnes": "He- Hell-o?",
+      "[PLAYER]": "Hey there! Everything okay?",
+      "&5&lAgnes": "I cannot believe it...",
+      "&5&lAgnes": "It is really you...",
+      "[PLAYER]": "Have we met?",
+      "&5&lAgnes": "Oh, excuse me. I should have introduced myself.",
+      "&5&lAgnes": "I am Agnes. I used to work in your kingdom before ...",
+      "&5&lAgnes": "you know... you became the ruler.",
+      "[PLAYER]": "I did not know that.",
+      "&5&lAgnes": "There are many things that you do not know your highness.",
+      "[PLAYER]": "Please, just call me [PLAYER].",
+      "&5&lAgnes": "Your hi- [PLAYER], allow me to share my knowledge with you.",
+      "[PLAYER]": "I am intrigued! Tell me everything."
+    }
+  ],
+  "Fade": [],
+  "Teleport": [
+    2003.5,
+    82.0,
+    539.7,
+    0,
+    10
+  ],
+  "TeleportEntity": [
+    "storyTeller",
+    2008.5,
+    80.0,
+    547.5,
+    35,
+    0
+  ],
+  "Dialog": [
+    {
+      "&5&lAgnes": "It all started around 20 years ago. I was still a young servant.",
+      "&5&lAgnes": "Together with William, I was in charge of the staff here.",
+      "&5&lAgnes": "We were a great team, worked together on everything and rarely had arguments.",
+      "[PLAYER]": "But it didn't last, did it?",
+      "&5&lAgnes": "It... did not.",
+      "&5&lAgnes": "One day, the king came to our quarters while we were taking our notes for the day."
+    }
+  ]
 }
