@@ -677,22 +677,22 @@
           "type": "boolean"
         },
         "hand": {
-          "type": "string"
+          "$ref": "#/definitions/item"
         },
         "offhand": {
-          "type": "string"
+          "$ref": "#/definitions/item"
         },
         "helmet": {
-          "type": "string"
+          "$ref": "#/definitions/item"
         },
         "chestplate": {
-          "type": "string"
+          "$ref": "#/definitions/item"
         },
         "leggings": {
-          "type": "string"
+          "$ref": "#/definitions/item"
         },
         "boots": {
-          "type": "string"
+          "$ref": "#/definitions/item"
         }
       },
       "additionalProperties": false,
