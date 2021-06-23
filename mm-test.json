@@ -21,7 +21,7 @@
   },
   "HighlightClickEntity": ["gambler"],
   "If": [],
-  "False": [],
+  "NotCompleted": [0, 2],
   "Skip": "Can_gamble",
   "Comment": "Cannot_gamble",
   "RandomDialog": [
