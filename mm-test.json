@@ -19,6 +19,7 @@
       "&7&oCasino master"
     ]
   },
+  "HighlightClickEntity": ["gambler"],
   "If": [],
   "False": [],
   "Skip": "Can_gamble",
