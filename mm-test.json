@@ -30,14 +30,14 @@
   "Skip": "Can_gamble",
   "Comment": "Cannot_gamble",
   "RandomDialog": [
-    {
-      "&6&lDoran": "I am sorry [PLAYER], I am still cleaning my chips!"
-    },
-    {
-      "&6&lDoran": "Even the casino closes sometimes! We are happy to serve you soon!"
-    }
+    {"&6&lDoran": "I am sorry [PLAYER], I am still cleaning my chips!"},
+    {"&6&lDoran": "Even the casino closes sometimes! We are happy to serve you soon!"},
+    {"&6&lDoran": "Reshuffling cards takes a while! I will play later."},
+    {"&6&lDoran": "We will play later. I first have to celebrate my big jackpot win!"},
+    {"&6&lDoran": "The casino is getting its monthly cleaning, I cannot let you in right now."}
   ],
   "Leave": [],
+  "Comment": "---------- Casino is open. Player has not completed this quest in the last 2 minutes----------",
   "Comment": "Can_gamble",
   "If": [],
   "NotCompleted": [],
@@ -57,7 +57,7 @@
   ],
   "Dialog": [
     {
-      "&6&lDoran": "You see, other -less qualified- places seem to ask for gold all the time.",
+      "&6&lDoran": "You see, other &mless qualified&r places seem to ask for gold all the time.",
       "&6&lDoran": "We don't do gold around here. We want those precious feathers!",
       "[PLAYER]": "So... I can use feathers to play a game here?",
       "&6&lDoran": "EXACTLY! Just bring me &l32 feathers &rand I will show you!",
@@ -65,23 +65,200 @@
     },
     80
   ],
+  "Comment": "---------- Start of loop to check if a player has feathers or not ----------",
+  "Comment": "Come_back_with_feathers",
   "HighlightClickEntity": [
     "gambler"
   ],
   "Comment": "Returning_gambler",
   "If": [],
-  "HasItem": ["feather", 32],
+  "HasItem": [
+    "feather",
+    32
+  ],
   "Skip": "Has_feathers",
   "RandomDialog": [
+    {"&6&lDoran": "I am sorry [PLAYER], I cannot let you play without &l32 feathers&r."},
+    {"&6&lDoran": "Without &l32 feathers&r, no deal [PLAYER]."},
+    {"&6&lDoran": "Last time I let someone in without paying &l32 feathers&r, I almost got fired."},
+    {"&6&lDoran": "&l32 feathers&r is not that much..."}
+  ],
+  "Skip": "Come_back_with_feathers",
+  "Comment": "---------- Player has feathers. Take the feathers and determine their mines level for the rewards ----------",
+  "Comment": "Has_feathers",
+  "Dialog": [
     {
-      "&6&lDoran": "I am sorry [PLAYER], I cannot let you play without &l32 feathers&r."
-    },
+      "&6&lDoran": "Oooh, those feathers look good!",
+      "&6&lDoran": "Lets spin the wheel to see what I can give you for them!"
+    }
+  ],
+  "TakeItem": {
+    "material": "feather",
+    "amount": 32
+  },
+  "If": [],
+  "HasKingdomBuilding": ["mine", 5],
+  "Skip": "Level_5",
+  "Dummy": [],
+  "If": [],
+  "HasKingdomBuilding": ["mine", 4],
+  "Skip": "Level_4",
+  "Dummy": [],
+  "If": [],
+  "HasKingdomBuilding": ["mine", 3],
+  "Skip": "Level_3",
+  "Dummy": [],
+  "If": [],
+  "HasKingdomBuilding": ["mine", 2],
+  "Skip": "Level_2",
+  "Dummy": [],
+  "Comment": "---------- Mine level determined. Spinning the wheel matching their level. ----------",
+  "Comment": "Level_1",
+  "AnimatedRandomOption": [
+    "Casino",
     {
-      "&6&lDoran": "Without &l32 feathers&r, no deal [PLAYER]."
-    },
+      "rotten_flesh": 0.35,
+      "bone": 0.35,
+      "nether_star": 0.10,
+      "sunflower": 0.10,
+      "emerald": 0.05,
+      "barrier": 0.05
+    }
+  ],
+  "GiveItem": ["rotten_flesh", 16],
+  "GiveItem": ["bone", 16],
+  "GiveRaidPoints": [20],
+  "GiveKingdomGold": [1000],
+  "GiveKingdomGems": [20],
+  "Skip": "Lost",
+  "Skip": "End",
+
+  "Comment": "Level_2",
+  "AnimatedRandomOption": [
+    "Casino",
     {
-      "&6&lDoran": "Last time I let someone in without paying &l32 feathers&r, I almost got fired."
-    },
-    60
-  ]
+      "rotten_flesh": 0.20,
+      "bone": 0.20,
+      "spider_eye": 0.15,
+      "gunpowder": 0.15,
+      "nether_star": 0.10,
+      "sunflower": 0.10,
+      "emerald": 0.05,
+      "barrier": 0.05
+    }
+  ],
+  "GiveItem": ["rotten_flesh", 20],
+  "GiveItem": ["bone", 25],
+  "GiveItem": ["spider_eye", 25],
+  "GiveItem": ["gunpowder", 25],
+  "GiveRaidPoints": [25],
+  "GiveKingdomGold": [5000],
+  "GiveKingdomGems": [25],
+  "Skip": "Lost",
+  "Skip": "End",
+
+  "Comment": "Level_3",
+  "AnimatedRandomOption": [
+    "Casino",
+    {
+      "rotten_flesh": 0.10,
+      "bone": 0.10,
+      "spider_eye": 0.20,
+      "gunpowder": 0.15,
+      "VenomousExtract": 0.15,
+      "nether_star": 0.10,
+      "sunflower": 0.10,
+      "emerald": 0.05,
+      "barrier": 0.05
+    }
+  ],
+  "GiveItem": ["rotten_flesh", 20],
+  "GiveItem": ["bone", 25],
+  "GiveItem": ["spider_eye", 30],
+  "GiveItem": ["gunpowder", 30],
+  "GiveItem": ["VenomousExtract", 30],
+  "GiveRaidPoints": [40],
+  "GiveKingdomGold": [15000],
+  "GiveKingdomGems": [35],
+  "Skip": "Lost",
+  "Skip": "End",
+
+  "Comment": "Level_4",
+  "AnimatedRandomOption": [
+    "Casino",
+    {
+      "rotten_flesh": 0.10,
+      "bone": 0.10,
+      "spider_eye": 0.15,
+      "gunpowder": 0.15,
+      "VenomousExtract": 0.10,
+      "slime_ball": 0.10,
+      "nether_star": 0.10,
+      "sunflower": 0.10,
+      "emerald": 0.05,
+      "barrier": 0.05
+    }
+  ],
+  "GiveItem": ["rotten_flesh", 20],
+  "GiveItem": ["bone", 25],
+  "GiveItem": ["spider_eye", 30],
+  "GiveItem": ["gunpowder", 30],
+  "GiveItem": ["VenomousExtract", 30],
+  "GiveItem": ["slime_ball", 32],
+  "GiveRaidPoints": [50],
+  "GiveKingdomGold": [20000],
+  "GiveKingdomGems": [40],
+  "Skip": "Lost",
+  "Skip": "End",
+
+
+  "Comment": "Level_5",
+  "AnimatedRandomOption": [
+    "Casino",
+    {
+      "rotten_flesh": 0.05,
+      "bone": 0.10,
+      "spider_eye": 0.15,
+      "gunpowder": 0.10,
+      "VenomousExtract": 0.10,
+      "slime_ball": 0.10,
+      "MummifiedBones": 0.10,
+      "nether_star": 0.10,
+      "sunflower": 0.10,
+      "emerald": 0.05,
+      "barrier": 0.05
+    }
+  ],
+  "GiveItem": ["rotten_flesh", 20],
+  "GiveItem": ["bone", 25],
+  "GiveItem": ["spider_eye", 30],
+  "GiveItem": ["gunpowder", 30],
+  "GiveItem": ["VenomousExtract", 30],
+  "GiveItem": ["slime_ball", 32],
+  "GiveItem": ["MummifiedBones", 32],
+  "GiveRaidPoints": [55],
+  "GiveKingdomGold": [30000],
+  "GiveKingdomGems": [50],
+  "Skip": "Lost",
+  "Skip": "End",
+
+  "Comment": "End",
+  "Dialog": [
+    {
+      "&6&lDoran": "Congratulations!",
+      "&6&lDoran": "Hope to play with you again in the future!"
+    }
+  ],
+  "Complete": [],
+  "Leave": [],
+
+  "Comment": "Lost",
+  "Dialog": [
+    {
+      "&6&lDoran": "A bit unlucky there [PLAYER].",
+      "&6&lDoran": "Better luck next time!"
+    }
+  ],
+  "Complete": [],
+  "Leave": []
 }
