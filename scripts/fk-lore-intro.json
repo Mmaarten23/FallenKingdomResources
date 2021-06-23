@@ -1,7 +1,7 @@
 {
   "Key": "fk_lore_intro",
   "Author": "Mmaarten",
-  "AllowRejoining": true,
+  "AllowRejoining": false,
   "CreateEntity": {
     "key": "storyTeller",
     "entity": "PLAYER",
@@ -51,7 +51,8 @@
       "[PLAYER]": "Please, just call me [PLAYER].",
       "&5&lAgnes": "Your hi- [PLAYER], allow me to share my knowledge with you.",
       "[PLAYER]": "I am intrigued! Tell me everything."
-    }
+    },
+    60
   ],
   "Unfreeze": [],
   "Fade": [],
@@ -62,7 +63,6 @@
     0,
     10
   ],
-  "Freeze": [],
   "TeleportEntity": [
     "storyTeller",
     2008.5,
@@ -71,6 +71,7 @@
     35,
     0
   ],
+  "Freeze": [],
   "Dialog": [
     {
       "&5&lAgnes": "It all started around 20 years ago. I was still a young servant.",
@@ -79,7 +80,8 @@
       "[PLAYER]": "But it didn't last, did it?",
       "&5&lAgnes": "It... did not.",
       "&5&lAgnes": "One day, the king came to our quarters while we were taking our notes for the day."
-    }
+    },
+    60
   ],
   "Unfreeze":[]
 }
