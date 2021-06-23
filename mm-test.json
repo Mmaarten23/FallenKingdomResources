@@ -1,6 +1,8 @@
 {
   "Key": "mm_test",
   "Author": "Mmaarten",
+  "AllowRejoining": true,
+
   "CreateEntity": {
     "key": "gambler",
     "entity": "PLAYER",
