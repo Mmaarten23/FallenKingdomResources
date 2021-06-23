@@ -1,0 +1,749 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "https://jsonschema.mmaarten.me/fallenkingdom_lite",
+  "title": "FallenKingdomScript schema",
+  "description": "A schema to validate scripts with the most common stages in FallenKingdom. Reference: http://play2.pokefind.co/scripting/beginner-script-stages",
+  "type": "object",
+  "properties": {
+    "Author": {
+      "description": "Sets the author of the script. Useful for finding the scripter who made a script.",
+      "type": "string"
+    },
+    "ClickBlock": {
+      "description": "Requires the player to click a block at a given location to progress. You can also require the player to click a specific type of block.",
+      "oneOf": [
+        {
+          "$ref": "#/definitions/minecraft_blocks"
+        },
+        {
+          "$ref": "#/definitions/blockLoc"
+        }
+      ]
+    },
+    "ClickEntity": {
+      "description": "Requires a player to click an entity to progress. You can also give the player the option of clicking any one of multiple entities. By default, the entity will look at the player after being clicked. You can optionally turn this off. By default, this stage will be trigger whether the player left or right clicks the entity. You can optionally require the player to either left or right click the entity.",
+      "oneOf": [
+        {
+          "$ref": "#/definitions/npc"
+        },
+        {
+          "$ref": "#/definitions/npcs"
+        },
+        {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "oneOf": [
+            {
+              "items": [
+                {
+                  "description": "entity",
+                  "type": "string"
+                },
+                {
+                  "description": "look",
+                  "type": "boolean"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "description": "entity",
+                  "type": "string"
+                },
+                {
+                  "description": "look",
+                  "type": "string",
+                  "enum": [
+                    "left",
+                    "right"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Complete": {
+      "description": "Sets the script as completed for a player when they pass through this stage. Script completion can be checked with /hascompletedscript, and the Completed and NotCompleted stages. You can also set another script as completed. This stage does not make the player leave the script. If you want to do this, use the Leave stage.",
+      "oneOf": [
+        {
+          "type": "array",
+          "maxItems": 0
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "CreateEntity": {
+      "description": "Creates an entity. The key is what you use to reference the entity in a later stage.",
+      "$ref": "#/definitions/entity"
+    },
+    "Description": {
+      "description": "Sets the description of the script that is shown in menus like the quest log menu and the challenge log menu. If this script is not displayed in a menu, this stage has no effect.\n",
+      "type": "string",
+      "minLength": 1
+    },
+    "Dialog": {
+      "description": "Provides character dialog to the player.",
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 2,
+      "items": [
+        {
+          "description": "lines",
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        {
+          "description": "delay between lines",
+          "type": "integer"
+        }
+      ]
+    },
+    "GiveItems": {
+      "description": "Gives the player an item. You can optionally specify more data about the item.",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/definitions/item"
+        }
+      ]
+    },
+    "Hide": {
+      "description": "Hides entities for the player when they pass through the stage. Opposite of the Show stage. You can also hide multiple entities. If this stage is run for the server (by the Repeat stage for example), the entities will be hidden for all players on the server.",
+      "oneOf": [
+        {
+          "$ref": "#/definitions/npc"
+        },
+        {
+          "$ref": "#/definitions/npcs"
+        }
+      ]
+    },
+    "Icon": {
+      "description": "Sets the icon of the script that is shown in menus such as the quest log menu and the challenge log menu. The format for the icon is the standard item format.",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/definitions/item"
+        }
+      ]
+    },
+    "Key": {
+      "type": "string",
+      "minLength": 1
+    },
+    "MoveEntity": {
+      "description": "Makes an entity walk to a given location. Speed defaults to 0.2 blocks per tick if not included. It is also possible to specify a speed. It is also possible to turn collisions off.",
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 7,
+      "items": [
+        {
+          "description": "entity",
+          "oneOf": [
+            {
+              "$ref": "#/definitions/npc"
+            },
+            {
+              "$ref": "#/definitions/npcs"
+            }
+          ]
+        },
+        {
+          "description": "x",
+          "type": "number"
+        },
+        {
+          "description": "y",
+          "type": "number"
+        },
+        {
+          "description": "z",
+          "type": "number"
+        },
+        {
+          "description": "speed",
+          "type": "number"
+        },
+        {
+          "description": "collision",
+          "type": "boolean"
+        }
+      ]
+    },
+    "Name": {
+      "description": "Sets the name of the script. By default, the name is the file name of the script capitalized, without the .json extension, and with with dashes (-) replaced by with spaces. This stages overrides the default name.\n",
+      "type": "string",
+      "minLength": 1
+    },
+    "NotCompleted": {
+      "description": "Requires the player to have not completed the script before to progress. Opposite of the Completed stage.",
+      "oneOf": [
+        {
+          "type": "array",
+          "minItems": 0,
+          "maxItems": 0
+        },
+        {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 5,
+          "items": [
+            {
+              "description": "script",
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "description": "hours",
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "description": "minutes",
+              "type": "integer",
+              "minimum": 0,
+              "exclusiveMaximum": 60
+            },
+            {
+              "description": "seconds",
+              "type": "integer",
+              "minimum": 0,
+              "exclusiveMaximum": 60
+            },
+            {
+              "description": "message",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 4,
+          "items": [
+            {
+              "description": "hours",
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "description": "minutes",
+              "type": "integer",
+              "minimum": 0,
+              "exclusiveMaximum": 60
+            },
+            {
+              "description": "seconds",
+              "type": "integer",
+              "minimum": 0,
+              "exclusiveMaximum": 60
+            },
+            {
+              "description": "message",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    "Objective": {
+      "description": "Creates an objective for the script, which is used to help the player track progress and understand what they need to do next. Shows up in the quest log menu. The objective will be marked as completed in the quest log once the player progresses past the stage. This is why the Objective stage goes after the stage that actually checks if the player has completed the objective here. You can also specify the duration of the objective in number of stages. ",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 2,
+          "items": [
+            {
+              "description": "objective",
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "description": "when_to_complete",
+              "type": [
+                "string",
+                "integer"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Quest": {
+      "description": "By default, scripts are not considered quests. This stage makes the script a quest (not all scripts are quests!). This means the script will be shown in the quest log menu (accessed through /questlog).",
+      "type": "boolean"
+    },
+    "SendMessage": {
+      "description": "Sends a message to a player when they reach this stage. If triggered for the server, it will send the message to all players in the script.",
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "Show": {
+      "description": "Show entities for the player when they pass through the stage. Opposite of the Hide stage.",
+      "oneOf": [
+        {
+          "$ref": "#/definitions/npc"
+        },
+        {
+          "$ref": "#/definitions/npcs"
+        },
+        {
+          "type": "object",
+          "additionalProperties": {
+            "type": "boolean"
+          }
+        }
+      ]
+    },
+    "Wait": {
+      "description": "Waits a specified amount of time. If the time supplied is a whole number, the time unit is ticks.",
+      "anyOf": [
+        {
+          "$comment": "Time in ticks",
+          "type": "integer"
+        },
+        {
+          "$comment": "Time in seconds",
+          "type": "number"
+        },
+        {
+          "$comment": "player var",
+          "type": "string"
+        },
+        {
+          "$comment": "server var",
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
+    }
+  },
+  "required": [
+    "Key",
+    "Author"
+  ],
+  "definitions": {
+    "minecraft_blocks": {
+      "type": "string",
+      "enum": [
+        "Ask tom for a list of all blocks that can be used"
+      ]
+    },
+    "minecraft_entity": {
+      "type": "string",
+      "enum": [
+        "BAT",
+        "BEE",
+        "BLAZE",
+        "CAT",
+        "CAVE_SPIDER",
+        "CHICKEN",
+        "COD",
+        "COW",
+        "CREEPER",
+        "DOLPHIN",
+        "DONKEY",
+        "DROWNED",
+        "ELDER_GUARDIAN",
+        "ENDER_DRAGON",
+        "ENDERMAN",
+        "ENDERMITE",
+        "EVOKER",
+        "EVOKER_FANGS",
+        "FOX",
+        "GHAST",
+        "GIANT",
+        "GUARDIAN",
+        "HOGLIN",
+        "HORSE",
+        "HUSK",
+        "ILLUSIONER",
+        "IRON_GOLEM",
+        "LLAMA",
+        "MAGMA_CUBE",
+        "MULE",
+        "MOOSHROOM",
+        "OCELOT",
+        "PANDA",
+        "PARROT",
+        "PHANTOM",
+        "PIG",
+        "PIGLIN",
+        "PIGLIN_BRUTE",
+        "PILLAGER",
+        "POLAR_BEAR",
+        "PUFFERFISH",
+        "RABBIT",
+        "RAVAGER",
+        "SALMON",
+        "SHEEP",
+        "SHULKER",
+        "SILVERFISH",
+        "SKELETON",
+        "SKELETON_HORSE",
+        "SLIME",
+        "SNOW_GOLEM",
+        "SPIDER",
+        "SQUID",
+        "STRAY",
+        "STRIDER",
+        "TRADER_LLAMA",
+        "TROPICAL_FISH",
+        "TURTLE",
+        "VEX",
+        "VILLAGER",
+        "VINDICATOR",
+        "WANDERING_TRADER",
+        "WITCH",
+        "WITHER",
+        "WITHER_SKELETON",
+        "WOLF",
+        "ZOGLIN",
+        "ZOMBIE",
+        "ZOMBIE_HORSE",
+        "ZOMBIE_VILLAGER",
+        "ZOMBIFIED_PIGLIN",
+        "ARMOR_STAND",
+        "ARROW",
+        "BOAT",
+        "DRAGON_FIREBALL",
+        "END_CRYSTAL",
+        "EYE_OF_ENDER",
+        "FALLING_BLOCK",
+        "FIREWORK",
+        "ITEM",
+        "ITEM_FRAME",
+        "FIREBALL",
+        "MINECART",
+        "MINECART_CHEST",
+        "MINECART_COMMAND_BLOCK",
+        "MINECART_FURNACE",
+        "MINECART_HOPPER",
+        "MINECART_SPAWNER",
+        "MINECART_TNT",
+        "PRIMED_TNT",
+        "SNOWBALL",
+        "SPECTRAL_ARROW",
+        "EGG",
+        "ENDER_PEARL",
+        "EXPERIENCE_BOTTLE",
+        "POTION",
+        "TRIDENT",
+        "PLAYER"
+      ]
+    },
+    "npc": {
+      "type": "string",
+      "minLength": 1
+    },
+    "npcs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/npc"
+      }
+    },
+    "villagerTypes": {
+      "type": "string",
+      "enum": [
+        "Desert",
+        "Jungle",
+        "Plains",
+        "Savana",
+        "Snow",
+        "Swamp",
+        "Taiga"
+      ]
+    },
+    "villagerProfessions": {
+      "type": "string",
+      "enum": [
+        "Armorer",
+        "Butcher",
+        "Cartographer",
+        "Cleric",
+        "Farmer",
+        "Fisherman",
+        "Fletcher",
+        "Leatherworker",
+        "Librarian",
+        "Mason",
+        "Nitwit",
+        "Shepherd",
+        "Toolsmith",
+        "Weaponsmith"
+      ]
+    },
+    "rabbitTypes": {
+      "type": "string",
+      "enum": [
+        "Brown",
+        "White",
+        "Black",
+        "Black And White",
+        "Gold",
+        "Salt And Pepper",
+        "The Killer Bunny"
+      ]
+    },
+    "catTypes": {
+      "type": "string",
+      "enum": [
+        "Tabby",
+        "Black",
+        "Red",
+        "Siamese",
+        "British Shorthair",
+        "Calico",
+        "Persian",
+        "Ragdoll",
+        "White",
+        "Jellie",
+        "All Black"
+      ]
+    },
+    "yawLoc": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 4,
+      "items": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        }
+      ]
+    },
+    "blockLoc": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "integer"
+      }
+    },
+    "entity": {
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "entity": {
+          "$ref": "#/definitions/minecraft_entity"
+        },
+        "skin": {
+          "type": "object",
+          "properties": {
+            "texture": {
+              "type": "string"
+            },
+            "signature": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        "location": {
+          "$ref": "#/definitions/yawLoc"
+        },
+        "name": {
+          "type": "string"
+        },
+        "pokemon": {
+          "type": "string"
+        },
+        "form": {
+          "type": "string"
+        },
+        "look": {
+          "type": "boolean"
+        },
+        "baby": {
+          "type": "boolean"
+        },
+        "gravity": {
+          "type": "boolean"
+        },
+        "cape": {
+          "type": "boolean"
+        },
+        "charged": {
+          "type": "boolean"
+        },
+        "sleeping": {
+          "type": "boolean"
+        },
+        "sitting": {
+          "type": "boolean"
+        },
+        "riding": {
+          "type": "string"
+        },
+        "glow": {
+          "type": "boolean"
+        },
+        "hand_pose": {
+          "type": "string",
+          "enum": [
+            "Left",
+            "Right",
+            "None"
+          ]
+        },
+        "villager_type": {
+          "$ref": "#/definitions/villagerTypes"
+        },
+        "villager_profession": {
+          "$ref": "#/definitions/villagerProfessions"
+        },
+        "rabbit_type": {
+          "$ref": "#/definitions/rabbitTypes"
+        },
+        "cat_type": {
+          "$ref": "#/definitions/catTypes"
+        },
+        "marker": {
+          "type": "boolean"
+        },
+        "name_background": {
+          "type": "boolean"
+        },
+        "speed": {
+          "type": "number"
+        },
+        "item": {
+          "type": "string"
+        },
+        "block": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "boolean"
+        },
+        "global": {
+          "type": "boolean"
+        },
+        "hand": {
+          "type": "string"
+        },
+        "offhand": {
+          "type": "string"
+        },
+        "helmet": {
+          "type": "string"
+        },
+        "chestplate": {
+          "type": "string"
+        },
+        "leggings": {
+          "type": "string"
+        },
+        "boots": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "key",
+        "entity",
+        "location"
+      ]
+    },
+    "item": {
+      "type": "object",
+      "properties": {
+        "material": {
+          "type": "string"
+        },
+        "amount": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "damage": {
+          "type": "number"
+        },
+        "glow": {
+          "type": "boolean"
+        },
+        "color": {
+          "description": "Only for leather armor",
+          "type": "integer"
+        },
+        "skin": {
+          "description": "Only for player heads",
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "unbreakable": {
+          "type": "boolean"
+        },
+        "hide_attributes": {
+          "type": "boolean"
+        },
+        "hide_enchants": {
+          "type": "boolean"
+        },
+        "hide_potion_effects": {
+          "type": "boolean"
+        },
+        "potion": {
+          "type": "object"
+        },
+        "attributes": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "material"
+      ]
+    }
+  }
+}
