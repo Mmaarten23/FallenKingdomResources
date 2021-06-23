@@ -90,9 +90,9 @@
     "storyTeller",
     2008.7,
     80.0,
-    548.3,
-    90
+    548.3
   ],
+  "EntityLookAtPlayer": "storyTeller",
   "Freeze": [],
   "Dialog": [
     {
