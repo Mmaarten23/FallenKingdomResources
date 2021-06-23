@@ -26,10 +26,10 @@
   "Comment": "Cannot_gamble",
   "RandomDialog": [
     {
-      "gambler": "I am sorry [PLAYER], I am still cleaning my chips!"
+      "&6&lDoran": "I am sorry [PLAYER], I am still cleaning my chips!"
     },
     {
-      "gambler": "Even the casino closes sometimes! We are happy to serve you soon!"
+      "&6&lDoran": "Even the casino closes sometimes! We are happy to serve you soon!"
     }
   ],
   "Leave": [],
