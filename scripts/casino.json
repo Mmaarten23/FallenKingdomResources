@@ -23,8 +23,8 @@
   "HighlightClickEntity": [
     "gambler"
   ],
-  "If": [],
   "Comment": "REPLACE WITH PROPER COOLDOWN",
+  "If": [],
   "NotCompleted": [
     0,
     0,
