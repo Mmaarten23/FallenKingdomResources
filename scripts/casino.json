@@ -149,7 +149,6 @@
   "Comment": "Level_1",
   "AnimatedRandomOption": [
     "Casino",
-    false,
     {
       "rotten_flesh": 0.35,
       "bone": 0.35,
@@ -159,29 +158,42 @@
       "barrier": 0.05
     }
   ],
+  "Skip": "rotten_flesh_lvl1",
+  "Skip": "bone_lvl1",
+  "Skip": "rp_lvl1",
+  "Skip": "gold_lvl1",
+  "Skip": "gems_lvl1",
+  "Skip": "Lost",
+  "Skip": "rotten_flesh_lvl1",
   "GiveItem": [
     "rotten_flesh",
     16
   ],
+  "Skip": "End",
+  "Skip": "bone_lvl1",
   "GiveItem": [
     "bone",
     16
   ],
+  "Skip": "End",
+  "Skip": "rp_lvl1",
   "GiveRaidPoints": [
     20
   ],
+  "Skip": "End",
+  "Skip": "gold_lvl1",
   "GiveKingdomGold": [
     1000
   ],
+  "Skip": "End",
+  "Skip": "gems_lvl1",
   "GiveKingdomGems": [
     20
   ],
-  "Skip": "Lost",
   "Skip": "End",
   "Comment": "Level_2",
   "AnimatedRandomOption": [
     "Casino",
-    false,
     {
       "rotten_flesh": 0.20,
       "bone": 0.20,
@@ -193,37 +205,56 @@
       "barrier": 0.05
     }
   ],
+  "Skip": "rotten_flesh_lvl2",
+  "Skip": "bone_lvl2",
+  "Skip": "spider_eye_lvl2",
+  "Skip": "gunpowder_lvl2",
+  "Skip": "rp_lvl2",
+  "Skip": "gold_lvl2",
+  "Skip": "gems_lvl2",
+  "Skip": "Lost",
+  "Comment": "rotten_flesh_lvl2",
   "GiveItem": [
     "rotten_flesh",
     20
   ],
+  "Skip": "End",
+  "Comment": "bone_lvl2",
   "GiveItem": [
     "bone",
     25
   ],
+  "Skip": "End",
+  "Comment": "spider_eye_lvl2",
   "GiveItem": [
     "spider_eye",
     25
   ],
+  "Skip": "End",
+  "Comment": "gunpowder_lvl2",
   "GiveItem": [
     "gunpowder",
     25
   ],
+  "Skip": "End",
+  "Comment": "rp_lvl2",
   "GiveRaidPoints": [
     25
   ],
+  "Skip": "End",
+  "Comment": "gold_lvl2",
   "GiveKingdomGold": [
     5000
   ],
+  "Skip": "End",
+  "Comment": "gems_lvl2",
   "GiveKingdomGems": [
     25
   ],
-  "Skip": "Lost",
   "Skip": "End",
   "Comment": "Level_3",
   "AnimatedRandomOption": [
     "Casino",
-    false,
     {
       "rotten_flesh": 0.10,
       "bone": 0.10,
@@ -236,41 +267,63 @@
       "barrier": 0.05
     }
   ],
+  "Skip": "rotten_flesh_lvl3",
+  "Skip": "bone_lvl3",
+  "Skip": "spider_eye_lvl3",
+  "Skip": "gunpowder_lvl3",
+  "Skip": "venomousExtract_lvl3",
+  "Skip": "rp_lvl3",
+  "Skip": "gold_lvl3",
+  "Skip": "gems_lvl3",
+  "Skip": "Lost",
+  "Comment": "rotten_flesh_lvl3",
   "GiveItem": [
     "rotten_flesh",
     20
   ],
+  "Skip": "End",
+  "Comment": "bone_lvl3",
   "GiveItem": [
     "bone",
     25
   ],
+  "Skip": "End",
+  "Comment": "spider_eye_lvl3",
   "GiveItem": [
     "spider_eye",
     30
   ],
+  "Skip": "End",
+  "Comment": "gunpowder_lvl3",
   "GiveItem": [
     "gunpowder",
     30
   ],
+  "Skip": "End",
+  "Comment": "venomousExtract_lvl3",
   "GiveItem": [
     "VenomousExtract",
     30
   ],
+  "Skip": "End",
+  "Comment": "rp_lvl3",
   "GiveRaidPoints": [
     40
   ],
+  "Skip": "End",
+  "Comment": "gold_lvl3",
   "GiveKingdomGold": [
     15000
   ],
+  "Skip": "End",
+  "Comment": "gems_lvl3",
   "GiveKingdomGems": [
     35
   ],
-  "Skip": "Lost",
   "Skip": "End",
   "Comment": "Level_4",
   "AnimatedRandomOption": [
     "Casino",
-    false,
     {
       "rotten_flesh": 0.10,
       "bone": 0.10,
@@ -284,45 +337,70 @@
       "barrier": 0.05
     }
   ],
+  "Skip": "rotten_flesh_lvl4",
+  "Skip": "bone_lvl4",
+  "Skip": "spider_eye_lvl4",
+  "Skip": "gunpowder_lvl4",
+  "Skip": "venomousExtract_lvl4",
+  "Skip": "slime_ball_lvl4",
+  "Skip": "rp_lvl4",
+  "Skip": "gold_lvl4",
+  "Skip": "gems_lvl4",
+  "Skip": "Lost",
+  "Comment": "rotten_flesh_lvl4",
   "GiveItem": [
     "rotten_flesh",
     20
   ],
+  "Skip": "End",
+  "Comment": "bone_lvl4",
   "GiveItem": [
     "bone",
     25
   ],
+  "Skip": "End",
+  "Comment": "spider_eye_lvl4",
   "GiveItem": [
     "spider_eye",
     30
   ],
+  "Skip": "End",
+  "Comment": "gunpowder_lvl4",
   "GiveItem": [
     "gunpowder",
     30
   ],
+  "Skip": "End",
+  "Comment": "venomousExtract_lvl4",
   "GiveItem": [
     "VenomousExtract",
     30
   ],
+  "Skip": "End",
+  "Comment": "slime_ball_lvl4",
   "GiveItem": [
     "slime_ball",
     32
   ],
+  "Skip": "End",
+  "Comment": "rp_lvl4",
   "GiveRaidPoints": [
     50
   ],
+  "Skip": "End",
+  "Comment": "gold_lvl4",
   "GiveKingdomGold": [
     20000
   ],
+  "Skip": "End",
+  "Comment": "gems_lvl4",
   "GiveKingdomGems": [
     40
   ],
-  "Skip": "Lost",
   "Skip": "End",
   "Comment": "Level_5",
   "AnimatedRandomOption": [
     "Casino",
-    false,
     {
       "rotten_flesh": 0.05,
       "bone": 0.10,
@@ -337,44 +415,73 @@
       "barrier": 0.05
     }
   ],
+  "Skip": "rotten_flesh_lvl5",
+  "Skip": "bone_lvl5",
+  "Skip": "spider_eye_lvl5",
+  "Skip": "gunpowder_lvl5",
+  "Skip": "venomousExtract_lvl5",
+  "Skip": "slime_ball_lvl5",
+  "Skip": "mummifiedBones_lvl5",
+  "Skip": "rp_lvl5",
+  "Skip": "gold_lvl5",
+  "Skip": "gems_lvl5",
+  "Skip": "Lost",
+  "Comment": "rotten_flesh_lvl5",
   "GiveItem": [
     "rotten_flesh",
     20
   ],
+  "Skip": "End",
+  "Comment": "bone_lvl5",
   "GiveItem": [
     "bone",
     25
   ],
+  "Skip": "End",
+  "Comment": "spider_eye_lvl5",
   "GiveItem": [
     "spider_eye",
     30
   ],
+  "Skip": "End",
+  "Comment": "gunpowder_lvl5",
   "GiveItem": [
     "gunpowder",
     30
   ],
+  "Skip": "End",
+  "Comment": "venomousExtract_lvl5",
   "GiveItem": [
     "VenomousExtract",
     30
   ],
+  "Skip": "End",
+  "Comment": "slime_ball_lvl5",
   "GiveItem": [
     "slime_ball",
     32
   ],
+  "Skip": "End",
+  "Comment": "mummifiedBones_lvl5",
   "GiveItem": [
     "MummifiedBones",
     32
   ],
+  "Skip": "End",
+  "Comment": "rp_lvl5",
   "GiveRaidPoints": [
     55
   ],
+  "Skip": "End",
+  "Comment": "gold_lvl5",
   "GiveKingdomGold": [
     30000
   ],
+  "Skip": "End",
+  "Comment": "gems_lvl5",
   "GiveKingdomGems": [
     50
   ],
-  "Skip": "Lost",
   "Skip": "End",
   "Comment": "End",
   "Dialog": [
