@@ -587,7 +587,20 @@
           "$ref": "#/definitions/yawLoc"
         },
         "name": {
-          "type": "string"
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 2,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          ]
         },
         "pokemon": {
           "type": "string"
