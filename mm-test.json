@@ -27,7 +27,8 @@
   "If": [],
   "NotCompleted": [
     0,
-    2
+    0,
+    1
   ],
   "Skip": "Can_gamble",
   "Comment": "Cannot_gamble",

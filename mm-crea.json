@@ -1,0 +1,7 @@
+{
+  "Command": "mmgmc",
+  "SetGameMode": "creative",
+
+  "Command": "mmgms",
+  "SetGameMode": "survival"
+}
