@@ -19,9 +19,14 @@
       "&7&oCasino master"
     ]
   },
-  "HighlightClickEntity": ["gambler"],
+  "HighlightClickEntity": [
+    "gambler"
+  ],
   "If": [],
-  "NotCompleted": [0, 2],
+  "NotCompleted": [
+    0,
+    2
+  ],
   "Skip": "Can_gamble",
   "Comment": "Cannot_gamble",
   "RandomDialog": [
@@ -35,8 +40,10 @@
   "Leave": [],
   "Comment": "Can_gamble",
   "If": [],
-  "Completed": [],
+  "NotCompleted": [],
+  "Skip": "First_time_gambler",
   "Skip": "Returning_gambler",
+  "Comment": "First_time_gambler",
   "Dialog": [
     {
       "&6&lDoran": "Hey there!",
@@ -44,15 +51,37 @@
       "&6&lDoran": "Can I invite you to a game?",
       "[PLAYER]": "Eeeuh sure?",
       "&6&lDoran": "Perfect! Now... This place may be a bit unusual.",
-      "[PLAYER]": "Unusual?",
+      "[PLAYER]": "Unusual?"
+    },
+    60
+  ],
+  "Dialog": [
+    {
       "&6&lDoran": "You see, other -less qualified- places seem to ask for gold all the time.",
       "&6&lDoran": "We don't do gold around here. We want those precious feathers!",
       "[PLAYER]": "So... I can use feathers to play a game here?",
       "&6&lDoran": "EXACTLY! Just bring me &l32 feathers &rand I will show you!",
-      "[PLAYER]": "That sounds like a great deal!",
-    }
+      "[PLAYER]": "That sounds like a great deal!"
+    },
+    80
   ],
-  "Leave": [],
+  "HighlightClickEntity": [
+    "gambler"
+  ],
   "Comment": "Returning_gambler",
-  "SendMessage": "Rest of script"
+  "If": [],
+  "HasItem": ["feather", 32],
+  "Skip": "Has_feathers",
+  "RandomDialog": [
+    {
+      "&6&lDoran": "I am sorry [PLAYER], I cannot let you play without &l32 feathers&r."
+    },
+    {
+      "&6&lDoran": "Without &l32 feathers&r, no deal [PLAYER]."
+    },
+    {
+      "&6&lDoran": "Last time I let someone in without paying &l32 feathers&r, I almost got fired."
+    },
+    60
+  ]
 }
