@@ -147,8 +147,8 @@
   "Skip": "End",
 
   "Comment": "rp_lvl1",
-  "GiveRaidPoints": [20],
-  "SendMessage": "&7The wheel landed on... &d&l20 Raid points&7!",
+  "GiveRaidPoints": [5],
+  "SendMessage": "&7The wheel landed on... &d&l5 Raid points&7!",
   "Skip": "End",
 
   "Comment": "gold_lvl1",
@@ -157,8 +157,8 @@
   "Skip": "End",
 
   "Comment": "gems_lvl1",
-  "GiveKingdomGems": [20],
-  "SendMessage": "&7The wheel landed on... &a&l20 gems&7!",
+  "GiveKingdomGems": [25],
+  "SendMessage": "&7The wheel landed on... &a&l25 gems&7!",
   "Skip": "End",
 
   "Comment": "Level_2",
@@ -185,28 +185,28 @@
   "Skip": "Lost",
 
   "Comment": "rotten_flesh_lvl2",
-  "GiveItem": ["rotten_flesh", 20],
-  "SendMessage": "&7The wheel landed on... &4&l20 Rotten flesh&7!",
+  "GiveItem": ["rotten_flesh", 16],
+  "SendMessage": "&7The wheel landed on... &4&l16 Rotten flesh&7!",
   "Skip": "End",
 
   "Comment": "bone_lvl2",
-  "GiveItem": ["bone", 25],
-  "SendMessage": "&7The wheel landed on... &f&l25 Bones&7!",
+  "GiveItem": ["bone", 16],
+  "SendMessage": "&7The wheel landed on... &f&l16 Bones&7!",
   "Skip": "End",
 
   "Comment": "spider_eye_lvl2",
-  "GiveItem": ["spider_eye", 25],
-  "SendMessage": "&7The wheel landed on... &5&l25 Spider eyes&7!",
+  "GiveItem": ["spider_eye", 32],
+  "SendMessage": "&7The wheel landed on... &5&l32 Spider eyes&7!",
   "Skip": "End",
 
   "Comment": "gunpowder_lvl2",
-  "GiveItem": ["gunpowder", 25],
-  "SendMessage": "&7The wheel landed on... &8&l25 Gunpowder&7!",
+  "GiveItem": ["gunpowder", 16],
+  "SendMessage": "&7The wheel landed on... &8&l16 Gunpowder&7!",
   "Skip": "End",
 
   "Comment": "rp_lvl2",
-  "GiveRaidPoints": [25],
-  "SendMessage": "&7The wheel landed on... &d&l25 Raid points&7!",
+  "GiveRaidPoints": [7],
+  "SendMessage": "&7The wheel landed on... &d&l7 Raid points&7!",
   "Skip": "End",
 
   "Comment": "gold_lvl2",
@@ -245,33 +245,33 @@
   "Skip": "Lost",
 
   "Comment": "rotten_flesh_lvl3",
-  "GiveItem": ["rotten_flesh", 20],
-  "SendMessage": "&7The wheel landed on... &4&l20 Rotten flesh&7!",
+  "GiveItem": ["rotten_flesh", 32],
+  "SendMessage": "&7The wheel landed on... &4&l32 Rotten flesh&7!",
   "Skip": "End",
 
   "Comment": "bone_lvl3",
-  "GiveItem": ["bone", 25],
-  "SendMessage": "&7The wheel landed on... &f&l25 Bones&7!",
+  "GiveItem": ["bone", 32],
+  "SendMessage": "&7The wheel landed on... &f&l32 Bones&7!",
   "Skip": "End",
 
   "Comment": "spider_eye_lvl3",
-  "GiveItem": ["spider_eye", 30],
-  "SendMessage": "&7The wheel landed on... &5&l30 Spider eyes&7!",
+  "GiveItem": ["spider_eye", 32],
+  "SendMessage": "&7The wheel landed on... &5&l32 Spider eyes&7!",
   "Skip": "End",
 
   "Comment": "gunpowder_lvl3",
-  "GiveItem": ["gunpowder", 30],
-  "SendMessage": "&7The wheel landed on... &8&l30 Gunpowder&7!",
+  "GiveItem": ["gunpowder", 32],
+  "SendMessage": "&7The wheel landed on... &8&l32 Gunpowder&7!",
   "Skip": "End",
 
   "Comment": "venomousExtract_lvl3",
-  "GiveItem": ["VenomousExtract", 30],
-  "SendMessage": "&7The wheel landed on... &2&l30 Venomous extract&7!",
+  "GiveItem": ["VenomousExtract", 32],
+  "SendMessage": "&7The wheel landed on... &2&l32 Venomous extract&7!",
   "Skip": "End",
 
   "Comment": "rp_lvl3",
-  "GiveRaidPoints": [40],
-  "SendMessage": "&7The wheel landed on... &d&l40 Raid points&7!",
+  "GiveRaidPoints": [10],
+  "SendMessage": "&7The wheel landed on... &d&l10 Raid points&7!",
   "Skip": "End",
 
   "Comment": "gold_lvl3",
@@ -280,7 +280,7 @@
   "Skip": "End",
 
   "Comment": "gems_lvl3",
-  "GiveKingdomGems": [35],
+  "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
   "Skip": "End",
 
@@ -312,28 +312,28 @@
   "Skip": "Lost",
 
   "Comment": "rotten_flesh_lvl4",
-  "GiveItem": ["rotten_flesh", 20],
-  "SendMessage": "&7The wheel landed on... &4&l20 Rotten flesh&7!",
+  "GiveItem": ["rotten_flesh", 32],
+  "SendMessage": "&7The wheel landed on... &4&l32 Rotten flesh&7!",
   "Skip": "End",
 
   "Comment": "bone_lvl4",
-  "GiveItem": ["bone", 25],
-  "SendMessage": "&7The wheel landed on... &f&l25 Bones&7!",
+  "GiveItem": ["bone", 32],
+  "SendMessage": "&7The wheel landed on... &f&l32 Bones&7!",
   "Skip": "End",
 
   "Comment": "spider_eye_lvl4",
-  "GiveItem": ["spider_eye", 30],
-  "SendMessage": "&7The wheel landed on... &5&l30 Spider eyes&7!",
+  "GiveItem": ["spider_eye", 32],
+  "SendMessage": "&7The wheel landed on... &5&l32 Spider eyes&7!",
   "Skip": "End",
 
   "Comment": "gunpowder_lvl4",
-  "GiveItem": ["gunpowder", 30],
-  "SendMessage": "&7The wheel landed on... &8&l30 Gunpowder&7!",
+  "GiveItem": ["gunpowder", 32],
+  "SendMessage": "&7The wheel landed on... &8&l32 Gunpowder&7!",
   "Skip": "End",
 
   "Comment": "venomousExtract_lvl4",
-  "GiveItem": ["VenomousExtract", 30],
-  "SendMessage": "&7The wheel landed on... &2&l30 Venomous extract&7!",
+  "GiveItem": ["VenomousExtract", 32],
+  "SendMessage": "&7The wheel landed on... &2&l32 Venomous extract&7!",
   "Skip": "End",
 
   "Comment": "slime_ball_lvl4",
@@ -342,8 +342,8 @@
   "Skip": "End",
 
   "Comment": "rp_lvl4",
-  "GiveRaidPoints": [50],
-  "SendMessage": "&7The wheel landed on... &d&l50 Raid points&7!",
+  "GiveRaidPoints": [13],
+  "SendMessage": "&7The wheel landed on... &d&l13 Raid points&7!",
   "Skip": "End",
 
   "Comment": "gold_lvl4",
@@ -352,8 +352,8 @@
   "Skip": "End",
 
   "Comment": "gems_lvl4",
-  "GiveKingdomGems": [40],
-  "SendMessage": "&7The wheel landed on... &a&l40 Gems&7!",
+  "GiveKingdomGems": [25],
+  "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
   "Skip": "End",
 
   "Comment": "Level_5",
@@ -386,28 +386,28 @@
   "Skip": "Lost",
 
   "Comment": "rotten_flesh_lvl5",
-  "GiveItem": ["rotten_flesh", 20],
-  "SendMessage": "&7The wheel landed on... &4&l20 Rotten flesh&7!",
+  "GiveItem": ["rotten_flesh", 32],
+  "SendMessage": "&7The wheel landed on... &4&l32 Rotten flesh&7!",
   "Skip": "End",
 
   "Comment": "bone_lvl5",
-  "GiveItem": ["bone", 25],
-  "SendMessage": "&7The wheel landed on... &f&l25 Bones&7!",
+  "GiveItem": ["bone", 32],
+  "SendMessage": "&7The wheel landed on... &f&l32 Bones&7!",
   "Skip": "End",
 
   "Comment": "spider_eye_lvl5",
-  "GiveItem": ["spider_eye", 30],
-  "SendMessage": "&7The wheel landed on... &5&l30 Spider eyes&7!",
+  "GiveItem": ["spider_eye", 32],
+  "SendMessage": "&7The wheel landed on... &5&l32 Spider eyes&7!",
   "Skip": "End",
 
   "Comment": "gunpowder_lvl5",
-  "GiveItem": ["gunpowder", 30],
-  "SendMessage": "&7The wheel landed on... &8&l30 Gunpowder&7!",
+  "GiveItem": ["gunpowder", 32],
+  "SendMessage": "&7The wheel landed on... &8&l32 Gunpowder&7!",
   "Skip": "End",
 
   "Comment": "venomousExtract_lvl5",
-  "GiveItem": ["VenomousExtract", 30],
-  "SendMessage": "&7The wheel landed on... &2&l30 Venomous extract&7!",
+  "GiveItem": ["VenomousExtract", 32],
+  "SendMessage": "&7The wheel landed on... &2&l32 Venomous extract&7!",
   "Skip": "End",
 
   "Comment": "slime_ball_lvl5",
@@ -421,8 +421,8 @@
   "Skip": "End",
 
   "Comment": "rp_lvl5",
-  "GiveRaidPoints": [55],
-  "SendMessage": "&7The wheel landed on... &d&l55 Raid points&7!",
+  "GiveRaidPoints": [15],
+  "SendMessage": "&7The wheel landed on... &d&l15 Raid points&7!",
   "Skip": "End",
 
   "Comment": "gold_lvl5",
@@ -431,8 +431,8 @@
   "Skip": "End",
 
   "Comment": "gems_lvl5",
-  "GiveKingdomGems": [50],
-  "SendMessage": "&7The wheel landed on... &a&l50 Gems&7!",
+  "GiveKingdomGems": [25],
+  "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
   "Skip": "End",
 
 
