@@ -143,11 +143,11 @@
   "AnimatedRandomOption": [
     "Casino",
     {
-      "rotten_flesh": 0.15,
-      "bone": 0.10,
+      "rotten_flesh": 0.35,
+      "bone": 0.35,
       "nether_star": 0.10,
       "sunflower": 0.10,
-      "emerald": 0.50,
+      "emerald": 0.05,
       "barrier": 0.05
     }
   ],
