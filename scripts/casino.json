@@ -13,6 +13,28 @@
     "name": ["&6&lDoran", "&7&oCasino master"]
   },
   "HighlightClickEntity": ["gambler"],
+  "If": [],
+  "HasKingdom": [],
+  "Skip": "Has_kingdom",
+  "RandomDialog": [
+    {
+      "&6&lDoran": "Trustworthy people have a Kingdom, [PLAYER]."
+    },
+    {
+      "&6&lDoran": "Don't have a kingdom? Then go looking for one!"
+    },
+    {
+      "&6&lDoran": "I don't gamble with nomads. Only with those that have a kingdom."
+    },
+    {
+      "&6&lDoran": "You need a kingdom as collateral. You know... just in case."
+    },
+    {
+      "&6&lDoran": "Sorry [PLAYER], you will need a kingdom first."
+    }
+  ],
+  "Leave": [],
+  "Comment": "Has_kingdom",
   "Comment": "REPLACE WITH PROPER COOLDOWN",
   "If": [],
   "NotCompleted": [0, 0, 1],
