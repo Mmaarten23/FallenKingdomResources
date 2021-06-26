@@ -147,8 +147,8 @@
       "bone": 0.10,
       "nether_star": 0.10,
       "sunflower": 0.10,
-      "emerald": 0.05,
-      "barrier": 0.50
+      "emerald": 0.50,
+      "barrier": 0.05
     }
   ],
   "Skip": "rotten_flesh_lvl1",
