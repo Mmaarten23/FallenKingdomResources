@@ -2,6 +2,7 @@
   "Key": "casino",
   "Author": "Mmaarten",
   "AllowRejoining": true,
+  "Comment": "Reward sheet with chances can be found here: https://docs.google.com/spreadsheets/d/1xBC3NBanzC2bJEiZ0WAg9arj4zqlGB9jlYPijgaeRTc/edit#gid=0",
   "CreateEntity": {
     "key": "gambler",
     "entity": "PLAYER",
