@@ -143,12 +143,12 @@
   "AnimatedRandomOption": [
     "Casino",
     {
-      "rotten_flesh": 0.35,
-      "bone": 0.35,
+      "rotten_flesh": 0.15,
+      "bone": 0.10,
       "nether_star": 0.10,
       "sunflower": 0.10,
       "emerald": 0.05,
-      "barrier": 0.05
+      "barrier": 0.50
     }
   ],
   "Skip": "rotten_flesh_lvl1",
@@ -181,7 +181,7 @@
   "Comment": "gems_lvl1",
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 gems&7!",
-  "Broadcast": "[PLAYER] won the jackpot of &a&l25 GEMS&7 at the casino!",
+  "BroadcastMessage": "[PLAYER] won the jackpot of &a&l25 GEMS&7 at the casino!",
   "Skip": "End",
 
   "Comment": "Level_2",
@@ -240,7 +240,7 @@
   "Comment": "gems_lvl2",
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
-  "Broadcast": "[PLAYER] won the jackpot of &a&l25 GEMS&7 at the casino!",
+  "BroadcastMessage": "[PLAYER] won the jackpot of &a&l25 GEMS&7 at the casino!",
   "Skip": "End",
 
   "Comment": "Level_3",
@@ -306,7 +306,7 @@
   "Comment": "gems_lvl3",
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
-  "Broadcast": "[PLAYER] won the jackpot of &a&l25 GEMS&7 at the casino!",
+  "BroadcastMessage": "[PLAYER] won the jackpot of &a&l25 GEMS&7 at the casino!",
   "Skip": "End",
 
   "Comment": "Level_4",
@@ -379,7 +379,7 @@
   "Comment": "gems_lvl4",
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
-  "Broadcast": "[PLAYER] won the jackpot of &a&l25 GEMS&7 at the casino!",
+  "BroadcastMessage": "[PLAYER] won the jackpot of &a&l25 GEMS&7 at the casino!",
   "Skip": "End",
 
   "Comment": "Level_5",
@@ -459,7 +459,7 @@
   "Comment": "gems_lvl5",
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
-  "Broadcast": "[PLAYER] won the jackpot of &a&l25 GEMS&7 at the casino!",
+  "BroadcastMessage": "[PLAYER] won the jackpot of &a&l25 GEMS&7 at the casino!",
   "Skip": "End",
 
 
