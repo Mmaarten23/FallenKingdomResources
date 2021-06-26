@@ -9,27 +9,13 @@
       "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQxNjYyMTE0NiwKICAicHJvZmlsZUlkIiA6ICJmMjU5MTFiOTZkZDU0MjJhYTcwNzNiOTBmOGI4MTUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmYXJsb3VjaDEwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lODI0MTZlNjUwN2MwZTc5YTFkMzg1NjIyODFjYmY4MTlhYWMyNDMwM2Q5YWQ5M2VmYWFhYmIyMGVlYmQ2MGU2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
       "signature": "nVJC0URcmhhUUZ5R3FCesrr2BYUKx9pVN3duj7p2z7lJSuPe2SgeZkqgLNxkwNqzs4sdGpClRCJNn/DB4GBKZg27ki/iJe23lbobFo/dEVU//JbunvGeEMYXZZ7bgZiocE4x6AlB+00ekt1/m+6N0HKCAxO2Vghjxtb1M8kvVek4Y40cCYpVBR2QqEFfrnQY9TkAyB10I1oMSaLwp1QZGe3yQWA+y6lZfoL9k7PYdosOTtuvBmnj/bpGBPfZTjBDYw8KxcwtYrPglFrb/ay7dQhs7fctboaxsMAGeKT6TuU5RrvGbhaWiHBTcRpsRywu2H0bdCNssi3xSc73/A9zXdDc9u2nKcSNag8tMTkOMRPcakIHUomkVWLUZqWAhaA6iQQvhcxsRYY6jrBTo931n+N/vdV76Fi7sIMk0Plzn+kVqfFRaK5d21mU4T6JLdjMsa3a4+PdfwLGlDl+2wt6D/64W4QlgNeeXW8BS3OmMqUdtNV/ezD9oFVhkL+6Du6QqEJZXVTow9n6pb51eYLRI9aasmekLfsyJKMJds/iHuhp2VD2bl8jOcjnRgnCFiZxL/bTDN+ci8qmRQbX+v8ZNLpOkpVFkT4kY0VjT9+OAC3nxAQ1fo59b6Wf6fildfHu5h8k/k4lfeZ9HjMlCN4BbcF7GhdH+yUouL8dcKydtTE="
     },
-    "location": [
-      1997.5,
-      21.0,
-      565.5,
-      90
-    ],
-    "name": [
-      "&6&lDoran",
-      "&7&oCasino master"
-    ]
+    "location": [1997.5, 21.0, 565.5, 90],
+    "name": ["&6&lDoran", "&7&oCasino master"]
   },
-  "HighlightClickEntity": [
-    "gambler"
-  ],
+  "HighlightClickEntity": ["gambler"],
   "Comment": "REPLACE WITH PROPER COOLDOWN",
   "If": [],
-  "NotCompleted": [
-    0,
-    0,
-    1
-  ],
+  "NotCompleted": [0, 0, 1],
   "Skip": "Can_gamble",
   "Comment": "Cannot_gamble",
   "RandomDialog": [
@@ -63,14 +49,14 @@
       "&6&lDoran": "You look like a fun someone!",
       "&6&lDoran": "Can I invite you to a game?",
       "[PLAYER]": "Eeeuh sure?",
-      "&6&lDoran": "Perfect! Now... This place may be a bit unusual.",
+      "&6&lDoran": "Perfect! Now... This place may seem a bit unusual.",
       "[PLAYER]": "Unusual?"
     },
     60
   ],
   "Dialog": [
     {
-      "&6&lDoran": "You see, other &mless qualified&r places seem to ask for gold all the time.",
+      "&6&lDoran": "You see, other &mless qualified&r places always ask for gold.",
       "&6&lDoran": "We don't do gold around here. We want those precious feathers!",
       "[PLAYER]": "So... I can use feathers to play a game here?",
       "&6&lDoran": "EXACTLY! Just bring me &l32 feathers &rand I will show you!",
@@ -85,10 +71,7 @@
   ],
   "Comment": "Returning_gambler",
   "If": [],
-  "HasItem": [
-    "feather",
-    32
-  ],
+  "HasItem": ["feather", 32],
   "Skip": "Has_feathers",
   "RandomDialog": [
     {
@@ -110,7 +93,7 @@
   "Dialog": [
     {
       "&6&lDoran": "Oooh, those feathers look good!",
-      "&6&lDoran": "Lets spin the wheel to see what I can give you for them!"
+      "&6&lDoran": "Let's spin the wheel to see what I can give you for them!"
     }
   ],
   "TakeItem": {
@@ -118,31 +101,19 @@
     "amount": 32
   },
   "If": [],
-  "HasKingdomBuilding": [
-    "mine",
-    5
-  ],
+  "HasKingdomBuilding": ["mine", 5],
   "Skip": "Level_5",
   "Dummy": [],
   "If": [],
-  "HasKingdomBuilding": [
-    "mine",
-    4
-  ],
+  "HasKingdomBuilding": ["mine", 4],
   "Skip": "Level_4",
   "Dummy": [],
   "If": [],
-  "HasKingdomBuilding": [
-    "mine",
-    3
-  ],
+  "HasKingdomBuilding": ["mine", 3],
   "Skip": "Level_3",
   "Dummy": [],
   "If": [],
-  "HasKingdomBuilding": [
-    "mine",
-    2
-  ],
+  "HasKingdomBuilding": ["mine", 2],
   "Skip": "Level_2",
   "Dummy": [],
   "Comment": "---------- Mine level determined. Spinning the wheel matching their level. ----------",
@@ -164,33 +135,32 @@
   "Skip": "gold_lvl1",
   "Skip": "gems_lvl1",
   "Skip": "Lost",
+
   "Comment": "rotten_flesh_lvl1",
-  "GiveItem": [
-    "rotten_flesh",
-    16
-  ],
+  "GiveItem": ["rotten_flesh", 16],
+  "SendMessage": "&7The wheel landed on... &6&l16 Rotten flesh&7!",
   "Skip": "End",
+
   "Comment": "bone_lvl1",
-  "GiveItem": [
-    "bone",
-    16
-  ],
+  "GiveItem": ["bone", 16],
+  "SendMessage": "&7The wheel landed on... &6&l20 Bones&7!",
   "Skip": "End",
+
   "Comment": "rp_lvl1",
-  "GiveRaidPoints": [
-    20
-  ],
+  "GiveRaidPoints": [20],
+  "SendMessage": "&7The wheel landed on... &6&l20 Raid points&7!",
   "Skip": "End",
+
   "Comment": "gold_lvl1",
-  "GiveKingdomGold": [
-    1000
-  ],
+  "GiveKingdomGold": [1000],
+  "SendMessage": "&7The wheel landed on... &6&l1000 Gold&7!",
   "Skip": "End",
+
   "Comment": "gems_lvl1",
-  "GiveKingdomGems": [
-    20
-  ],
+  "GiveKingdomGems": [20],
+  "SendMessage": "&7The wheel landed on... &6&l20 gems&7!",
   "Skip": "End",
+
   "Comment": "Level_2",
   "AnimatedRandomOption": [
     "Casino",
@@ -213,45 +183,42 @@
   "Skip": "gold_lvl2",
   "Skip": "gems_lvl2",
   "Skip": "Lost",
+
   "Comment": "rotten_flesh_lvl2",
-  "GiveItem": [
-    "rotten_flesh",
-    20
-  ],
+  "GiveItem": ["rotten_flesh", 20],
+  "SendMessage": "&7The wheel landed on... &6&l20 Rotten flesh&7!",
   "Skip": "End",
+
   "Comment": "bone_lvl2",
-  "GiveItem": [
-    "bone",
-    25
-  ],
+  "GiveItem": ["bone", 25],
+  "SendMessage": "&7The wheel landed on... &6&l25 Bones&7!",
   "Skip": "End",
+
   "Comment": "spider_eye_lvl2",
-  "GiveItem": [
-    "spider_eye",
-    25
-  ],
+  "GiveItem": ["spider_eye", 25],
+  "SendMessage": "&7The wheel landed on... &6&l25 Spider eyes&7!",
   "Skip": "End",
+
   "Comment": "gunpowder_lvl2",
-  "GiveItem": [
-    "gunpowder",
-    25
-  ],
+  "GiveItem": ["gunpowder", 25],
+  "SendMessage": "&7The wheel landed on... &6&l25 gunpowder&7!",
   "Skip": "End",
+
   "Comment": "rp_lvl2",
-  "GiveRaidPoints": [
-    25
-  ],
+  "GiveRaidPoints": [25],
+  "SendMessage": "&7The wheel landed on... &6&l25 Raid points&7!",
   "Skip": "End",
+
   "Comment": "gold_lvl2",
-  "GiveKingdomGold": [
-    5000
-  ],
+  "GiveKingdomGold": [5000],
+  "SendMessage": "&7The wheel landed on... &6&l5000 Gold&7!",
   "Skip": "End",
+
   "Comment": "gems_lvl2",
-  "GiveKingdomGems": [
-    25
-  ],
+  "GiveKingdomGems": [25],
+  "SendMessage": "&7The wheel landed on... &6&l25 Gems&7!",
   "Skip": "End",
+
   "Comment": "Level_3",
   "AnimatedRandomOption": [
     "Casino",
@@ -276,51 +243,47 @@
   "Skip": "gold_lvl3",
   "Skip": "gems_lvl3",
   "Skip": "Lost",
+
   "Comment": "rotten_flesh_lvl3",
-  "GiveItem": [
-    "rotten_flesh",
-    20
-  ],
+  "GiveItem": ["rotten_flesh", 20],
+  "SendMessage": "&7The wheel landed on... &6&l20 Rotten flesh&7!",
   "Skip": "End",
+
   "Comment": "bone_lvl3",
-  "GiveItem": [
-    "bone",
-    25
-  ],
+  "GiveItem": ["bone", 25],
+  "SendMessage": "&7The wheel landed on... &6&l25 Bones&7!",
   "Skip": "End",
+
   "Comment": "spider_eye_lvl3",
-  "GiveItem": [
-    "spider_eye",
-    30
-  ],
+  "GiveItem": ["spider_eye", 30],
+  "SendMessage": "&7The wheel landed on... &6&l30 Spider eyes&7!",
   "Skip": "End",
+
   "Comment": "gunpowder_lvl3",
-  "GiveItem": [
-    "gunpowder",
-    30
-  ],
+  "GiveItem": ["gunpowder", 30],
+  "SendMessage": "&7The wheel landed on... &6&l30 gunpowder&7!",
   "Skip": "End",
+
   "Comment": "venomousExtract_lvl3",
-  "GiveItem": [
-    "VenomousExtract",
-    30
-  ],
+  "GiveItem": ["VenomousExtract", 30],
+  "SendMessage": "&7The wheel landed on... &6&l30 Venomous extract&7!",
   "Skip": "End",
+
   "Comment": "rp_lvl3",
-  "GiveRaidPoints": [
-    40
-  ],
+  "GiveRaidPoints": [40],
+  "SendMessage": "&7The wheel landed on... &6&l40 Raid points&7!",
   "Skip": "End",
+
   "Comment": "gold_lvl3",
-  "GiveKingdomGold": [
-    15000
-  ],
+  "GiveKingdomGold": [15000],
+  "SendMessage": "&7The wheel landed on... &6&l15000 Gold&7!",
   "Skip": "End",
+
   "Comment": "gems_lvl3",
-  "GiveKingdomGems": [
-    35
-  ],
+  "GiveKingdomGems": [35],
+  "SendMessage": "&7The wheel landed on... &6&l25 Gems&7!",
   "Skip": "End",
+
   "Comment": "Level_4",
   "AnimatedRandomOption": [
     "Casino",
@@ -347,57 +310,52 @@
   "Skip": "gold_lvl4",
   "Skip": "gems_lvl4",
   "Skip": "Lost",
+
   "Comment": "rotten_flesh_lvl4",
-  "GiveItem": [
-    "rotten_flesh",
-    20
-  ],
+  "GiveItem": ["rotten_flesh", 20],
+  "SendMessage": "&7The wheel landed on... &6&l20 Rotten flesh&7!",
   "Skip": "End",
+
   "Comment": "bone_lvl4",
-  "GiveItem": [
-    "bone",
-    25
-  ],
+  "GiveItem": ["bone", 25],
+  "SendMessage": "&7The wheel landed on... &6&l25 Bones&7!",
   "Skip": "End",
+
   "Comment": "spider_eye_lvl4",
-  "GiveItem": [
-    "spider_eye",
-    30
-  ],
+  "GiveItem": ["spider_eye", 30],
+  "SendMessage": "&7The wheel landed on... &6&l30 Spider eyes&7!",
   "Skip": "End",
+
   "Comment": "gunpowder_lvl4",
-  "GiveItem": [
-    "gunpowder",
-    30
-  ],
+  "GiveItem": ["gunpowder", 30],
+  "SendMessage": "&7The wheel landed on... &6&l30 Gunpowder&7!",
   "Skip": "End",
+
   "Comment": "venomousExtract_lvl4",
-  "GiveItem": [
-    "VenomousExtract",
-    30
-  ],
+  "GiveItem": ["VenomousExtract", 30],
+  "SendMessage": "&7The wheel landed on... &6&l30 Venomous extract&7!",
   "Skip": "End",
+
   "Comment": "slime_ball_lvl4",
-  "GiveItem": [
-    "slime_ball",
-    32
-  ],
+  "GiveItem": ["slime_ball", 32],
+  "SendMessage": "&7The wheel landed on... &6&l32 Slime balls&7!",
   "Skip": "End",
+
   "Comment": "rp_lvl4",
-  "GiveRaidPoints": [
-    50
-  ],
+  "GiveRaidPoints": [50],
+  "SendMessage": "&7The wheel landed on... &6&l50 Raid points&7!",
   "Skip": "End",
+
   "Comment": "gold_lvl4",
-  "GiveKingdomGold": [
-    20000
-  ],
+  "GiveKingdomGold": [20000],
+  "SendMessage": "&7The wheel landed on... &6&l20000 Gold&7!",
   "Skip": "End",
+
   "Comment": "gems_lvl4",
-  "GiveKingdomGems": [
-    40
-  ],
+  "GiveKingdomGems": [40],
+  "SendMessage": "&7The wheel landed on... &6&l40 Gems&7!",
   "Skip": "End",
+
   "Comment": "Level_5",
   "AnimatedRandomOption": [
     "Casino",
@@ -426,63 +384,59 @@
   "Skip": "gold_lvl5",
   "Skip": "gems_lvl5",
   "Skip": "Lost",
+
   "Comment": "rotten_flesh_lvl5",
-  "GiveItem": [
-    "rotten_flesh",
-    20
-  ],
+  "GiveItem": ["rotten_flesh", 20],
+  "SendMessage": "&7The wheel landed on... &6&l20 Rotten flesh&7!",
   "Skip": "End",
+
   "Comment": "bone_lvl5",
-  "GiveItem": [
-    "bone",
-    25
-  ],
+  "GiveItem": ["bone", 25],
+  "SendMessage": "&7The wheel landed on... &6&l25 Bones&7!",
   "Skip": "End",
+
   "Comment": "spider_eye_lvl5",
-  "GiveItem": [
-    "spider_eye",
-    30
-  ],
+  "GiveItem": ["spider_eye", 30],
+  "SendMessage": "&7The wheel landed on... &6&l30 Spider eyes&7!",
   "Skip": "End",
+
   "Comment": "gunpowder_lvl5",
-  "GiveItem": [
-    "gunpowder",
-    30
-  ],
+  "GiveItem": ["gunpowder", 30],
+  "SendMessage": "&7The wheel landed on... &6&l30 Gunpowder&7!",
   "Skip": "End",
+
   "Comment": "venomousExtract_lvl5",
-  "GiveItem": [
-    "VenomousExtract",
-    30
-  ],
+  "GiveItem": ["VenomousExtract", 30],
+  "SendMessage": "&7The wheel landed on... &6&l30 Venomous extract&7!",
   "Skip": "End",
+
   "Comment": "slime_ball_lvl5",
-  "GiveItem": [
-    "slime_ball",
-    32
-  ],
+  "GiveItem": ["slime_ball", 32],
+  "SendMessage": "&7The wheel landed on... &6&l32 Slime ball&7!",
   "Skip": "End",
+
   "Comment": "mummifiedBones_lvl5",
-  "GiveItem": [
-    "MummifiedBones",
-    32
-  ],
+  "GiveItem": ["MummifiedBones", 32],
+  "SendMessage": "&7The wheel landed on... &6&l32 Mummified bones&7!",
   "Skip": "End",
+
   "Comment": "rp_lvl5",
-  "GiveRaidPoints": [
-    55
-  ],
+  "GiveRaidPoints": [55],
+  "SendMessage": "&7The wheel landed on... &6&l55 Raid points&7!",
   "Skip": "End",
+
   "Comment": "gold_lvl5",
-  "GiveKingdomGold": [
-    30000
-  ],
+  "GiveKingdomGold": [30000],
+  "SendMessage": "&7The wheel landed on... &6&l30000 Gold&7!",
   "Skip": "End",
+
   "Comment": "gems_lvl5",
-  "GiveKingdomGems": [
-    50
-  ],
+  "GiveKingdomGems": [50],
+  "SendMessage": "&7The wheel landed on... &6&l50 Gems&7!",
   "Skip": "End",
+
+
+  "Comment": "---------- Reward determined and paid out. Final dialog ----------",
   "Comment": "End",
   "Dialog": [
     {
