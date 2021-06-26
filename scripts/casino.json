@@ -225,9 +225,9 @@
     {
       "rotten_flesh": 0.10,
       "bone": 0.10,
-      "spider_eye": 0.20,
+      "spider_eye": 0.15,
       "gunpowder": 0.15,
-      "VenomousExtract": 0.15,
+      "VenomousExtract": 0.20,
       "nether_star": 0.10,
       "sunflower": 0.10,
       "emerald": 0.05,
