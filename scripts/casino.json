@@ -68,7 +68,7 @@
   "Dialog": [
     {
       "&6&lDoran": "Hey there!",
-      "&6&lDoran": "You look like a fun someone!",
+      "&6&lDoran": "You look like you could use some fun!",
       "&6&lDoran": "Can I invite you to a game?",
       "[PLAYER]": "Eeeuh sure?",
       "&6&lDoran": "Perfect! Now... This place may seem a bit unusual.",
@@ -165,7 +165,7 @@
 
   "Comment": "bone_lvl1",
   "GiveItem": ["bone", 16],
-  "SendMessage": "&7The wheel landed on... &f&l20 Bones&7!",
+  "SendMessage": "&7The wheel landed on... &f&l16 Bones&7!",
   "Skip": "End",
 
   "Comment": "rp_lvl1",
@@ -181,6 +181,7 @@
   "Comment": "gems_lvl1",
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 gems&7!",
+  "Broadcast": "[PLAYER] won the jackpot of &a&l25 GEMS&7 at the casino!",
   "Skip": "End",
 
   "Comment": "Level_2",
@@ -239,6 +240,7 @@
   "Comment": "gems_lvl2",
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
+  "Broadcast": "[PLAYER] won the jackpot of &a&l25 GEMS&7 at the casino!",
   "Skip": "End",
 
   "Comment": "Level_3",
@@ -304,6 +306,7 @@
   "Comment": "gems_lvl3",
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
+  "Broadcast": "[PLAYER] won the jackpot of &a&l25 GEMS&7 at the casino!",
   "Skip": "End",
 
   "Comment": "Level_4",
@@ -376,6 +379,7 @@
   "Comment": "gems_lvl4",
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
+  "Broadcast": "[PLAYER] won the jackpot of &a&l25 GEMS&7 at the casino!",
   "Skip": "End",
 
   "Comment": "Level_5",
@@ -455,6 +459,7 @@
   "Comment": "gems_lvl5",
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
+  "Broadcast": "[PLAYER] won the jackpot of &a&l25 GEMS&7 at the casino!",
   "Skip": "End",
 
 
