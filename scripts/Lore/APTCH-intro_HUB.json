@@ -85,6 +85,18 @@
   "MoveEntity": ["Agnes", 1938.5, 25.0, 537.5, "Agnes.speed", false],
   "MoveEntity": ["Agnes", 1938.5, 25.0, 538.5, "Agnes.speed", false],
   "MoveEntity": ["Agnes", 1938.5, 23.0, 540.5, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 1938.5, 22.9, 572.5, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 1943.4, 22.9, 572.8, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 1943.5, 22.9, 597.5, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 1956.5, 23.0, 597.5, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 1959.5, 26.0, 597.5, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 1969.8, 26.0, 601.7, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 1982.1, 26.0, 609.7, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 1985.7, 26.0, 616.0, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 1995.2, 26.0, 616.3, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 2002.7, 26.0, 605.4, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 2020.7, 26.0, 605.5, "Agnes.speed", false],
+  "EntityLook": ["Agnes", 2022, 27, 604],
 
   "Comment": "Start_journey",
   "SendMessage": "Journey started"
