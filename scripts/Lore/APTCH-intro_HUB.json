@@ -32,6 +32,7 @@
   "Show": "Agnes",
   "ProgressiveDialog": ["&5&lAgnes", "Those bloody portals..."],
   "MoveEntity": ["Agnes", 1905.5, 38.0, 529.0],
+  "Wait": 2.0,
   "Dialog": [
     {
       "[PLAYER]": "Hey there! Everything okay?",
@@ -41,14 +42,31 @@
     },
     80
   ],
-  "EntityLook": ["Agnes", 1905, 37, 528],
+  "Velocity": ["Agnes", 0.0, 0.5, 0.0],
   "Dialog": [
     {
       "&5&lAgnes": "Please excuse an old lady like me.",
       "&5&lAgnes": "I did not realise who you were.",
       "[PLAYER]": "All is good, no need to feel bad.",
-      "&5&lAgnes": "You are too kind Your Majesty."
+      "&5&lAgnes": "You are too kind Your Majesty.",
+      "[PLAYER]": "How can I help you?",
+      "&5&lAgnes": "I just came to visit a place of the past.",
+      "[PLAYER]": "You speak in riddles my lady.",
+      "&5&lAgnes": "If you desire, I can tell you all about this place."
     },
     80
-  ]
+  ],
+  "SendMessageOptions": ["&7Join Agnes on a magical journey", "&7Politely decline"],
+  "Skip": "Start_journey",
+  "Skip": "Wait_before_start",
+  "Comment": "Wait_before_start",
+  "ProgressiveDialog": ["&5&lAgnes", "Ofcourse Your Majesty."],
+  "MoveEntity": ["Agnes", 1908, 38, 531],
+  "ProgressiveDialog": ["&5&lAgnes", "I will be having a chat with my old friend Joe."],
+  "MoveEntity": ["Agnes", 1911, 38, 528],
+  "ProgressiveDialog": ["&5&lAgnes", "Meet me there iff you change your mind."],
+  "MoveEntity": ["Agnes", 1912, 37, 528],
+  "MoveEntity": ["Agnes", 1922, 37, 528],
+  "MoveEntity": ["Agnes", 1926,33,528]
+
 }
