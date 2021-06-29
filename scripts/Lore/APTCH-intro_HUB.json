@@ -9,6 +9,11 @@
     "material": "book"
   },
   "Description": "How it all began",
+
+  "Store": ["Agnes.speed", 0.15],
+  "Store": ["Agnes.speech", 10],
+
+
   "CreateEntity": {
     "key": "Agnes",
     "entity": "PLAYER",
@@ -28,7 +33,7 @@
   },
   "Server": [],
   "Hide": "Agnes",
-  "Store": ["Agnes.speed", 0.15],
+
 
 
   "InRegion": [1901, 37, 524, 1911, 39, 533],
@@ -43,7 +48,7 @@
       "&5&lAgnes": "Anyhow, who did they send to greet an old lady like me?",
       "[PLAYER]": "I am [PLAYER], ruler of [KINGDOM]."
     },
-    80
+    "Agnes.speech"
   ],
   "Velocity": ["Agnes", 0.0, 1.0, 0.0],
   "TeleportEntity": ["Agnes", 1905.5, 38.0, 529.0],
@@ -59,7 +64,7 @@
       "[PLAYER]": "You speak in riddles my lady.",
       "&5&lAgnes": "If you desire, I can tell you all about this place."
     },
-    80
+    "Agnes.speech"
   ],
   "SendMessageOptions": ["&7Join Agnes on a magical journey", "&7Politely decline"],
   "Skip": "Start_journey",
