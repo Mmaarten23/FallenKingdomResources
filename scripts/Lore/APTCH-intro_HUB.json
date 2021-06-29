@@ -28,7 +28,7 @@
   "Server": [],
   "Hide": "Agnes",
 
-  "RegionEntry": [1901, 37, 524, 1911, 39, 533],
+  "InRegion": [1901, 37, 524, 1911, 39, 533],
   "Show": "Agnes",
   "ProgressiveDialog": ["&5&lAgnes", "Those bloody portals..."],
   "MoveEntity": ["Agnes", 1905.5, 38.0, 529.0],
@@ -43,6 +43,7 @@
     80
   ],
   "Velocity": ["Agnes", 0.0, 0.5, 0.0],
+  "Wait": 1.0,
   "Dialog": [
     {
       "&5&lAgnes": "Please excuse an old lady like me.",
