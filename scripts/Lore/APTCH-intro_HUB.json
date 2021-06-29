@@ -61,13 +61,13 @@
   "Skip": "Wait_before_start",
   "Comment": "Wait_before_start",
   "ProgressiveDialog": ["&5&lAgnes", "Ofcourse Your Majesty."],
-  "MoveEntity": ["Agnes", 1908, 38, 531],
+  "MoveEntity": ["Agnes", 1908.0, 38.0, 531.0],
   "ProgressiveDialog": ["&5&lAgnes", "I will be having a chat with my old friend Joe."],
-  "MoveEntity": ["Agnes", 1911, 38, 528],
+  "MoveEntity": ["Agnes", 1911.0, 38.0, 528.0],
   "ProgressiveDialog": ["&5&lAgnes", "Meet me there iff you change your mind."],
-  "MoveEntity": ["Agnes", 1912, 37, 528],
-  "MoveEntity": ["Agnes", 1922, 37, 528],
-  "MoveEntity": ["Agnes", 1926,33,528],
+  "MoveEntity": ["Agnes", 1912.0, 37.0, 528.0],
+  "MoveEntity": ["Agnes", 1922.0, 37.0, 528.0],
+  "MoveEntity": ["Agnes", 1926.0, 33.0, 528.0],
 
   "Comment": "Start_journey",
   "SendMessage": "Journey started"
