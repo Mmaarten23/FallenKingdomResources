@@ -42,8 +42,8 @@
     },
     80
   ],
-  "Velocity": ["Agnes", 0.0, 0.5, 0.0],
-  "Wait": 1.0,
+  "Velocity": ["Agnes", 0.0, 0.1, 0.0],
+  "Wait": 2.0,
   "Dialog": [
     {
       "&5&lAgnes": "Please excuse an old lady like me.",
@@ -63,8 +63,10 @@
   "Comment": "Wait_before_start",
   "ProgressiveDialog": ["&5&lAgnes", "Ofcourse Your Majesty."],
   "MoveEntity": ["Agnes", 1908.0, 38.0, 531.0],
+  "Wait": 2.0,
   "ProgressiveDialog": ["&5&lAgnes", "I will be having a chat with my old friend Joe."],
   "MoveEntity": ["Agnes", 1911.0, 38.0, 528.0],
+  "Wait": 2.0,
   "ProgressiveDialog": ["&5&lAgnes", "Meet me there iff you change your mind."],
   "MoveEntity": ["Agnes", 1912.0, 37.0, 528.0],
   "MoveEntity": ["Agnes", 1922.0, 37.0, 528.0],
