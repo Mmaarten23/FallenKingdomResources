@@ -97,6 +97,7 @@
   "MoveEntity": ["Agnes", 2002.7, 26.0, 605.4, "Agnes.speed", false],
   "MoveEntity": ["Agnes", 2020.7, 26.0, 605.5, "Agnes.speed", false],
   "EntityLook": ["Agnes", 2022, 27, 604],
+  "HighlightClickEntity": "Agnes",
 
   "Comment": "Start_journey",
   "SendMessage": "Journey started"
