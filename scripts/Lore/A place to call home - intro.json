@@ -1,13 +1,14 @@
 {
   "Key": "A-place-to-call-home-intro",
   "Author": "Mmaarten",
+  "AllowRejoining": true,
 
+  "ServerType": "Hub",
   "Quest": true,
   "Icon": {
     "material": "book"
   },
   "Description": "How it all began",
-  "ClickToStart": [],
   "CreateEntity": {
     "key": "storyTeller",
     "entity": "PLAYER",
@@ -31,6 +32,8 @@
     "look": false
   },
   "Hide": "storyTeller",
+  "ClickToStart": [],
+  "Show": "storyTeller",
   "HighlightClickEntity": "storyTeller",
   "Objective": "Talk to Agnes in the hub"
 }
