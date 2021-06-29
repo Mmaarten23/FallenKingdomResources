@@ -23,7 +23,7 @@
     "hand": {
       "material": "written_book"
     },
-    "look": false
+    "look": true
   },
   "Server": [],
   "Hide": "Agnes",
@@ -32,14 +32,23 @@
   "Show": "Agnes",
   "ProgressiveDialog": ["Agnes", "Those bloody portals..."],
   "MoveEntity": ["Agnes", 1905.5, 38.0, 529.0],
-  "LookDialog": [
+  "Dialog": [
     {
       "[PLAYER]": "Hey there! Everything okay?",
       "&5&lAgnes": "Ah, travelling through portals can be rough but i'll manage",
       "&5&lAgnes": "Anyhow, who did they sent to greet an old lady like me?",
       "[PLAYER]": "I am [PLAYER], ruler of [KINGDOM]."
     },
-    4,
-    "Agnes"
+    80
+  ],
+  "EntityLook": ["Agnes", 1905, 37, 528],
+  "Dialog": [
+    {
+      "&5&lAgnes": "Please excuse an old lady like me.",
+      "&5&lAgnes": "I did not realise who you were.",
+      "[PLAYER]": "All is good, no need to feel bad.",
+      "&5&lAgnes": "You are too kind Your Majesty."
+    },
+    80
   ]
 }
