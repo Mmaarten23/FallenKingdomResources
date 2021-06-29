@@ -1,0 +1,29 @@
+{
+  "Key": "A-place-to-call-home-intro",
+  "Author": "Mmaarten",
+  "AllowRejoining": true,
+
+  "ServerType": "hub",
+  "Quest": true,
+  "Icon": {
+    "material": "book"
+  },
+  "Description": "How it all began",
+  "CreateEntity": {
+    "key": "storyTeller",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQ0NzUwNjI0NiwKICAicHJvZmlsZUlkIiA6ICJkMGFkNThjOTNiMzY0ZjgyOWRjZWEzMTAzMzE5MTgyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FwcGhpcmVfTHVuYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlYTU1YjRiODcwZjc5YjVhNmYzOWRkMjgzMmVkNDY1ZjdjYzMxZmE4MGMwNjIzMmMwNWFhMDBlMGQ3NzZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+      "signature": "j9zav92rL72m954bvop7xBHUHKz/J6wEUNf1ohonapyoJb3vetBmoYW8UoOmMQCzYagf3z/PbfafecEIQ/cbQBtxZ7sDlQxfOqmhcIpOtBOj3qSHygs0TDa+YwHjybxCn00YT6eivyewi51O0+ZUDmmOD4V8YwD/RFmMDCd9TGtN9r1JYNmG7G4qpaOlcsnUzVbcxf3uT0vCssiEODByr06Kb8tiGSwH8MjvMjeWBOqzB9HuxWVoNV1NOtdvJEKWaOpeMl5tQUK6bSR6HsganSx6xNh+mG9SISL5wAUYdDFnHvgyBUwe6QHq3jFXBlHQs/0sf2PLfV1gLxvmSHUIx4RJR/qfI+VyVr/tW6m7ptehKRS40GacFN8t9V9CYkXFYM2+/Y6ab5owfUUpqicLvCqminwDyT7H9pfh+TO9/9gO06j0x0FNmHo8hdQf5YZrqTdQ1UZI908KpNTuii9vAtDKmANgeNYCMg9lcp00x5s+hv10FfIRVZeRCHvqsfb7BwIEu4l9CxEHqeZPDNm6yuTxlHLbOxnonn572YhcVDMHAZXzsmpG4styET14tdzkAVMF4c0P/FUm/qflVgpTFPMRIbZwXaho6tQpF6QCMoplB+kZvrZW5bcDUZIsq6m5HhY6Vp/eTqcOMhy+9B8eJI1WpyBWcCtEtHRGL157Vy8="
+    },
+    "location": [1978.5, 26.0, 625.5, -135],
+    "name": [
+      "&5&lAgnes",
+      "&7&oStory teller"
+    ],
+    "hand": {
+      "material": "written_book"
+    },
+    "look": false
+  }
+}
