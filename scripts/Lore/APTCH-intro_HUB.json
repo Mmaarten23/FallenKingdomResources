@@ -100,6 +100,7 @@
   "EntityLook": ["Agnes", 2022, 26, 604],
   "HighlightClickEntity": "Agnes",
 
+  "TeleportEntity": ["Agnes", 2020.7, 26.0, 605.5],
   "Comment": "Start_journey",
   "SendMessage": "Journey started"
 }
