@@ -18,8 +18,7 @@
     },
     "location": [1901.5, 39.0, 529, -90],
     "name": [
-      "&5&lAgnes",
-      "&7&oStory teller"
+      "&5&lAgnes"
     ],
     "hand": {
       "material": "written_book"
@@ -31,6 +30,15 @@
 
   "RegionEntry": [1901, 37, 524, 1911, 39, 533],
   "Show": "Agnes",
-  "MoveEntity": ["Agnes", 1903.5, 38.0, 529],
-  "EntityLookAtPlayer": "Agnes"
+  "MoveEntity": ["Agnes", 1905.5, 38.0, 529.0],
+  "LookDialog": [
+    {
+      "&5&lAgnes": "Those bloody portals...",
+      "[PLAYER]": "Hey there! Everything okay?",
+      "&5&lAgnes": "Ah, travelling through portals can be rough but i'll manage",
+      "&5&lAgnes": "Anyhow, who did they sent to greet an old lady like me?",
+      "[PLAYER]": "I am [PLAYER], ruler of [KINGDOM]."
+    },
+    "Agnes"
+  ]
 }
