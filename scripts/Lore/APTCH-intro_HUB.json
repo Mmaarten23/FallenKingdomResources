@@ -28,22 +28,25 @@
   },
   "Server": [],
   "Hide": "Agnes",
+  "Store": ["Agnes.speed", 0.15],
+
 
   "InRegion": [1901, 37, 524, 1911, 39, 533],
   "Show": "Agnes",
   "ProgressiveDialog": ["&5&lAgnes", "Those bloody portals..."],
-  "MoveEntity": ["Agnes", 1905.5, 38.0, 529.0],
+  "MoveEntity": ["Agnes", 1905.5, 38.0, 529.0, "Agnes.speed", false],
   "Wait": 2.0,
   "Dialog": [
     {
       "[PLAYER]": "Hey there! Everything okay?",
-      "&5&lAgnes": "Ah, travelling through portals can be rough but i'll manage",
-      "&5&lAgnes": "Anyhow, who did they sent to greet an old lady like me?",
+      "&5&lAgnes": "Ah, travelling through portals can be rough but i'll manage.",
+      "&5&lAgnes": "Anyhow, who did they send to greet an old lady like me?",
       "[PLAYER]": "I am [PLAYER], ruler of [KINGDOM]."
     },
     80
   ],
-  "Velocity": ["Agnes", 0.0, 1, 0.0],
+  "Velocity": ["Agnes", 0.0, 1.0, 0.0],
+  "TeleportEntity": ["Agnes", 1905.5, 38.0, 529.0],
   "Wait": 2.0,
   "Dialog": [
     {
@@ -63,17 +66,20 @@
   "Skip": "Wait_before_start",
   "Comment": "Wait_before_start",
   "ProgressiveDialog": ["&5&lAgnes", "Ofcourse Your Majesty."],
-  "MoveEntity": ["Agnes", 1908.0, 38.0, 531.0, 0.2, false],
-  "Wait": 2.0,
+  "MoveEntity": ["Agnes", 1908.0, 38.0, 532.0, "Agnes.speed", false],
   "ProgressiveDialog": ["&5&lAgnes", "I will be having a chat with my old friend Joe."],
-  "MoveEntity": ["Agnes", 1911.5, 38.0, 528.0, 0.2, false],
-  "Wait": 2.0,
+  "MoveEntity": ["Agnes", 1911.5, 38.0, 529.0, "Agnes.speed", false],
   "ProgressiveDialog": ["&5&lAgnes", "Meet me there if you change your mind."],
-  "MoveEntity": ["Agnes", 1912.5, 37.0, 528.0, 0.2, false],
-  "MoveEntity": ["Agnes", 1922.5, 37.0, 528.0, 0.2, false],
-  "MoveEntity": ["Agnes", 1926.5, 33.0, 528.0, 0.2, false],
+  "MoveEntity": ["Agnes", 1912.5, 37.0, 529.0, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 1922.5, 37.0, 528.0, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 1926.5, 33.0, 528.0, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 1932.5, 33.0, 528.0, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 1936.5, 29.0, 529.0, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 1938.5, 29.0, 529.5, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 1938.5, 29.0, 533.5, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 1938.5, 25.0, 538.5, "Agnes.speed", false],
+  "MoveEntity": ["Agnes", 1938.5, 23.0, 540.5, "Agnes.speed", false],
 
   "Comment": "Start_journey",
   "SendMessage": "Journey started"
-
 }
