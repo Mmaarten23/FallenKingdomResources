@@ -67,6 +67,9 @@
   "ProgressiveDialog": ["&5&lAgnes", "Meet me there iff you change your mind."],
   "MoveEntity": ["Agnes", 1912, 37, 528],
   "MoveEntity": ["Agnes", 1922, 37, 528],
-  "MoveEntity": ["Agnes", 1926,33,528]
+  "MoveEntity": ["Agnes", 1926,33,528],
+
+  "Comment": "Start_journey",
+  "SendMessage": "Journey started"
 
 }
