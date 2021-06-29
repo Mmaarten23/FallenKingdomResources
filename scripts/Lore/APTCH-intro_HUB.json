@@ -34,14 +34,10 @@
   "Server": [],
   "Hide": "Agnes",
 
-  "Comment": "Not_in_range",
-  "If": [],
-  "InRange": ["Agnes", 5.0],
-  "Skip": "In_range",
-  "Skip": "Not_in_range",
-
-  "Comment": "In_range",
   "Show": "Agnes",
+  "InRange": ["Agnes", 5.0],
+
+
   "ProgressiveDialog": ["&5&lAgnes", "Those bloody portals..."],
   "MoveEntity": ["Agnes", 1905.5, 38.0, 529.0, "Agnes.speed", false],
   "Wait": 3.0,
