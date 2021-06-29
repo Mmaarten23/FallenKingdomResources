@@ -35,7 +35,10 @@
   "Hide": "Agnes",
 
   "Show": "Agnes",
+  "If": [],
   "InRange": ["Agnes", 5.0],
+  "Skip": "ProgressiveDialog",
+  "Leave": [],
 
 
   "ProgressiveDialog": ["&5&lAgnes", "Those bloody portals..."],
