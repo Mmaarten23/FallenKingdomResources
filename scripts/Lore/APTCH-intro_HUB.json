@@ -30,5 +30,7 @@
   "Hide": "Agnes",
 
   "Show": "Agnes",
-  "HighlightClickEntity": "Agnes"
+  "Wait": 1,
+  "HighlightClickEntity": "Agnes",
+  "SendMessage": "debug 1"
 }
