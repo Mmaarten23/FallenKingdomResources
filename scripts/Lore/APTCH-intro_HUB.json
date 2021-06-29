@@ -23,7 +23,8 @@
     "hand": {
       "material": "written_book"
     },
-    "look": true
+    "look": true,
+    "gravity": true
   },
   "Server": [],
   "Hide": "Agnes",
@@ -42,7 +43,7 @@
     },
     80
   ],
-  "Velocity": ["Agnes", 0.0, 0.1, 0.0],
+  "Velocity": ["Agnes", 0.0, 1, 0.0],
   "Wait": 2.0,
   "Dialog": [
     {
@@ -62,15 +63,15 @@
   "Skip": "Wait_before_start",
   "Comment": "Wait_before_start",
   "ProgressiveDialog": ["&5&lAgnes", "Ofcourse Your Majesty."],
-  "MoveEntity": ["Agnes", 1908.0, 38.0, 531.0],
+  "MoveEntity": ["Agnes", 1908.0, 38.0, 531.0, 0.2, false],
   "Wait": 2.0,
   "ProgressiveDialog": ["&5&lAgnes", "I will be having a chat with my old friend Joe."],
-  "MoveEntity": ["Agnes", 1911.0, 38.0, 528.0],
+  "MoveEntity": ["Agnes", 1911.5, 38.0, 528.0, 0.2, false],
   "Wait": 2.0,
-  "ProgressiveDialog": ["&5&lAgnes", "Meet me there iff you change your mind."],
-  "MoveEntity": ["Agnes", 1912.0, 37.0, 528.0],
-  "MoveEntity": ["Agnes", 1922.0, 37.0, 528.0],
-  "MoveEntity": ["Agnes", 1926.0, 33.0, 528.0],
+  "ProgressiveDialog": ["&5&lAgnes", "Meet me there if you change your mind."],
+  "MoveEntity": ["Agnes", 1912.5, 37.0, 528.0, 0.2, false],
+  "MoveEntity": ["Agnes", 1922.5, 37.0, 528.0, 0.2, false],
+  "MoveEntity": ["Agnes", 1926.5, 33.0, 528.0, 0.2, false],
 
   "Comment": "Start_journey",
   "SendMessage": "Journey started"

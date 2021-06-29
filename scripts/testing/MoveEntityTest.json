@@ -28,12 +28,12 @@
   "MoveEntity": ["Agnes", 1911.0, 38.0, 528.0],
   "SendMessage": "3",
   "Wait": 2.0,
-  "MoveEntity": ["Agnes", 1912.0, 37.0, 528.0],
+  "MoveEntity": ["Agnes", 1912.0, 37.0, 528.0, false],
   "SendMessage": "4",
   "Wait": 2.0,
-  "MoveEntity": ["Agnes", 1922.0, 37.0, 528.0],
+  "MoveEntity": ["Agnes", 1922.0, 37.0, 528.0, false],
   "SendMessage": "5",
   "Wait": 2.0,
-  "MoveEntity": ["Agnes", 1926.0, 33.0, 528.0],
+  "MoveEntity": ["Agnes", 1926.0, 33.0, 528.0, false],
   "SendMessage": "6"
 }
