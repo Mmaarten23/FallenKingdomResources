@@ -35,5 +35,5 @@
   "RegionEntry": [-79, 55, -43, -88, 57, -52],
   "Show": "Agnes",
   "Wait": 1.0,
-  "MoveEntity": ["Agnes", -85.0, 56, -47.0]
+  "MoveEntity": ["Agnes", -85.0, 56.0, -47.0]
 }
