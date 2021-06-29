@@ -30,7 +30,7 @@
 
   "RegionEntry": [1901, 37, 524, 1911, 39, 533],
   "Show": "Agnes",
-  "ProgressiveDialog": ["Agnes", "Those bloody portals..."],
+  "ProgressiveDialog": ["&5&lAgnes", "Those bloody portals..."],
   "MoveEntity": ["Agnes", 1905.5, 38.0, 529.0],
   "Dialog": [
     {
