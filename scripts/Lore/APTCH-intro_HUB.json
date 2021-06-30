@@ -35,12 +35,13 @@
   "Hide": "Agnes",
 
   "Show": "Agnes",
+  "Comment": "Not_In_Range",
   "If": [],
   "InRange": ["Agnes", 5.0],
-  "Skip": "ProgressiveDialog",
-  "Leave": [],
+  "Skip": "In_Range",
+  "Skip": "Not_In_Range",
 
-
+  "Comment": "In_Range",
   "ProgressiveDialog": ["&5&lAgnes", "Those bloody portals..."],
   "MoveEntity": ["Agnes", 1905.5, 38.0, 529.0, "Agnes.speed", false],
   "Wait": 3.0,
