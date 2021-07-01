@@ -116,10 +116,12 @@
   "HighlightClickEntity": "Agnes",
 
   "Dialog": ["&5&lAgnes", "Are you ready to explore history?"],
-  "SendMessageOptions": ["&7Sounds good!", "&7Politely decline"],
+  "SendMessageOptions": ["&7Sounds good!", "&7I have some other stuff to take care of first"],
   "Skip": "Start_journey",
+  "Dialog": ["&5&lAgnes", "I will be here when you are!"],
   "Skip": "Wait_at_joe",
-  "Comment": "Start_journey"
+  "Comment": "Start_journey",
+  "SendMessage": "journey started"
 
 
 }
