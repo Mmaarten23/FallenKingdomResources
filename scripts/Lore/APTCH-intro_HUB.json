@@ -118,7 +118,17 @@
   "Dialog": ["&5&lAgnes", "I will be here when you are!"],
   "Skip": "Wait_at_joe",
   "Comment": "Start_journey",
-  "SendMessage": "journey started"
-
-
+  "SendMessage": "journey started",
+  "Dialog": [
+    {
+      "&5&lAgnes": "I appreciate that, Your Majesty.",
+      "&5&lAgnes": "My story started a long time ago but it started right here."
+    },
+    "Agnes.speech"
+  ],
+  "Teleport": [2063.5, 75.0, 632.5, 130, 17],
+  "Wait": 1,
+  "TeleportEntity": ["Agnes", 2059.5, 73.0, 632.5],
+  "HidePlayer": [],
+  "SetBlock": [2059, 73, 631, "enchanting_table"]
 }
