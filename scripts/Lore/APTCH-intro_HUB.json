@@ -35,11 +35,7 @@
   "Hide": "Agnes",
 
   "Show": "Agnes",
-  "GlobalRegionEntry": [1901.0, 37.0, 524.0, 1911.0 , 39.0, 533.0],
-  "Skip": "In_Range",
-  "Leave": [],
-
-  "Comment": "In_Range",
+  "RegionEntry": [1901.0, 37.0, 524.0, 1911.0 , 39.0, 533.0],
   "ProgressiveDialog": ["&5&lAgnes", "Those bloody portals..."],
   "MoveEntity": ["Agnes", 1905.5, 38.0, 529.0, "Agnes.speed", false],
   "Wait": 3.0,
