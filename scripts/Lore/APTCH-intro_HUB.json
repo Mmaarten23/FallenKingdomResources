@@ -35,7 +35,7 @@
   "Hide": "Agnes",
 
   "Show": "Agnes",
-  "RegionEntry": [1901.0, 37.0, 524.0, 1911.0 , 39.0, 533.0],
+  "RegionEntry": [1901, 37, 524, 1911, 39, 533],
   "ProgressiveDialog": ["&5&lAgnes", "Those bloody portals..."],
   "MoveEntity": ["Agnes", 1905.5, 38.0, 529.0, "Agnes.speed", false],
   "Wait": 3.0,
