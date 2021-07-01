@@ -45,10 +45,7 @@
     "name": [
       "&5&lAgnes"
     ],
-    "hand": {
-      "material": "written_book"
-    },
-    "look": true,
+    "look": false,
     "gravity": true
   },
   "Server": [],
@@ -146,11 +143,15 @@
     "Agnes.speech"
   ],
   "Hide": "AgnesIntro",
+  "Fade": [],
   "Teleport": [2063.5, 75.0, 632.5, 130, 17],
-  "Show": "AgnesOnHill",
   "HidePlayer": [],
+  "Freeze": [],
+  "Show": "AgnesOnHill",
   "SetBlock": [2059, 73, 631, "enchanting_table"],
+
   "Wait": 20.0,
 
+  "Unfreeze": [],
   "SendMessage": "EOF"
 }
