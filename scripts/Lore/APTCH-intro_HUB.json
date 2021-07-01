@@ -35,7 +35,15 @@
   "Hide": "Agnes",
 
   "Show": "Agnes",
+  "SetPersistent": ["aptch_state", 1],
+
   "RegionEntry": [1901, 37, 524, 1911, 39, 533],
+  "If": [],
+  "Equals": ["aptch_state", 0],
+  "Skip": "In_Range",
+  "Leave": [],
+
+  "Comment": "In_Range",
   "ProgressiveDialog": ["&5&lAgnes", "Those bloody portals..."],
   "MoveEntity": ["Agnes", 1905.5, 38.0, 529.0, "Agnes.speed", false],
   "Wait": 3.0,
