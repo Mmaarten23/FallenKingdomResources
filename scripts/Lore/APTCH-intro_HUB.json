@@ -16,7 +16,7 @@
 
 
   "CreateEntity": {
-    "key": "Agnes",
+    "key": "AgnesIntro",
     "entity": "PLAYER",
     "skin": {
       "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQ0NzUwNjI0NiwKICAicHJvZmlsZUlkIiA6ICJkMGFkNThjOTNiMzY0ZjgyOWRjZWEzMTAzMzE5MTgyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FwcGhpcmVfTHVuYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlYTU1YjRiODcwZjc5YjVhNmYzOWRkMjgzMmVkNDY1ZjdjYzMxZmE4MGMwNjIzMmMwNWFhMDBlMGQ3NzZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
@@ -33,17 +33,36 @@
     "gravity": true
   },
   "Server": [],
-  "Hide": "Agnes",
+  "Hide": "AgnesIntro",
+  "CreateEntity": {
+    "key": "AgnesOnHill",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQ0NzUwNjI0NiwKICAicHJvZmlsZUlkIiA6ICJkMGFkNThjOTNiMzY0ZjgyOWRjZWEzMTAzMzE5MTgyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FwcGhpcmVfTHVuYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlYTU1YjRiODcwZjc5YjVhNmYzOWRkMjgzMmVkNDY1ZjdjYzMxZmE4MGMwNjIzMmMwNWFhMDBlMGQ3NzZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+      "signature": "j9zav92rL72m954bvop7xBHUHKz/J6wEUNf1ohonapyoJb3vetBmoYW8UoOmMQCzYagf3z/PbfafecEIQ/cbQBtxZ7sDlQxfOqmhcIpOtBOj3qSHygs0TDa+YwHjybxCn00YT6eivyewi51O0+ZUDmmOD4V8YwD/RFmMDCd9TGtN9r1JYNmG7G4qpaOlcsnUzVbcxf3uT0vCssiEODByr06Kb8tiGSwH8MjvMjeWBOqzB9HuxWVoNV1NOtdvJEKWaOpeMl5tQUK6bSR6HsganSx6xNh+mG9SISL5wAUYdDFnHvgyBUwe6QHq3jFXBlHQs/0sf2PLfV1gLxvmSHUIx4RJR/qfI+VyVr/tW6m7ptehKRS40GacFN8t9V9CYkXFYM2+/Y6ab5owfUUpqicLvCqminwDyT7H9pfh+TO9/9gO06j0x0FNmHo8hdQf5YZrqTdQ1UZI908KpNTuii9vAtDKmANgeNYCMg9lcp00x5s+hv10FfIRVZeRCHvqsfb7BwIEu4l9CxEHqeZPDNm6yuTxlHLbOxnonn572YhcVDMHAZXzsmpG4styET14tdzkAVMF4c0P/FUm/qflVgpTFPMRIbZwXaho6tQpF6QCMoplB+kZvrZW5bcDUZIsq6m5HhY6Vp/eTqcOMhy+9B8eJI1WpyBWcCtEtHRGL157Vy8="
+    },
+    "location": [2059.5,73.0,632.5, -183, 45],
+    "name": [
+      "&5&lAgnes"
+    ],
+    "hand": {
+      "material": "written_book"
+    },
+    "look": true,
+    "gravity": true
+  },
+  "Server": [],
+  "Hide": "AgnesOnHill",
 
   "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
 
   "RegionEntry": [1901, 37, 524, 1911, 39, 533],
 
   "Comment": "In_Range",
-  "Show": "Agnes",
+  "Show": "AgnesIntro",
   "SetPersistent": ["aptch_state", "Starter_dialog"],
   "ProgressiveDialog": ["&5&lAgnes", "Those bloody portals..."],
-  "MoveEntity": ["Agnes", 1905.5, 38.0, 529.0, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1905.5, 38.0, 529.0, "Agnes.speed", false],
   "Wait": 3.0,
   "Dialog": [
     {
@@ -54,9 +73,9 @@
     },
     "Agnes.speech"
   ],
-  "Velocity": ["Agnes", 0.0, 1.0, 0.0],
+  "Velocity": ["AgnesIntro", 0.0, 1.0, 0.0],
   "Wait": 2.0,
-  "TeleportEntity": ["Agnes", 1905.5, 38.0, 529.0],
+  "TeleportEntity": ["AgnesIntro", 1905.5, 38.0, 529.0],
   "Dialog": [
     {
       "&5&lAgnes": "Please excuse an old lady like me.",
@@ -70,47 +89,47 @@
     },
     "Agnes.speech"
   ],
-  "SendMessageOptions": ["&7Join Agnes on a magical journey", "&7Politely decline"],
+  "SendMessageOptions": ["&7-> Join Agnes on a magical journey", "&7-> Politely decline"],
   "Skip": "Start_journey",
   "Skip": "Wait_before_start",
   "Comment": "Wait_before_start",
   "ProgressiveDialog": ["&5&lAgnes", "Ofcourse Your Majesty."],
-  "MoveEntity": ["Agnes", 1908.0, 38.0, 532.0, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1908.0, 38.0, 532.0, "Agnes.speed", false],
   "ProgressiveDialog": ["&5&lAgnes", "I will be having a chat with my old friend Joe."],
-  "MoveEntity": ["Agnes", 1911.5, 38.0, 529.0, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1911.5, 38.0, 529.0, "Agnes.speed", false],
   "ProgressiveDialog": ["&5&lAgnes", "Meet me there if you change your mind."],
-  "MoveEntity": ["Agnes", 1912.5, 37.0, 529.0, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1922.5, 37.0, 528.0, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1926.5, 33.0, 528.0, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1932.5, 33.0, 528.0, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1936.5, 29.0, 529.0, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1938.5, 29.0, 529.5, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1938.5, 29.0, 533.5, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1938.5, 25.0, 537.5, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1938.5, 25.0, 538.5, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1938.5, 23.0, 540.5, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1938.5, 22.9, 572.5, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1943.4, 22.9, 572.8, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1943.5, 22.9, 597.5, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1956.5, 23.0, 597.5, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1959.5, 26.0, 597.5, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1969.8, 26.0, 601.7, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1982.1, 26.0, 609.7, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1985.7, 26.0, 616.0, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 1995.2, 26.0, 616.3, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 2002.7, 26.0, 605.4, "Agnes.speed", false],
-  "MoveEntity": ["Agnes", 2020.7, 26.0, 605.5, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1912.5, 37.0, 529.0, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1922.5, 37.0, 528.0, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1926.5, 33.0, 528.0, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1932.5, 33.0, 528.0, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1936.5, 29.0, 529.0, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1938.5, 29.0, 529.5, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1938.5, 29.0, 533.5, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1938.5, 25.0, 537.5, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1938.5, 25.0, 538.5, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1938.5, 23.0, 540.5, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1938.5, 22.9, 572.5, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1943.4, 22.9, 572.8, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1943.5, 22.9, 597.5, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1956.5, 23.0, 597.5, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1959.5, 26.0, 597.5, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1969.8, 26.0, 601.7, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1982.1, 26.0, 609.7, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1985.7, 26.0, 616.0, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1995.2, 26.0, 616.3, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 2002.7, 26.0, 605.4, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 2020.7, 26.0, 605.5, "Agnes.speed", false],
   "If": [],
-  "InRange": ["Agnes", 5.0],
+  "InRange": ["AgnesIntro", 5.0],
   "SendMessage": "&o&7A walk a day keeps the doctor away",
   "Dummy": [],
 
   "Comment": "---- Catch for players leaving the server during the walk ----",
-  "EntityLook": ["Agnes", 2022, 26, 604],
-  "Show": "Agnes",
-  "TeleportEntity": ["Agnes", 2020.7, 26.0, 605.5],
+  "EntityLook": ["AgnesIntro", 2022, 26, 604],
+  "Show": "AgnesIntro",
+  "TeleportEntity": ["AgnesIntro", 2020.7, 26.0, 605.5],
   "Comment": "Wait_at_joe",
-  "HighlightClickEntity": "Agnes",
+  "HighlightClickEntity": "AgnesIntro",
 
   "Dialog": ["&5&lAgnes", "Are you ready to explore history?"],
   "SendMessageOptions": ["&7Sounds good!", "&7I have some other stuff to take care of first"],
@@ -126,9 +145,12 @@
     },
     "Agnes.speech"
   ],
+  "Hide": "AgnesIntro",
   "Teleport": [2063.5, 75.0, 632.5, 130, 17],
-  "Wait": 1,
-  "TeleportEntity": ["Agnes", 2059.5, 73.0, 632.5],
+  "Show": "AgnesOnHill",
   "HidePlayer": [],
-  "SetBlock": [2059, 73, 631, "enchanting_table"]
+  "SetBlock": [2059, 73, 631, "enchanting_table"],
+  "Wait": 20.0,
+
+  "SendMessage": "EOF"
 }
