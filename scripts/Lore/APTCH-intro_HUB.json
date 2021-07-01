@@ -58,8 +58,8 @@
     "Agnes.speech"
   ],
   "Velocity": ["Agnes", 0.0, 1.0, 0.0],
-  "TeleportEntity": ["Agnes", 1905.5, 38.0, 529.0],
   "Wait": 2.0,
+  "TeleportEntity": ["Agnes", 1905.5, 38.0, 529.0],
   "Dialog": [
     {
       "&5&lAgnes": "Please excuse an old lady like me.",
@@ -103,11 +103,23 @@
   "MoveEntity": ["Agnes", 1995.2, 26.0, 616.3, "Agnes.speed", false],
   "MoveEntity": ["Agnes", 2002.7, 26.0, 605.4, "Agnes.speed", false],
   "MoveEntity": ["Agnes", 2020.7, 26.0, 605.5, "Agnes.speed", false],
-  "ProgressiveDialog": ["&5&lAgnes", "A good walk never hurt anyone!"],
+  "If": [],
+  "InRange": ["Agnes", 5.0],
+  "SendMessage": "&o&7A walk a day keeps the doctor away",
+  "Dummy": [],
+
+  "Comment": "---- Catch for players leaving the server during the walk ----",
   "EntityLook": ["Agnes", 2022, 26, 604],
+  "Show": "Agnes",
+  "TeleportEntity": ["Agnes", 2020.7, 26.0, 605.5],
+  "Comment": "Wait_at_joe",
   "HighlightClickEntity": "Agnes",
 
-  "TeleportEntity": ["Agnes", 2020.7, 26.0, 605.5],
-  "Comment": "Start_journey",
-  "SendMessage": "Journey started"
+  "Dialog": ["&5&lAgnes", "Are you ready to explore history?"],
+  "SendMessageOptions": ["&7Sounds good!", "&7Politely decline"],
+  "Skip": "Start_journey",
+  "Skip": "Wait_at_joe",
+  "Comment": "Start_journey"
+
+
 }
