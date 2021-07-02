@@ -387,23 +387,29 @@
   "Dialog": [
     {
       "&8&lDark Knight": "You stole from me.",
-      "&7Arnold": "I would never d-",
+      "&7Arnold": "I would never do such a thing!",
       "&8&lDark Knight": "Don't lie to me.",
-      "&8&lDark Knight": "There is no place for liars or thieves in my kingdom.",
-      "&7Arnold": "No Sir! Please, I beg y-"
+      "&8&lDark Knight": "There is no place for liars or thieves in my kingdom."
     },
     "DarkKnight.speech"
+  ],
+  "Dialog": [
+    {
+      "&7Arnold": "No Sir! Please, I beg y-"
+    },
+    20
   ],
   "AnimateEntity": ["DarkKnight", "Swing Main Hand"],
   "PlaySound": "entity_lightning_bolt_impact",
   "StrikeLightning": [2005.6, 29.0, 587.4],
-  "AnimateEntity": ["AssemblyArnold", "Death"],
+  "Hide": "AssemblyArnold",
+  "Wait": 0.1,
   "Dialog": [
     {
       "&8&lDark Knight": "Good.",
       "&8&lDark Knight": "Nicole, I expect new feathers in my bed by tonight.",
       "&d&lNicole": "Of- Of course sir.",
-      "&7Arnold": "Back to work all of you."
+      "&8&lDark Knight": "Back to work all of you."
     },
     "DarkKnight.speech"
   ],
