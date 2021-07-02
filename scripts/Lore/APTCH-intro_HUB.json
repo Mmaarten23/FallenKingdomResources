@@ -130,8 +130,10 @@
   "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
 
   "RegionEntry": [1901, 37, 524, 1911, 39, 533],
-  "SendMessage": "DEV: Skipping to cinematic",
-  "Skip": "DEV_onhill",
+  "If": [],
+  "Equals": ["aptch_sate", "Waiting_for_region_entry"],
+  "Skip": "In_Range",
+  "Leave": [],
 
   "Comment": "In_Range",
   "Show": "AgnesIntro",
@@ -228,7 +230,6 @@
     "Agnes.speech"
   ],
   "Hide": "AgnesIntro",
-  "Comment": "DEV_onhill",
   "Fade": [],
   "Cinematic": [],
   "Teleport": [2063.5, 75.2, 632.0, 130, 17],
