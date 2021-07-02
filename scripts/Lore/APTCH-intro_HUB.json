@@ -267,7 +267,7 @@
     {
       "&5&lAgnes": "The Dark Knight was a special someone.",
       "&5&lAgnes": "He strongly believed that his kingdom members should be afraid of him.",
-      "&5&lAgnes": "And scared they were..."
+      "&5&lAgnes": "And afraid they were..."
     },
     "Agnes.speech"
   ],
@@ -363,14 +363,18 @@
   ],
   "Wait": 2.0,
   "PlaySound": "entity_lightning_bolt_thunder",
-  "ProgressiveDialog": [
+  "Dialog": [
     {
       "&8&lDark Knight": "Arnold",
       "&7Arnold": "Ye- ye- yes, Sir?",
-      "&8&lDark Knight": "Come up here.",
-      "&7Arnold": "Of course Sir, everything for you Sir!"
+      "&8&lDark Knight": "Come up here."
     },
     "DarkKnight.speech"
+  ],
+  "ProgressiveDialog": [
+    {
+      "&7Arnold": "Of course Sir, everything for you Sir!"
+    }
   ],
   "MoveEntity": ["AssemblyArnold", 2004.5, 26.0, 591.3, 0.05, false],
   "PlaySound": "entity_lightning_bolt_thunder",
@@ -420,6 +424,7 @@
     20
   ],
   "AnimateEntity": ["DarkKnight", "Swing Main Hand"],
+  "PlaySound": "entity_lightning_bolt_thunder",
   "PlaySound": "entity_lightning_bolt_impact",
   "StrikeLightning": [2005.6, 29.0, 587.4],
   "Hide": "AssemblyArnold",
@@ -467,7 +472,9 @@
     "Agnes.speech"
   ],
   "Fade": [],
+  "Unfreeze": [],
   "Teleport": [2061.8, 73.0, 627.4, -195, 9],
+  "Freeze": true,
   "StopCinematic": [],
   "LookDialog": [
     {
@@ -482,7 +489,7 @@
   "MoveEntity": ["AgnesOnHill", 2065.8, 73.0, 629.7, "Agnes.speed", false],
   "Hide": "AgnesOnHill",
   "Unfreeze": [],
-
-  "Teleport": [1985.5, 29.0, 638.5],
+  "Fade": [],
+  "Teleport": [1985.5, 29.0, 638.5, 180],
   "SendMessage": "EOF"
 }
