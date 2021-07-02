@@ -17,6 +17,7 @@
   "Store": ["DarkKnight.speech", 80],
 
 
+
   "CreateEntity": {
     "key": "AgnesIntro",
     "entity": "PLAYER",
@@ -128,6 +129,7 @@
   "Hide": "AssemblyNicole",
 
   "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
+  "Objective": ["Meet Agnes at one of the nether portals in the hub"],
 
   "RegionEntry": [1901, 37, 524, 1911, 39, 533],
   "If": [],
@@ -196,6 +198,7 @@
   "MoveEntity": ["AgnesIntro", 1995.2, 26.0, 616.3, "Agnes.speed", false],
   "MoveEntity": ["AgnesIntro", 2002.7, 26.0, 605.4, "Agnes.speed", false],
   "MoveEntity": ["AgnesIntro", 2020.7, 26.0, 605.5, "Agnes.speed", false],
+  "SetPersistent": ["aptch_state", "At_Jo"],
   "If": [],
   "InRange": ["AgnesIntro", 5.0],
   "Skip": "Easter_egg_walk",
@@ -221,7 +224,7 @@
   "Dialog": ["&5&lAgnes", "I will be here when you are!"],
   "Skip": "Wait_at_jo",
   "Comment": "Start_journey",
-  "SendMessage": "journey started",
+  "SetPersistent": ["aptch_state", "Starting_journey"],
   "Dialog": [
     {
       "&5&lAgnes": "I appreciate that, Your Majesty.",
@@ -263,6 +266,7 @@
   "Fade": [],
   "SetWorldTime": 18000,
   "SetWeather": "Storm",
+  "SetPersistent": ["aptch_state", "In_Dark_Knights_Kingdom"],
 
   "Dialog": [
     {
@@ -316,6 +320,7 @@
   "Freeze": true,
 
   "Comment": "------- Dark knight dialogue --------",
+  "SetPersistent": ["aptch_state", "Dark_Knight_Speech"],
   "Show": "AssemblyAgnes",
   "ProgressiveMoveEntity": ["AssemblyAgnes", 2004.5, 26.0, 598.5],
   "Show": "AssemblyRichard",
@@ -464,7 +469,7 @@
   "SetBlock": [2000, 28, 592, "air"],
   "SetBlock": [2006, 28, 592, "air"],
   "SetBlock": [2003, 33, 580, "chiseled_stone_bricks"],
-
+  "SetPersistent": ["aptch_state", "End_dialog"],
   "Dialog": [
     {
       "&5&lAgnes": "Whether poor Arnold ever stole something from The Dark Knight remains unknown.",
@@ -472,12 +477,13 @@
     },
     "Agnes.speech"
   ],
-  "Fade": [],
   "Unfreeze": [],
+  "Fade": [],
   "Teleport": [2061.8, 73.0, 627.4, -195, 9],
   "Freeze": true,
   "StopCinematic": [],
-  "LookDialog": [
+  "EntityLook": ["AgnesOnHill", 2061, 74, 638],
+  "Dialog": [
     {
       "&5&lAgnes": "It was a pleasure to talk about the past.",
       "[PLAYER]": "History is a wonderful thing my lady.",
@@ -485,12 +491,13 @@
       "[PLAYER]": "Of course, I heard they serve wonderful beetroot juice in the valley!",
       "&5&lAgnes": "See you later your majesty."
     },
-    "AgnesOnHill"
+    "Agnes.speech"
   ],
   "MoveEntity": ["AgnesOnHill", 2065.8, 73.0, 629.7, "Agnes.speed", false],
   "Hide": "AgnesOnHill",
   "Unfreeze": [],
   "Fade": [],
   "Teleport": [1985.5, 29.0, 638.5, 180],
-  "SendMessage": "EOF"
+  "SetPersistent": ["aptch_state", "Intro_completed"],
+  "CompleteKingdomQuest": []
 }
