@@ -35,6 +35,7 @@
   },
   "Server": [],
   "Hide": "AgnesIntro",
+
   "CreateEntity": {
     "key": "AgnesOnHill",
     "entity": "PLAYER",
@@ -51,6 +52,7 @@
   },
   "Server": [],
   "Hide": "AgnesOnHill",
+
   "CreateEntity": {
     "key": "DarkKnight",
     "entity": "PLAYER",
@@ -67,6 +69,48 @@
   },
   "Server": [],
   "Hide": "DarkKnight",
+
+  "CreateEntity": {
+    "key": "AssemblyAgnes",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQ0NzUwNjI0NiwKICAicHJvZmlsZUlkIiA6ICJkMGFkNThjOTNiMzY0ZjgyOWRjZWEzMTAzMzE5MTgyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FwcGhpcmVfTHVuYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlYTU1YjRiODcwZjc5YjVhNmYzOWRkMjgzMmVkNDY1ZjdjYzMxZmE4MGMwNjIzMmMwNWFhMDBlMGQ3NzZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+      "signature": "j9zav92rL72m954bvop7xBHUHKz/J6wEUNf1ohonapyoJb3vetBmoYW8UoOmMQCzYagf3z/PbfafecEIQ/cbQBtxZ7sDlQxfOqmhcIpOtBOj3qSHygs0TDa+YwHjybxCn00YT6eivyewi51O0+ZUDmmOD4V8YwD/RFmMDCd9TGtN9r1JYNmG7G4qpaOlcsnUzVbcxf3uT0vCssiEODByr06Kb8tiGSwH8MjvMjeWBOqzB9HuxWVoNV1NOtdvJEKWaOpeMl5tQUK6bSR6HsganSx6xNh+mG9SISL5wAUYdDFnHvgyBUwe6QHq3jFXBlHQs/0sf2PLfV1gLxvmSHUIx4RJR/qfI+VyVr/tW6m7ptehKRS40GacFN8t9V9CYkXFYM2+/Y6ab5owfUUpqicLvCqminwDyT7H9pfh+TO9/9gO06j0x0FNmHo8hdQf5YZrqTdQ1UZI908KpNTuii9vAtDKmANgeNYCMg9lcp00x5s+hv10FfIRVZeRCHvqsfb7BwIEu4l9CxEHqeZPDNm6yuTxlHLbOxnonn572YhcVDMHAZXzsmpG4styET14tdzkAVMF4c0P/FUm/qflVgpTFPMRIbZwXaho6tQpF6QCMoplB+kZvrZW5bcDUZIsq6m5HhY6Vp/eTqcOMhy+9B8eJI1WpyBWcCtEtHRGL157Vy8="
+    },
+    "location": [1996.5, 26.0, 615.5, 175, -24],
+    "look": false,
+    "gravity": true
+  },
+  "Server": [],
+  "Hide": "AssemblyAgnes",
+
+  "CreateEntity": {
+    "key": "AssemblyRichard",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQ0NzUwNjI0NiwKICAicHJvZmlsZUlkIiA6ICJkMGFkNThjOTNiMzY0ZjgyOWRjZWEzMTAzMzE5MTgyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FwcGhpcmVfTHVuYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlYTU1YjRiODcwZjc5YjVhNmYzOWRkMjgzMmVkNDY1ZjdjYzMxZmE4MGMwNjIzMmMwNWFhMDBlMGQ3NzZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+      "signature": "j9zav92rL72m954bvop7xBHUHKz/J6wEUNf1ohonapyoJb3vetBmoYW8UoOmMQCzYagf3z/PbfafecEIQ/cbQBtxZ7sDlQxfOqmhcIpOtBOj3qSHygs0TDa+YwHjybxCn00YT6eivyewi51O0+ZUDmmOD4V8YwD/RFmMDCd9TGtN9r1JYNmG7G4qpaOlcsnUzVbcxf3uT0vCssiEODByr06Kb8tiGSwH8MjvMjeWBOqzB9HuxWVoNV1NOtdvJEKWaOpeMl5tQUK6bSR6HsganSx6xNh+mG9SISL5wAUYdDFnHvgyBUwe6QHq3jFXBlHQs/0sf2PLfV1gLxvmSHUIx4RJR/qfI+VyVr/tW6m7ptehKRS40GacFN8t9V9CYkXFYM2+/Y6ab5owfUUpqicLvCqminwDyT7H9pfh+TO9/9gO06j0x0FNmHo8hdQf5YZrqTdQ1UZI908KpNTuii9vAtDKmANgeNYCMg9lcp00x5s+hv10FfIRVZeRCHvqsfb7BwIEu4l9CxEHqeZPDNm6yuTxlHLbOxnonn572YhcVDMHAZXzsmpG4styET14tdzkAVMF4c0P/FUm/qflVgpTFPMRIbZwXaho6tQpF6QCMoplB+kZvrZW5bcDUZIsq6m5HhY6Vp/eTqcOMhy+9B8eJI1WpyBWcCtEtHRGL157Vy8="
+    },
+    "location": [2017.5, 26.0, 612.5, -177, -21],
+    "look": false,
+    "gravity": true
+  },
+  "Server": [],
+  "Hide": "AssemblyRichard",
+
+  "CreateEntity": {
+    "key": "AssemblyArnold",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTcyMTExOTc5NSwKICAicHJvZmlsZUlkIiA6ICIwYWFjMWRlZjUwZmI0N2RjODNmOGU2Njk3MTg1ODRkZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0aGVhcGlpc2JhZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZmI5NDNjYzYzMGU0ZGVjOWZhYzk3YjI4NGNkN2RjMDI2NDg5MmZlYzY3NTY2N2E3NGFkYTExZGQxN2MwYmNlIgogICAgfQogIH0KfQ==",
+      "signature": "OY3RbA1eow+YqJAsSXH+LFBbCdM53STW/v8PotJBK9jMBjpZXZ1ii3as02tGy0bNU9bAkbNltlq5uJ2PN60nJRnlmq2ADVLQSgcjd6x7HmRlUblI/Nh5BaSPDrzt+Vq7bWFJ0oqL8/bV3Na30r8dBcuci1cbB0EDvKvAaWx+Cs4NtqWqVZk3WIPWU2Oye4HoxCT2EcVkfSBJ2G9iZ5nhQIde2YYJXFoAAi7dbt0RrEQvsKqfK/DK7WBa/NCSiS9ftZh3oZMLB+odd/mhQZhVaLfxChkCEiX2csgknfmhXt8FuFTzIEq+pEbNeC8S//CaptaASKJHPdhGjpSlaG4xt0/YTrvVR+TeVvpBpJbOUCxuvJBy5veak4uD6DQgfQo3P3VPsYxQ/n2d5kXM1HXCzdRrXF9mlb2ApAybLHkcEw1GAccUeiQOxsdTonaP+ur05WI5wyXpzCjCsBaCes6/CxhzSCkdBS1mRcbpPo3B7mfX8wbaW2A9BZt1xa8ivY1JKDGjIa9AYfQpDud3OTjZlkn4KxZ2xl/SETc0RJW1Eug6xNqAbeHa43kIhUnMu6eHCu60lIiTnAeJIb/k03HUREWXaVpS5IlNysUj6oqDA2OPAwOfMh111DEozL/l8NZPltVb6dxwo1fbZTZGBxLlPfbFzH642Qpcg6u+rcsRNdY="
+    },
+    "location": [2017.5, 26.0, 612.5, -177, -21],
+    "look": false,
+    "gravity": true
+  },
+  "Server": [],
+  "Hide": "AssemblyArnold",
 
   "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
 
@@ -254,11 +298,69 @@
   "Teleport": [2003.5, 30.5, 610.5, 180, 6],
   "Wait": 1,
   "Freeze": true,
+
   "Comment": "------- Dark knight dialogue --------",
+  "Show": "AssemblyAgnes",
+  "ProgressiveMoveEntity": ["AssemblyAgnes", 2004.5, 26.0, 598.5],
+  "Show": "AssemblyRichard",
+  "ProgressiveMoveEntity": ["AssemblyRichard", 2002.5, 26.0, 601.0],
+  "Show": "AssemblyArnold",
+  "ProgressiveMoveEntity": ["AssemblyArnold", 2006.5, 26.0, 601.7],
+
+  "Wait": 5.0,
+  "EntityLook": ["AssemblyAgnes", 2003, 34, 582],
+  "EntityLook": ["AssemblyRichard", 2003, 34, 582],
+  "EntityLook": ["AssemblyArnold", 2003, 34, 582],
+
   "Show": "DarkKnight",
   "MoveEntity": ["DarkKnight", 2003.5, 34.0, 582.0, 0.2, false],
 
-  "Wait": 5.0,
+  "PlaySound": "entity_lightning_bolt_thunder",
+  "Dialog": [
+    {
+      "&8&lDark Knight": "Morning peasants.",
+      "&8&lDark Knight": "I will keep it short today.",
+      "&8&lDark Knight": "One of you..."
+    }
+  ],
+  "PlaySound": "entity_lightning_bolt_thunder",
+  "Dialog": [
+    {
+      "&8&lDark Knight": "... has betrayed me."
+    },
+    120
+  ],
+  "Velocity": ["AssemblyRichard", 0.0, 0.5, 0.0],
+  "Wait": 3.0,
+  "Dialog": [
+    {
+      "&8&lDark Knight": "Now the question is...",
+      "&8&lDark Knight": "who of you is dumb enough to do that."
+    }
+  ],
+  "PlaySound": "entity_lightning_bolt_thunder",
+  "Dialog": [
+    {
+      "&8&lDark Knight": "Arnold",
+      "&7Arnold": "Ye- ye- yes, Sir?",
+      "&8&lDark Knight": "Come up here.",
+      "&7Arnold": "Of course Sir, everything for you Sir!"
+    }
+  ],
+  "MoveEntity": ["AssemblyArnold", 2004.5,26.0,591.3, 0.1, false],
+  "PlaySound": "entity_lightning_bolt_thunder",
+  "ProgressiveDialog": [
+    {
+      "&8&lDark Knight": "Faster."
+    }
+  ],
+  "MoveEntity": ["AssemblyArnold", 2004.6,29.0,588.7, 0.2, false],
+  "Dialog": [
+    {
+      "death": "he gonna die, lol"
+    }
+  ],
+
 
   "Unfreeze": [],
   "StopCinematic": [],
