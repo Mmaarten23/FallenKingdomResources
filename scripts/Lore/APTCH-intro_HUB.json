@@ -265,7 +265,7 @@
 
   "Dialog": [
     {
-      "&5&lAgnes": "The Dark Knight was a special individual.",
+      "&5&lAgnes": "The Dark Knight was a special someone.",
       "&5&lAgnes": "He strongly believed that his kingdom members should be afraid of him.",
       "&5&lAgnes": "And scared they were..."
     },
@@ -363,7 +363,7 @@
   ],
   "Wait": 2.0,
   "PlaySound": "entity_lightning_bolt_thunder",
-  "Dialog": [
+  "ProgressiveDialog": [
     {
       "&8&lDark Knight": "Arnold",
       "&7Arnold": "Ye- ye- yes, Sir?",
@@ -372,7 +372,7 @@
     },
     "DarkKnight.speech"
   ],
-  "MoveEntity": ["AssemblyArnold", 2004.5, 26.0, 591.3, 0.1, false],
+  "MoveEntity": ["AssemblyArnold", 2004.5, 26.0, 591.3, 0.05, false],
   "PlaySound": "entity_lightning_bolt_thunder",
   "ProgressiveDialog": [
     {
@@ -380,8 +380,8 @@
     },
     "DarkKnight.speech"
   ],
-  "MoveEntity": ["AssemblyArnold", 2004.6, 29.0, 588.7, 0.2, false],
-  "MoveEntity": ["AssemblyArnold", 2005.6, 29.0, 587.4, 0.2, false],
+  "MoveEntity": ["AssemblyArnold", 2004.6, 29.0, 588.7, 0.1, false],
+  "MoveEntity": ["AssemblyArnold", 2005.6, 29.0, 587.4, 0.1, false],
   "EntityLook": ["AssemblyArnold", 2003, 29, 609],
   "Dialog": [
     {
@@ -441,7 +441,10 @@
   "Fade": [],
   "Hide": "AssemblyAgnes",
   "Hide": "AssemblyRichard",
+  "Hide": "AssemblyNicole",
+  "Unfreeze": [],
   "Teleport": [2063.5, 75.2, 632.0, 130, 17],
+  "Freeze": true,
   "SetWorldTime": 2500,
   "SetWeather": "Clear",
   "SetBlocks": [1999, 34, 583, 1999, 34, 586, "air"],
