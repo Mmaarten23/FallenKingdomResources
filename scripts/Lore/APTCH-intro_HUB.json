@@ -217,5 +217,6 @@
   "Unfreeze": [],
   "StopCinematic": [],
   "Hide": "AgnesOnHill",
+  "Teleport": [1985.5, 29.0, 638.5],
   "SendMessage": "EOF"
 }
