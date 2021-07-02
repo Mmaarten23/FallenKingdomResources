@@ -148,7 +148,7 @@
       "[PLAYER]": "Hey there! Everything okay?",
       "&5&lAgnes": "Ah, travelling through portals can be rough but i'll manage.",
       "&5&lAgnes": "Anyhow, who did they send to greet an old lady like me?",
-      "[PLAYER]": "I am [PLAYER], ruler of [KINGDOM]."
+      "[PLAYER]": "I am [PLAYER], ruler of [KINGDOM].",
       "&5&lAgnes": "Please excuse an old lady like me.",
       "&5&lAgnes": "I did not realise who you were.",
       "[PLAYER]": "All is good, no need to feel bad.",
@@ -160,7 +160,7 @@
     },
     "Agnes.speech"
   ],
-  "SendMessageOptions": ["&7-> Join Agnes on a magical journey", "&7-> Politely decline"],
+  "SendMessageOptions": ["&7-> I would like that very much.", "&7-> I am a bit busy right now, maybe later?"],
   "Skip": "Start_journey",
   "Skip": "Wait_before_start",
   "Comment": "Wait_before_start",
@@ -216,10 +216,37 @@
   "Dialog": ["&5&lAgnes", "I will be here when you are!"],
   "Skip": "Wait_at_jo",
   "Comment": "Start_journey",
+
+  "Dialog": [
+    {
+      "&5&lAgnes": "Before you join me, there are a couple things you should know.",
+      "&5&lAgnes": "If you cannot read this message completely, you should decrease your gui scale."
+    },
+    "Agnes.speech"
+  ],
+  "SendMessageOptions": ["&7-> I can read it!"],
+  "Dialog": [
+    {
+      "&5&lAgnes": "Perfect!",
+      "&5&lAgnes": "I prefer telling my stories to people with an FOV of 70 and sounds enabled."
+    },
+    "Agnes.speech"
+  ],
+  "SendMessageOptions": ["&7-> FOV has been set to 70 and sounds are enabled my lady."],
+  "Dialog": [
+    {
+      "&5&lAgnes": "Just how I like it.",
+      "&5&lAgnes": "Chat will be disabled when I am telling a story but don't worry",
+      "&5&lAgnes": "you will get it back soon.",
+      "&5&lAgnes": "All good to go?"
+    },
+    "Agnes.speech"
+  ],
+  "SendMessageOptions": ["&7-> Let's do this."],
   "SetPersistent": ["aptch_state", "Starting_journey"],
   "Dialog": [
     {
-      "&5&lAgnes": "I appreciate that, Your Majesty.",
+      "&5&lAgnes": "Buckle up, Your Majesty.",
       "&5&lAgnes": "My story started a long time ago but it started right here."
     },
     "Agnes.speech"
@@ -374,7 +401,7 @@
       "&7Arnold": "Of course Sir, everything for you Sir!"
     }
   ],
-  "MoveEntity": ["AssemblyArnold", 2004.5, 26.0, 591.3, 0.05, false],
+  "MoveEntity": ["AssemblyArnold", 2004.5, 26.0, 595.3, 0.05, false],
   "PlaySound": "entity_lightning_bolt_thunder",
   "ProgressiveDialog": [
     {
@@ -382,6 +409,7 @@
     },
     "DarkKnight.speech"
   ],
+  "MoveEntity": ["AssemblyArnold", 2004.5, 26.0, 591.3, 0.1, false],
   "MoveEntity": ["AssemblyArnold", 2004.6, 29.0, 588.7, 0.1, false],
   "MoveEntity": ["AssemblyArnold", 2005.6, 29.0, 587.4, 0.1, false],
   "EntityLook": ["AssemblyArnold", 2003, 29, 609],
@@ -431,6 +459,7 @@
     {
       "&8&lDark Knight": "Good.",
       "&8&lDark Knight": "Let that be an example to all of you.",
+      "&8&lDark Knight": "Before I forget...",
       "&8&lDark Knight": "Nicole, I expect new feathers in my bed by tonight.",
       "&d&lNicole": "Of- Of course sir.",
       "&8&lDark Knight": "Back to work all of you."
