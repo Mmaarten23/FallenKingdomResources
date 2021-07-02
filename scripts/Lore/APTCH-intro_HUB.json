@@ -13,7 +13,7 @@
   "Description": "How it all began",
 
   "Store": ["Agnes.speed", 0.15],
-  "Store": ["Agnes.speech", 10],
+  "Store": ["Agnes.speech", 80],
 
 
   "CreateEntity": {
