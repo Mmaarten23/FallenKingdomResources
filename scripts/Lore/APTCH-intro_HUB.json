@@ -183,7 +183,6 @@
     "Agnes.speech"
   ],
   "Unfreeze": [],
-  "Track": [2063.5, 75.2, 632.0, 2049.0, 73.5, 631.5],
   "ProgressiveDialog": [
     {
       "&5&lAgnes": "The whole kingdom feared the unpredictability of their king.",
@@ -192,14 +191,16 @@
     },
     "Agnes.speech"
   ],
-  "StrikeLightning": [2003.5, 66.0, 575.5],
-  "Track": [2049.0, 73.5, 631.5, 2018.5, 32.0, 610.0],
+  "Track": [2063.5, 75.2, 632.0, 2049.0, 73.5, 631.5],
+  "StrikeLightning": [2012.5, 37.0, 583.5],
+  "StrikeLightning": [1995.5, 37.0, 583.5],
   "ProgressiveDialog": [
     {
       "&5&lAgnes": "some chat about the weekly meeting"
     },
     "Agnes.speech"
   ],
+  "Track": [2049.0, 73.5, 631.5, 2018.5, 32.0, 610.0],
   "Wait": 5.0,
   "Unfreeze": [],
   "StopCinematic": [],
