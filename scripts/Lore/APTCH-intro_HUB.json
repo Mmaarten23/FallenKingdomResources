@@ -13,7 +13,7 @@
   "Description": "How it all began",
 
   "Store": ["Agnes.speed", 0.15],
-  "Store": ["Agnes.speech", 80],
+  "Store": ["Agnes.speech", 90],
   "Store": ["DarkKnight.speech", 80],
 
 
@@ -149,14 +149,6 @@
       "&5&lAgnes": "Ah, travelling through portals can be rough but i'll manage.",
       "&5&lAgnes": "Anyhow, who did they send to greet an old lady like me?",
       "[PLAYER]": "I am [PLAYER], ruler of [KINGDOM]."
-    },
-    "Agnes.speech"
-  ],
-  "Velocity": ["AgnesIntro", 0.0, 1.0, 0.0],
-  "Wait": 2.0,
-  "TeleportEntity": ["AgnesIntro", 1905.5, 38.0, 529.0],
-  "Dialog": [
-    {
       "&5&lAgnes": "Please excuse an old lady like me.",
       "&5&lAgnes": "I did not realise who you were.",
       "[PLAYER]": "All is good, no need to feel bad.",
