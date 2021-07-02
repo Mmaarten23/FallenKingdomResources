@@ -341,6 +341,7 @@
     },
     "DarkKnight.speech"
   ],
+  "Wait": 2.0,
   "PlaySound": "entity_lightning_bolt_thunder",
   "Dialog": [
     {
@@ -361,12 +362,54 @@
   ],
   "MoveEntity": ["AssemblyArnold", 2004.6, 29.0, 588.7, 0.2, false],
   "MoveEntity": ["AssemblyArnold", 2005.6, 29.0, 587.4, 0.2, false],
+  "EntityLook": ["AssemblyArnold", 2003, 29, 609],
   "Dialog": [
     {
-      "death": "he gonna die, lol"
-    }
+      "&8&lDark Knight": "Is there anything you would like to tell me?"
+    },
+    "DarkKnight.speech"
+  ],
+  "Dialog": [
+    {
+      "&7Arnold": "I love you sir!",
+      "&7Arnold": "You are the absolute best!",
+      "&7Arnold": "The dark knight for the win!"
+    },
+    30
+  ],
+  "PlaySound": "entity_lightning_bolt_thunder",
+  "Dialog": [
+    {
+      "&8&lDark Knight": "&lSILENCE"
+    },
+    100
+  ],
+  "Dialog": [
+    {
+      "&8&lDark Knight": "You stole from me.",
+      "&7Arnold": "I would never d-",
+      "&8&lDark Knight": "Don't lie to me.",
+      "&8&lDark Knight": "There is no place for liars or thieves in my kingdom.",
+      "&7Arnold": "No Sir! Please, I beg y-"
+    },
+    "DarkKnight.speech"
+  ],
+  "AnimateEntity": ["DarkKnight", "Swing Main Hand"],
+  "PlaySound": "entity_lightning_bolt_impact",
+  "StrikeLightning": [2005.6, 29.0, 587.4],
+  "AnimateEntity": ["AssemblyArnold", "Death"],
+  "Dialog": [
+    {
+      "&8&lDark Knight": "Good.",
+      "&8&lDark Knight": "Nicole, I expect new feathers in my bed by tonight.",
+      "&d&lNicole": "Of- Of course sir.",
+      "&7Arnold": "Back to work all of you."
+    },
+    "DarkKnight.speech"
   ],
 
+  "ProgressiveMoveEntity": ["DarkKnight", 2003.5, 35.0, 574.5],
+  "Wait": 20.0,
 
   "Unfreeze": [],
   "StopCinematic": [],
