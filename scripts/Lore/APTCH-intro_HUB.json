@@ -159,11 +159,22 @@
   "Show": "AgnesOnHill",
   "SetBlock": [2060,73,625, "enchanting_table"],
 
-
+  "Dialog": [
+    {
+      "&5&lAgnes": "Once upon a time, there was a kingdom ruled by a mysterious individual.",
+      "&5&lAgnes": "He called himself the &8&lDark Knight&r.",
+      "&5&lAgnes": "The kingdom was cold and dark"
+    },
+    "Agnes.speech"
+  ],
+  "Fade": [],
+  "SetWeather": "Storm",
+  "SetWorldTime": 18000,
   "Wait": 20.0,
 
 
-  "StopCinematic": [],
   "Unfreeze": [],
+  "StopCinematic": [],
+  "Hide": "AgnesOnHill",
   "SendMessage": "EOF"
 }
