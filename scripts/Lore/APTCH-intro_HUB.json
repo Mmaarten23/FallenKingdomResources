@@ -213,8 +213,12 @@
   "SetBlocks": [2007, 34, 583, 2007, 34, 586, "fire"],
   "SetBlock": [1999, 31, 587, "fire"],
   "SetBlock": [2007, 31, 587, "fire"],
-  "SetBlocks": [1999, 30, 588, 2007, 30, 589, "fire"],
+  "SetBlocks": [1999, 30, 588, 1999, 30, 589, "fire"],
   "SetBlocks": [2007, 30, 588, 2007, 30, 589, "fire"],
+  "SetBlocks": [2000, 29, 587, 2000, 29, 591, "fire"],
+  "SetBlocks": [2006, 29, 587, 2006, 29, 591, "fire"],
+  "SetBlock": [2000, 28, 592, "fire"],
+  "SetBlock": [2006, 28, 592, "fire"],
 
   "SetBlock": [2003, 33, 580, "beacon"],
   "SetBlocks": [2002, 32, 579, 2004, 32, 581, "iron block"],
@@ -227,6 +231,8 @@
     "Agnes.speech"
   ],
   "Track": [2046.0, 69.0, 631.5, 2018.5, 32.0, 610.0, 0.3],
+  "Track": [2018.5, 32.0, 610.0, 2003.5, 30.5, 610.5, 0.3],
+
   "Unfreeze": [],
   "StopCinematic": [],
   "Hide": "AgnesOnHill",
