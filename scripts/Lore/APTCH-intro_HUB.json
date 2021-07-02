@@ -160,6 +160,7 @@
   "Wait": 1,
   "Freeze": true,
   "HidePlayer": [],
+  "SetScoreboard": "",
   "Show": "AgnesOnHill",
   "SetBlock": [2060, 73, 625, "enchanting_table"],
 
@@ -177,15 +178,16 @@
     },
     "Agnes.speech"
   ],
-  "ProgressiveDialog": [
+  "Dialog": [
     {
       "&5&lAgnes": "His kingdom was cold and dark."
     },
     "Agnes.speech"
   ],
   "Fade": [],
-  "SetWeather": "Storm",
   "SetWorldTime": 18000,
+  "SetWeather": "Storm",
+
   "Dialog": [
     {
       "&5&lAgnes": "The Dark Knight was a special individual.",
@@ -204,8 +206,20 @@
     "Agnes.speech"
   ],
   "Track": [2063.5, 75.2, 632.0, 2046.0, 69.0, 631.5],
+  "PlaySound": "entity_lightning_bolt_thunder",
   "StrikeLightning": [2012.5, 37.0, 583.5],
   "StrikeLightning": [1995.5, 37.0, 583.5],
+  "SetBlocks": [1999, 34, 583, 1999, 34, 586, "fire"],
+  "SetBlocks": [2007, 34, 583, 2007, 34, 586, "fire"],
+  "SetBlock": [1999, 31, 587, "fire"],
+  "SetBlock": [2007, 31, 587, "fire"],
+  "SetBlocks": [1999, 30, 588, 2007, 30, 589, "fire"],
+  "SetBlocks": [2007, 30, 588, 2007, 30, 589, "fire"],
+
+  "SetBlock": [2003, 33, 580, "beacon"],
+  "SetBlocks": [2002, 32, 579, 2004, 32, 581, "iron block"],
+
+
   "ProgressiveDialog": [
     {
       "&5&lAgnes": "some chat about the weekly meeting"
