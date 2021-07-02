@@ -423,10 +423,11 @@
   "PlaySound": "entity_lightning_bolt_impact",
   "StrikeLightning": [2005.6, 29.0, 587.4],
   "Hide": "AssemblyArnold",
-  "Wait": 1.0,
+  "Wait": 3.0,
   "Dialog": [
     {
       "&8&lDark Knight": "Good.",
+      "&8&lDark Knight": "Let that be an example to all of you.",
       "&8&lDark Knight": "Nicole, I expect new feathers in my bed by tonight.",
       "&d&lNicole": "Of- Of course sir.",
       "&8&lDark Knight": "Back to work all of you."
