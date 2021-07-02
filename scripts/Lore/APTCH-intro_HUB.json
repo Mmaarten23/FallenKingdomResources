@@ -267,7 +267,7 @@
     {
       "&5&lAgnes": "The Dark Knight was a special individual.",
       "&5&lAgnes": "He strongly believed that his kingdom members should be afraid of him.",
-      "&5&lAgnes": "And that they were..."
+      "&5&lAgnes": "And scared they were..."
     },
     "Agnes.speech"
   ],
@@ -275,8 +275,8 @@
   "ProgressiveDialog": [
     {
       "&5&lAgnes": "The whole kingdom feared the unpredictability of their king.",
-      "&5&lAgnes": "Nobody could predict whether or not they would survive the next day.",
-      "&5&lAgnes": "And that is exactly what He wanted."
+      "&5&lAgnes": "At no point was a member sure they would survive the day.",
+      "&5&lAgnes": "And that fear is exactly what He wanted."
     },
     "Agnes.speech"
   ],
@@ -322,7 +322,7 @@
   "Show": "AssemblyArnold",
   "ProgressiveMoveEntity": ["AssemblyArnold", 2006.5, 26.0, 601.7],
   "Show": "AssemblyNicole",
-  "MoveEntity": ["AssemblyNicole", 2003.2,26.0,597.0],
+  "MoveEntity": ["AssemblyNicole", 2003.2, 26.0, 597.0],
 
   "Wait": 3,
   "EntityLook": ["AssemblyAgnes", 2003, 34, 582],
@@ -437,11 +437,49 @@
 
   "ProgressiveMoveEntity": ["DarkKnight", 2003.5, 35.0, 574.5],
   "Hide": "DarkKnight",
-  "Wait": 20.0,
+  "Wait": 5.0,
+  "Fade": [],
+  "Hide": "AssemblyAgnes",
+  "Hide": "AssemblyRichard",
+  "Teleport": [2063.5, 75.2, 632.0, 130, 17],
+  "SetWorldTime": 2500,
+  "SetWeather": "Clear",
+  "SetBlocks": [1999, 34, 583, 1999, 34, 586, "air"],
+  "SetBlocks": [2007, 34, 583, 2007, 34, 586, "air"],
+  "SetBlock": [1999, 31, 587, "air"],
+  "SetBlock": [2007, 31, 587, "air"],
+  "SetBlocks": [1999, 30, 588, 1999, 30, 589, "air"],
+  "SetBlocks": [2007, 30, 588, 2007, 30, 589, "air"],
+  "SetBlocks": [2000, 29, 587, 2000, 29, 591, "air"],
+  "SetBlocks": [2006, 29, 587, 2006, 29, 591, "air"],
+  "SetBlock": [2000, 28, 592, "air"],
+  "SetBlock": [2006, 28, 592, "air"],
+  "SetBlock": [2003, 33, 580, "chiseled_stone_bricks"],
 
-  "Unfreeze": [],
+  "Dialog": [
+    {
+      "&5&lAgnes": "Whether poor Arnold ever stole something from The Dark Knight remains unknown.",
+      "&5&lAgnes": "That is where my story started "
+    },
+    "Agnes.speech"
+  ],
+  "Fade": [],
+  "Teleport": [2061.8, 73.0, 627.4, -195, 9],
   "StopCinematic": [],
+  "LookDialog": [
+    {
+      "&5&lAgnes": "It was a pleasure to talk about the past.",
+      "[PLAYER]": "History is a wonderful thing my lady.",
+      "&5&lAgnes": "I do need a drink now but I will be happy to continue my story at a later point.",
+      "[PLAYER]": "Of course, I heard they serve wonderful beetroot juice in the valley!",
+      "&5&lAgnes": "See you later your majesty."
+    },
+    "AgnesOnHill"
+  ],
+  "MoveEntity": ["AgnesOnHill", 2065.8, 73.0, 629.7, "Agnes.speed", false],
   "Hide": "AgnesOnHill",
+  "Unfreeze": [],
+
   "Teleport": [1985.5, 29.0, 638.5],
   "SendMessage": "EOF"
 }
