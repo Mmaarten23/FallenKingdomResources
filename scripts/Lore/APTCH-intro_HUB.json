@@ -14,6 +14,7 @@
 
   "Store": ["Agnes.speed", 0.15],
   "Store": ["Agnes.speech", 80],
+  "Store": ["DarkKnight.speech", 80],
 
 
   "CreateEntity": {
@@ -321,14 +322,15 @@
       "&8&lDark Knight": "Morning peasants.",
       "&8&lDark Knight": "I will keep it short today.",
       "&8&lDark Knight": "One of you..."
-    }
+    },
+    "DarkKnight.speech"
   ],
   "PlaySound": "entity_lightning_bolt_thunder",
   "Dialog": [
     {
       "&8&lDark Knight": "... has betrayed me."
     },
-    120
+    100
   ],
   "Velocity": ["AssemblyRichard", 0.0, 0.5, 0.0],
   "Wait": 3.0,
@@ -336,7 +338,8 @@
     {
       "&8&lDark Knight": "Now the question is...",
       "&8&lDark Knight": "who of you is dumb enough to do that."
-    }
+    },
+    "DarkKnight.speech"
   ],
   "PlaySound": "entity_lightning_bolt_thunder",
   "Dialog": [
@@ -345,16 +348,19 @@
       "&7Arnold": "Ye- ye- yes, Sir?",
       "&8&lDark Knight": "Come up here.",
       "&7Arnold": "Of course Sir, everything for you Sir!"
-    }
+    },
+    "DarkKnight.speech"
   ],
-  "MoveEntity": ["AssemblyArnold", 2004.5,26.0,591.3, 0.1, false],
+  "MoveEntity": ["AssemblyArnold", 2004.5, 26.0, 591.3, 0.1, false],
   "PlaySound": "entity_lightning_bolt_thunder",
   "ProgressiveDialog": [
     {
       "&8&lDark Knight": "Faster."
-    }
+    },
+    "DarkKnight.speech"
   ],
-  "MoveEntity": ["AssemblyArnold", 2004.6,29.0,588.7, 0.2, false],
+  "MoveEntity": ["AssemblyArnold", 2004.6, 29.0, 588.7, 0.2, false],
+  "MoveEntity": ["AssemblyArnold", 2005.6, 29.0, 587.4, 0.2, false],
   "Dialog": [
     {
       "death": "he gonna die, lol"
