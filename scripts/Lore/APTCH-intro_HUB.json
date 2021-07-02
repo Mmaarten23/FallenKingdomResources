@@ -113,6 +113,20 @@
   "Server": [],
   "Hide": "AssemblyArnold",
 
+  "CreateEntity": {
+    "key": "AssemblyNicole",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTcyMTExOTc5NSwKICAicHJvZmlsZUlkIiA6ICIwYWFjMWRlZjUwZmI0N2RjODNmOGU2Njk3MTg1ODRkZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0aGVhcGlpc2JhZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZmI5NDNjYzYzMGU0ZGVjOWZhYzk3YjI4NGNkN2RjMDI2NDg5MmZlYzY3NTY2N2E3NGFkYTExZGQxN2MwYmNlIgogICAgfQogIH0KfQ==",
+      "signature": "OY3RbA1eow+YqJAsSXH+LFBbCdM53STW/v8PotJBK9jMBjpZXZ1ii3as02tGy0bNU9bAkbNltlq5uJ2PN60nJRnlmq2ADVLQSgcjd6x7HmRlUblI/Nh5BaSPDrzt+Vq7bWFJ0oqL8/bV3Na30r8dBcuci1cbB0EDvKvAaWx+Cs4NtqWqVZk3WIPWU2Oye4HoxCT2EcVkfSBJ2G9iZ5nhQIde2YYJXFoAAi7dbt0RrEQvsKqfK/DK7WBa/NCSiS9ftZh3oZMLB+odd/mhQZhVaLfxChkCEiX2csgknfmhXt8FuFTzIEq+pEbNeC8S//CaptaASKJHPdhGjpSlaG4xt0/YTrvVR+TeVvpBpJbOUCxuvJBy5veak4uD6DQgfQo3P3VPsYxQ/n2d5kXM1HXCzdRrXF9mlb2ApAybLHkcEw1GAccUeiQOxsdTonaP+ur05WI5wyXpzCjCsBaCes6/CxhzSCkdBS1mRcbpPo3B7mfX8wbaW2A9BZt1xa8ivY1JKDGjIa9AYfQpDud3OTjZlkn4KxZ2xl/SETc0RJW1Eug6xNqAbeHa43kIhUnMu6eHCu60lIiTnAeJIb/k03HUREWXaVpS5IlNysUj6oqDA2OPAwOfMh111DEozL/l8NZPltVb6dxwo1fbZTZGBxLlPfbFzH642Qpcg6u+rcsRNdY="
+    },
+    "location": [1996.5, 26.0, 615.5, 175, -24],
+    "look": false,
+    "gravity": true
+  },
+  "Server": [],
+  "Hide": "AssemblyNicole",
+
   "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
 
   "RegionEntry": [1901, 37, 524, 1911, 39, 533],
@@ -307,11 +321,17 @@
   "ProgressiveMoveEntity": ["AssemblyRichard", 2002.5, 26.0, 601.0],
   "Show": "AssemblyArnold",
   "ProgressiveMoveEntity": ["AssemblyArnold", 2006.5, 26.0, 601.7],
+  "Show": "AssemblyNicole",
+  "MoveEntity": ["AssemblyNicole", 2003.2,26.0,597.0],
 
-  "Wait": 5.0,
+  "Wait": 3,
   "EntityLook": ["AssemblyAgnes", 2003, 34, 582],
+  "Wait": 3,
   "EntityLook": ["AssemblyRichard", 2003, 34, 582],
+  "Wait": 3,
   "EntityLook": ["AssemblyArnold", 2003, 34, 582],
+  "Wait": 3,
+  "EntityLook": ["AssemblyNicole", 2003, 34, 582],
 
   "Show": "DarkKnight",
   "MoveEntity": ["DarkKnight", 2003.5, 34.0, 582.0, 0.2, false],
@@ -403,7 +423,7 @@
   "PlaySound": "entity_lightning_bolt_impact",
   "StrikeLightning": [2005.6, 29.0, 587.4],
   "Hide": "AssemblyArnold",
-  "Wait": 0.1,
+  "Wait": 1.0,
   "Dialog": [
     {
       "&8&lDark Knight": "Good.",
@@ -415,6 +435,7 @@
   ],
 
   "ProgressiveMoveEntity": ["DarkKnight", 2003.5, 35.0, 574.5],
+  "Hide": "DarkKnight",
   "Wait": 20.0,
 
   "Unfreeze": [],
