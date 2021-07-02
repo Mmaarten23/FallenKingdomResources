@@ -131,7 +131,7 @@
 
   "RegionEntry": [1901, 37, 524, 1911, 39, 533],
   "If": [],
-  "Equals": ["aptch_sate", "Waiting_for_region_entry"],
+  "Equals": ["aptch_state", "Waiting_for_region_entry"],
   "Skip": "In_Range",
   "Leave": [],
 
