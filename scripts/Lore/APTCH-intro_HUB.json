@@ -55,7 +55,7 @@
     "key": "DarkKnight",
     "entity": "PLAYER",
     "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4ODY2NzEyNTEwNSwKICAicHJvZmlsZUlkIiA6ICJiZWNkZGIyOGEyYzg0OWI0YTliMDkyMmE1ODA1MTQyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdFR2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0MzhkMjQwMGM5Y2Q1OTE3ZjY4YjIwY2JiZGEzZTdlNjQ4MDM0ZmY0OTUxMWMyZWVmMjVjZWI2NGFhMzY3OTIiCiAgICB9CiAgfQp9=",
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4ODY2NzEyNTEwNSwKICAicHJvZmlsZUlkIiA6ICJiZWNkZGIyOGEyYzg0OWI0YTliMDkyMmE1ODA1MTQyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdFR2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0MzhkMjQwMGM5Y2Q1OTE3ZjY4YjIwY2JiZGEzZTdlNjQ4MDM0ZmY0OTUxMWMyZWVmMjVjZWI2NGFhMzY3OTIiCiAgICB9CiAgfQp9",
       "signature": "rCfG/5E2UF6JNX49/K5QXQTeHOH6SUALxz4RET3x+LeIs0ZI9HglME8nl4srxQGo0ApNLhtP1/CY2sm44Uotmrt0hidTXL8flAIJP4IFlRwOS9nkm2blZ8z4z26giEqExn3W6xAr/nuNW2y0YK2RdiExt1jaNISfdgRs9BU7jyIkNeKp50QZG1pNa3Rq7CptqPqMP8oGik65K6nawUkqrAErnVB5iNF+YYHWSF2g8R5RfmMCWsICvNZ5OQ7pz6AU5J/GJFuUSWkqoG4Ro/LEtK7FTP9MbZ0gBdPd2OQmuBwqqpXpGeGNeMNlYjMT9am8ShrqjHfDbPMW21wqXSyK1p0zX2mzlXxIGUGV6yzwsNrhQjkdFwWuP3sZt0GXSsh624UoiX00DERmdRARmbFcxIVMkao/PMeJb20MgjnfgYlinMCJ3IdTICDRrvntk+6L4TCMJMJ1gJxhnlxciT861GNZV5WtLVhMZoJNj90YkS2zo+HjyzGvq6KpxILBnvGDDRPES+z9EZd2fPwF4Yz199oYm9LHU7wf1JOnhkiBfikgNlyzZ0wejY/yBZFyMWR3j/qtNBndWMb3cNSByOfjlrjLV4U/I2XxtnSJqRjkdWXwYtWCCP82yIJnIVAnp50WjATOFOai/hyn7uHRngOnJ5lvLRIS523ylk60ZhwG0G8="
     },
     "location": [2003.5, 35.0, 574.5, 0],
@@ -244,7 +244,7 @@
     {
       "&5&lAgnes": "Every week, The dark knight would assemble his servants.",
       "&5&lAgnes": "Not showing up was not even an option.",
-      "&5&lAgnes": "During these assemblies, the dark night would speak to his servants."
+      "&5&lAgnes": "During these assemblies, the dark knight would speak to his servants."
     },
     "Agnes.speech"
   ],
@@ -256,7 +256,7 @@
   "Freeze": true,
   "Comment": "------- Dark knight dialogue --------",
   "Show": "DarkKnight",
-  "MoveEntity": ["DarkKnight", 2003.5, 34.0, 582.0],
+  "MoveEntity": ["DarkKnight", 2003.5, 34.0, 582.0, 0.2, false],
 
   "Wait": 5.0,
 
