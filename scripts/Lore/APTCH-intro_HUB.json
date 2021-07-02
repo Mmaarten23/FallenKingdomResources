@@ -166,7 +166,8 @@
   "Dialog": [
     {
       "&5&lAgnes": "Once upon a time, there was a kingdom ruled by a mysterious individual.",
-      "&5&lAgnes": "He called himself the &8&lDark Knight&r.",
+      "&5&lAgnes": "To this day, nobody knows who he really is. But he calle himself...",
+      "&5&lAgnes": "&8&lThe Dark Knight&r.",
       "&5&lAgnes": "His kingdom was cold and dark."
     },
     "Agnes.speech"
@@ -191,7 +192,7 @@
     },
     "Agnes.speech"
   ],
-  "Track": [2063.5, 75.2, 632.0, 2049.0, 73.5, 631.5],
+  "Track": [2063.5, 75.2, 632.0, 2046.0, 69.0, 631.5],
   "StrikeLightning": [2012.5, 37.0, 583.5],
   "StrikeLightning": [1995.5, 37.0, 583.5],
   "ProgressiveDialog": [
@@ -200,8 +201,7 @@
     },
     "Agnes.speech"
   ],
-  "Track": [2049.0, 73.5, 631.5, 2018.5, 32.0, 610.0],
-  "Wait": 5.0,
+  "Track": [2046.0, 69.0, 631.5, 2018.5, 32.0, 610.0, 0.3],
   "Unfreeze": [],
   "StopCinematic": [],
   "Hide": "AgnesOnHill",
