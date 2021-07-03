@@ -162,7 +162,7 @@
   "Leave": [],
 
   "Comment": "In_Range",
-  "KingdomObjective": [1, "Meet Agnes at the North-West nether portal in the hub."],
+  "Objective": "Meet Agnes at the North-West nether portal in the hub.",
   "Show": "AgnesIntro",
   "SetPersistent": ["aptch_state", "Starter_dialog"],
   "ProgressiveDialog": ["&5&lAgnes", "Those bloody portals..."],
