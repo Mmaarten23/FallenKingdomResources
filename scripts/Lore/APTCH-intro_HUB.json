@@ -347,7 +347,7 @@
     },
     "Agnes.speech"
   ],
-  "Track": [2063.5, 75.2, 632.0, 2046.0, 69.0, 631.5, 0.05],
+  "Track": [2063.5, 75.2, 632.0, 2046.0, 69.0, 631.5, 0.06],
   "PlaySound": "entity_lightning_bolt_thunder",
   "StrikeLightning": [2012.5, 37.0, 583.5],
   "StrikeLightning": [1995.5, 37.0, 583.5],
@@ -374,7 +374,7 @@
     },
     "Agnes.speech"
   ],
-  "Track": [2046.0, 69.0, 631.5, 2018.5, 32.0, 610.0, 0.3],
+  "Track": [2046.0, 69.0, 631.5, 2018.5, 32.0, 610.0, 0.1],
   "Track": [2018.5, 32.0, 610.0, 2003.5, 30.5, 610.5, 0.3],
   "Fade": [],
   "Teleport": [2003.5, 30.5, 610.5, 180, 6],
@@ -503,7 +503,7 @@
     {
       "&7Arnold": "No Sir! Please, I beg y-"
     },
-    20
+    10
   ],
   "AnimateEntity": ["DarkKnight", "Swing Main Hand"],
   "PlaySound": "entity_lightning_bolt_thunder",
@@ -519,19 +519,18 @@
       "&8&lDark Knight": "Good.",
       "&8&lDark Knight": "Let that be an example to all of you.",
       "&8&lDark Knight": "Before I forget...",
-      "&8&lDark Knight": "Nicole...",
-      "&d&lNicole": "Y- Yes, your majesty?",
-      "&8&lDark Knight": "I need new feathers to stuff my pillow.",
-      "&d&lNicole": "Of- Of course sir.",
+      "&8&lDark Knight": "Agnes...",
+      "&5&lAgnes": "Y- Yes, your majesty?",
+      "&8&lDark Knight": "Come to my quarters. My logbook needs updating.",
+      "&5&lNicole": "Of- Of course sir.",
       "&8&lDark Knight": "Back to work all of you."
     },
     "DarkKnight.speech"
   ],
 
+
   "ProgressiveMoveEntity": ["DarkKnight", 2003.5, 35.0, 574.5],
   "Wait": 20,
-  "ProgressiveMoveEntity": ["AssemblyAgnes", 2010.9, 26.0, 611.1],
-  "Wait": 3,
   "ProgressiveMoveEntity": ["AssemblyRichard", 1997.8, 26.0, 611.3],
   "Wait": 3,
   "ProgressiveMoveEntity": ["AssemblyArnold", 2010.9, 26.0, 611.1],
@@ -540,7 +539,13 @@
   "Wait": 3,
   "ProgressiveMoveEntity": ["AssemblyVillager2", 2002.3, 26.0, 610.6],
   "Wait": 3,
-  "MoveEntity": ["AssemblyNicole", 2002.3, 26.0, 610.6],
+  "ProgressiveMoveEntity": ["AssemblyNicole", 2002.3, 26.0, 610.6],
+  "MoveEntity": ["AssemblyAgnes", 2004.5, 26.0, 591.3, 0.2, false],
+  "MoveEntity": ["AssemblyAgnes", 2004.6, 29.0, 588.7, 0.2, false],
+  "MoveEntity": ["AssemblyAgnes", 2004.6, 29.0, 587.4, 0.2, false],
+  "MoveEntity": ["AssemblyAgnes", 2003.5, 34.0, 582.5, 0.2, false],
+  "MoveEntity": ["AssemblyAgnes", 2003.4, 34.0, 582.0, 0.2, false],
+  "MoveEntity": ["AssemblyAgnes", 2003.5, 35.0, 574.5, 0.2, false],
   "Fade": [],
   "Hide": "DarkKnight",
   "Hide": "AssemblyAgnes",
