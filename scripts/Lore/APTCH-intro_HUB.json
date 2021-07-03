@@ -222,7 +222,8 @@
   "Skip": "At_Jo",
 
   "Comment": "Easter_egg_walk",
-  "SendMessage": "\uA016 &r &3&lSecret found&7: &bA walk a day keeps the doctor away!",
+  "PlaySound": "entity_player_levelup",
+  "SendMessage": "\uA016 &3&lSecret found&7: &bA walk a day keeps the doctor away!",
 
   "Comment": "At_Jo",
   "Comment": "---- Catch for players leaving the server during the walk ----",
@@ -244,31 +245,44 @@
   "SetScoreboard": "",
   "Dialog": [
     {
-      "&5&lAgnes": "Before you join me, there are a couple things you should know.",
+      "&5&lAgnes": "Before you join me, there are a couple things you should know."
+    },
+    "Agnes.speech"
+  ],
+  "Comment": "Message_check",
+  "Dialog": [
+    {
       "&5&lAgnes": "If you cannot read this message completely, you should decrease your gui scale."
     },
     "Agnes.speech"
   ],
-  "SendMessageOptions": ["&7-> I can read it!"],
+  "SendMessageOptions": ["-> Could you say that again?", "&7-> I can read it!"],
+  "Skip": "Message_check",
   "Dummy": [],
   "SetScoreboard": [],
   "Dialog": [
     {
       "&5&lAgnes": "Perfect!",
-      "&5&lAgnes": "Make sure to check the &bStory guide&r so you understand me."
+      "&5&lAgnes": "I will send you the &bStory guide&r. Make sure to give it a good read!"
     },
     "Agnes.speech"
   ],
-  "SendMessage": "&5&l-=-=-=-=-=- &b&lStory Guide &5&l-=-=-=-=-=-",
-  "SendMessage": "&7During story quests, the following settings are recommended:",
+
+
   "SendMessage": "",
+  "SendMessage": "&5&l-=-=-=-=-=-=-=- &b&lStory Guide &5&l-=-=-=-=-=-=-=-",
+  "SendMessage": "&7During story quests, the following settings are recommended:",
   "SendMessage": "* &bFOV&7: &370",
   "SendMessage": "* &bRender distance&7: &316",
   "SendMessage": "* &bSounds&7: &3Enabled",
-  "SendMessage": "* &bMusic: &3Disabled",
   "SendMessage": "",
-  "SendMessage": "뜀 &bChat will be disabled during story quests &r뜀",
+  "SendMessage": "뜀 &bChat will be disabled during story quests&r 뜀",
   "SendMessage": "",
+  "SendMessage": "",
+
+
+
+
   "Wait": 2.0,
   "SendMessageOptions": ["&7-> I am good to go."],
   "Dummy": [],
@@ -276,7 +290,7 @@
   "Dialog": [
     {
       "&5&lAgnes": "Buckle up, Your Majesty.",
-      "&5&lAgnes": "My story started a long time ago but it it did so right here."
+      "&5&lAgnes": "My story started a long time ago but it did so right here."
     },
     "Agnes.speech"
   ],
@@ -333,7 +347,7 @@
     },
     "Agnes.speech"
   ],
-  "Track": [2063.5, 75.2, 632.0, 2046.0, 69.0, 631.5],
+  "Track": [2063.5, 75.2, 632.0, 2046.0, 69.0, 631.5, 0.1],
   "PlaySound": "entity_lightning_bolt_thunder",
   "StrikeLightning": [2012.5, 37.0, 583.5],
   "StrikeLightning": [1995.5, 37.0, 583.5],
@@ -376,9 +390,9 @@
   "Show": "AssemblyArnold",
   "ProgressiveMoveEntity": ["AssemblyArnold", 2006.5, 26.0, 601.7],
   "Show": "AssemblyVillager1",
-  "ProgressiveMoveEntity": ["AssemblyVillager1", 2004.3, 26.0, 598.2],
+  "ProgressiveMoveEntity": ["AssemblyVillager1", 2004.3, 26.0, 600.2],
   "Show": "AssemblyVillager2",
-  "ProgressiveMoveEntity": ["AssemblyVillager2", 2003.3, 26.0, 596.9],
+  "ProgressiveMoveEntity": ["AssemblyVillager2", 2006.3, 26.0, 596.9],
   "Show": "AssemblyNicole",
   "MoveEntity": ["AssemblyNicole", 2003.2, 26.0, 597.0],
 
@@ -465,7 +479,7 @@
     {
       "&7Arnold": "I love you sir!",
       "&7Arnold": "You are the absolute best!",
-      "&7Arnold": "The dark knight for the win!"
+      "&7Arnold": "No one is as awesome as you!"
     },
     30
   ],
