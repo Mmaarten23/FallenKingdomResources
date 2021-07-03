@@ -1,5 +1,5 @@
 {
-  "Name": "A place to call home",
+  "Name": "&5&lA place to call home",
   "Key": "APTCH-intro",
   "Author": "Mmaarten",
   "AllowRejoining": true,
@@ -150,7 +150,7 @@
       "&5&lAgnes": "Anyhow, who did they send to greet an old lady like me?",
       "[PLAYER]": "I am [PLAYER], ruler of [KINGDOM].",
       "&5&lAgnes": "Please excuse an old lady like me.",
-      "&5&lAgnes": "I did not realise who you were.",
+      "&5&lAgnes": "I did not realise it was you.",
       "[PLAYER]": "All is good, no need to feel bad.",
       "&5&lAgnes": "You are too kind Your Majesty.",
       "[PLAYER]": "How can I help you?",
@@ -197,7 +197,7 @@
   "Skip": "At_Jo",
 
   "Comment": "Easter_egg_walk",
-  "SendMessage": "&6&l&k-&r &3&lSecret found&7: &bA walk a day keeps the doctor away!",
+  "SendMessage": "&6&l★&r &3&lSecret found&7: &bA walk a day keeps the doctor away!",
 
   "Comment": "At_Jo",
   "Comment": "---- Catch for players leaving the server during the walk ----",
@@ -225,29 +225,28 @@
     "Agnes.speech"
   ],
   "SendMessageOptions": ["&7-> I can read it!"],
+  "Dummy": [],
   "Dialog": [
     {
       "&5&lAgnes": "Perfect!",
-      "&5&lAgnes": "I prefer telling my stories to people with an FOV of 70 and sounds enabled."
+      "&5&lAgnes": "Make sure to check the &bStory guide&r so you understand an old lady like me."
     },
     "Agnes.speech"
   ],
-  "SendMessageOptions": ["&7-> FOV has been set to 70 and sounds are enabled my lady."],
-  "Dialog": [
-    {
-      "&5&lAgnes": "Just how I like it.",
-      "&5&lAgnes": "Chat will be disabled when I am telling a story but don't worry",
-      "&5&lAgnes": "you will get it back soon.",
-      "&5&lAgnes": "All good to go?"
-    },
-    "Agnes.speech"
-  ],
-  "SendMessageOptions": ["&7-> Let's do this."],
+  "SendMessage": "&5&l-=-=-=-=-=- &b&lStory Guide-=-=-=-=-=-",
+  "SendMessage": "&7During story quests, it is recommended to set the following settings:",
+  "SendMessage": "* &bFOV&7: &370",
+  "SendMessage": "* &bSounds&7: &3Enabled",
+  "SendMessage": "* &bMusic: &3Disabled",
+  "SendMessage": "뜀 &7Chat will be disabled during story quests.",
+
+  "SendMessageOptions": ["&7-> I am good to go."],
+  "Dummy": [],
   "SetPersistent": ["aptch_state", "Starting_journey"],
   "Dialog": [
     {
       "&5&lAgnes": "Buckle up, Your Majesty.",
-      "&5&lAgnes": "My story started a long time ago but it started right here."
+      "&5&lAgnes": "My story started a long time ago but it it did so right here."
     },
     "Agnes.speech"
   ],
@@ -382,7 +381,7 @@
   "Dialog": [
     {
       "&8&lDark Knight": "Now the question is...",
-      "&8&lDark Knight": "who of you is dumb enough to do that."
+      "&8&lDark Knight": "who..."
     },
     "DarkKnight.speech"
   ],
@@ -520,5 +519,11 @@
   "Fade": [],
   "Teleport": [1985.5, 29.0, 638.5, 180],
   "SetPersistent": ["aptch_state", "Intro_completed"],
+  "Dialog": [
+    {
+      "&&5&lA Place to call home": "* Part 1 completed *"
+    },
+    "Agnes.speech"
+  ],
   "CompleteKingdomQuest": []
 }
