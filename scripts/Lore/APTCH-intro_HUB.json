@@ -241,7 +241,7 @@
   "Dialog": ["&5&lAgnes", "I will be here when you are!"],
   "Skip": "Wait_at_jo",
   "Comment": "Start_journey",
-
+  "SetScoreboard": "",
   "Dialog": [
     {
       "&5&lAgnes": "Before you join me, there are a couple things you should know.",
@@ -251,6 +251,7 @@
   ],
   "SendMessageOptions": ["&7-> I can read it!"],
   "Dummy": [],
+  "SetScoreboard": [],
   "Dialog": [
     {
       "&5&lAgnes": "Perfect!",
