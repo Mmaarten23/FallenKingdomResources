@@ -256,7 +256,7 @@
     },
     "Agnes.speech"
   ],
-  "SendMessageOptions": ["-> Could you say that again?", "&7-> I can read it!"],
+  "SendMessageOptions": ["&7-> Could you say that again?", "&7-> I can read it!"],
   "Skip": "Message_check",
   "Dummy": [],
   "SetScoreboard": [],
@@ -347,7 +347,7 @@
     },
     "Agnes.speech"
   ],
-  "Track": [2063.5, 75.2, 632.0, 2046.0, 69.0, 631.5, 0.1],
+  "Track": [2063.5, 75.2, 632.0, 2046.0, 69.0, 631.5, 0.05],
   "PlaySound": "entity_lightning_bolt_thunder",
   "StrikeLightning": [2012.5, 37.0, 583.5],
   "StrikeLightning": [1995.5, 37.0, 583.5],
@@ -369,8 +369,8 @@
   "ProgressiveDialog": [
     {
       "&5&lAgnes": "Every week, The dark knight would assemble his servants.",
-      "&5&lAgnes": "Not showing up was not even an option.",
-      "&5&lAgnes": "During these assemblies, the dark knight would speak to his servants."
+      "&5&lAgnes": "Reluctantly, the servants would gather around to hear the latest news",
+      "&5&lAgnes": "which was not always a fun thing..."
     },
     "Agnes.speech"
   ],
