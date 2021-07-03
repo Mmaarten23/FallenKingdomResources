@@ -89,10 +89,7 @@
   "CreateEntity": {
     "key": "AssemblyRichard",
     "entity": "PLAYER",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQ0NzUwNjI0NiwKICAicHJvZmlsZUlkIiA6ICJkMGFkNThjOTNiMzY0ZjgyOWRjZWEzMTAzMzE5MTgyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FwcGhpcmVfTHVuYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlYTU1YjRiODcwZjc5YjVhNmYzOWRkMjgzMmVkNDY1ZjdjYzMxZmE4MGMwNjIzMmMwNWFhMDBlMGQ3NzZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-      "signature": "j9zav92rL72m954bvop7xBHUHKz/J6wEUNf1ohonapyoJb3vetBmoYW8UoOmMQCzYagf3z/PbfafecEIQ/cbQBtxZ7sDlQxfOqmhcIpOtBOj3qSHygs0TDa+YwHjybxCn00YT6eivyewi51O0+ZUDmmOD4V8YwD/RFmMDCd9TGtN9r1JYNmG7G4qpaOlcsnUzVbcxf3uT0vCssiEODByr06Kb8tiGSwH8MjvMjeWBOqzB9HuxWVoNV1NOtdvJEKWaOpeMl5tQUK6bSR6HsganSx6xNh+mG9SISL5wAUYdDFnHvgyBUwe6QHq3jFXBlHQs/0sf2PLfV1gLxvmSHUIx4RJR/qfI+VyVr/tW6m7ptehKRS40GacFN8t9V9CYkXFYM2+/Y6ab5owfUUpqicLvCqminwDyT7H9pfh+TO9/9gO06j0x0FNmHo8hdQf5YZrqTdQ1UZI908KpNTuii9vAtDKmANgeNYCMg9lcp00x5s+hv10FfIRVZeRCHvqsfb7BwIEu4l9CxEHqeZPDNm6yuTxlHLbOxnonn572YhcVDMHAZXzsmpG4styET14tdzkAVMF4c0P/FUm/qflVgpTFPMRIbZwXaho6tQpF6QCMoplB+kZvrZW5bcDUZIsq6m5HhY6Vp/eTqcOMhy+9B8eJI1WpyBWcCtEtHRGL157Vy8="
-    },
+    "skin": "fallen_banker",
     "location": [2017.5, 26.0, 612.5, -177, -21],
     "look": false,
     "gravity": true
@@ -118,8 +115,8 @@
     "key": "AssemblyNicole",
     "entity": "PLAYER",
     "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTcyMTExOTc5NSwKICAicHJvZmlsZUlkIiA6ICIwYWFjMWRlZjUwZmI0N2RjODNmOGU2Njk3MTg1ODRkZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0aGVhcGlpc2JhZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZmI5NDNjYzYzMGU0ZGVjOWZhYzk3YjI4NGNkN2RjMDI2NDg5MmZlYzY3NTY2N2E3NGFkYTExZGQxN2MwYmNlIgogICAgfQogIH0KfQ==",
-      "signature": "OY3RbA1eow+YqJAsSXH+LFBbCdM53STW/v8PotJBK9jMBjpZXZ1ii3as02tGy0bNU9bAkbNltlq5uJ2PN60nJRnlmq2ADVLQSgcjd6x7HmRlUblI/Nh5BaSPDrzt+Vq7bWFJ0oqL8/bV3Na30r8dBcuci1cbB0EDvKvAaWx+Cs4NtqWqVZk3WIPWU2Oye4HoxCT2EcVkfSBJ2G9iZ5nhQIde2YYJXFoAAi7dbt0RrEQvsKqfK/DK7WBa/NCSiS9ftZh3oZMLB+odd/mhQZhVaLfxChkCEiX2csgknfmhXt8FuFTzIEq+pEbNeC8S//CaptaASKJHPdhGjpSlaG4xt0/YTrvVR+TeVvpBpJbOUCxuvJBy5veak4uD6DQgfQo3P3VPsYxQ/n2d5kXM1HXCzdRrXF9mlb2ApAybLHkcEw1GAccUeiQOxsdTonaP+ur05WI5wyXpzCjCsBaCes6/CxhzSCkdBS1mRcbpPo3B7mfX8wbaW2A9BZt1xa8ivY1JKDGjIa9AYfQpDud3OTjZlkn4KxZ2xl/SETc0RJW1Eug6xNqAbeHa43kIhUnMu6eHCu60lIiTnAeJIb/k03HUREWXaVpS5IlNysUj6oqDA2OPAwOfMh111DEozL/l8NZPltVb6dxwo1fbZTZGBxLlPfbFzH642Qpcg6u+rcsRNdY="
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDk1NTE2OTE2MiwKICAicHJvZmlsZUlkIiA6ICJkYmNlZjMyZjI5ZDc0Y2UzOTUzOWMwYjBhMTE1YjZiZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJyYW1waXJlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRlMWQ0ZjkwYWRmMmViNWYxYTRkZmM5MzhiOTQxOTBlZDJmNGQxMjVjYjkyYjhkN2I2ODA1ODhiMmIzMzk4MzAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+      "signature": "ZS05iekCT52hRLT9yyKRIp96b+uw8xMLJ2Qw2O86Bwzwico8+Ko1rVaNXl8jyxTGiiP8M2+raVRnfiGwasHFLgugjtPQuoOeVEhjpcoIHtXRAx3TU80ESgKcJ+iu+QsNRajmlKWoOqcQ7AtFHKq0YejJ1qfM+E/fbGSiKOtknrd8h+TWKUt/tPtVH5AAFrJ4NB9CR9zFIO/I9GFolNjmLVwGKzmgFRLXmd9YIk+NXnRXIwHO6001FODD+QSoSj8SO/UK3lF5HMDDWw+LpywvM/5vkz3Z4Kvo/1Pxj6W0AksvyaSr0E1Nxzx+NX+VL3B4MEtG/fu+zaZ/3q7XIlF4PG9rY46DdXrhtr3fgRxP9S9wZHoPFYanBDqeEFJMJ43RG5NY12QUwPgBcpuRVDl7yHGsc4CVmd7AqylbqG0vH3pQ7jKl8HAIjKhcdIkAaRlPVW2dSys9/KjR6vqYpE0ETpSFJC4xEkVMlrjERk1nZrx2OSSum5lppixEzKMXkCRhXAiMiLZ67xmvA8pJzGLEvtOI05mKlZ6yYvRiYkGNObIUb4ZLITw0TzqaIMdF7aHV8Kc1/kBgpDz9BJtbIEfcPRkwr+Xvv0SefGVMXOEE2JbWS3a0UuOxR0fXpk6IHSa5bXJJZMBvSRer5OpYwFyhgOmEZfVe1GZAHFy49gFAi6c="
     },
     "location": [1996.5, 26.0, 615.5, 175, -24],
     "look": false,
@@ -128,8 +125,35 @@
   "Server": [],
   "Hide": "AssemblyNicole",
 
+  "CreateEntity": {
+    "key": "AssemblyVillager1",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNTI1OTQwNzQzNCwKICAicHJvZmlsZUlkIiA6ICI4MmM2MDZjNWM2NTI0Yjc5OGI5MWExMmQzYTYxNjk3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3ROb3RvcmlvdXNOZW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y0NTQyYjQ2YmE3OGMxM2Y1YTNmODcwZTE3MzNmMjdlZTIyMWEwMDRmNjc2NDllNGYzZmNlMTQ4NGU0OTEwNjYiCiAgICB9CiAgfQp9",
+      "signature": "aNO2ICsdvkwV6DkN0vQkNa1ivJzN4MOrH+afzZWgZMFt5FQ9gioLI9XjDLEgxOCSOwsAZjYst/o+z36Ouy785/BCSP7/nJT+8AuO+q+IkMTjcH/NKPUgJNlkimr5ir0+8JWkeHL0dagXMnfPAJCVM+hLSHagpFVS5x2XaTv8CCsegNp4Pw20S8jKUbppQgb9ieVo/FU5drCmux8+AITKL/ZqTbjxbD2LULJYBDlKUzlo8MauOXmIiZjqc9IC8GyvIxzmEENSla/CTP5812DVy9CtOXm5FlkAwz6NctewwoiT1qTJgR+JnSxP5S1kmGf/WYRw/dIEfyzR37ZC9zIsOsl/4z/vbpD2CwgoH6n3lDN3+RFaTOS7u+gB3rTdl/ADGG86QWmyndXtBtQIisLuG5PmvNsPMCjzP7ODMlioupTjf1ZAs6BCag7O8KtMkkH5RY7Un9SVUGzvUpsmXsgBPTQHJ6kE00vb0mCQz9hdvcaAAr6UQzIVeDpC3XZhTJQYVSEE15XXZ8vqeveQd3KBSNXwNvEzqwdYBgAQ0m6SJkO2wFSbPLYgkjwqnwWUOXr+RLwEXAAMLI/2lVX3/PI55qlhvnjygu92Ig+VbSgRLXGqk190tWo1CBDGDwkbUKFg28otUR4Gs4doy7ZKeDNY7OYyLLiq9Q/SBIebudh+3OY="
+    },
+    "location": [1996.5, 26.0, 615.5, 175, -24],
+    "look": false,
+    "gravity": true
+  },
+  "Server": [],
+  "Hide": "AssemblyVillager1",
+
+  "CreateEntity": {
+    "key": "AssemblyVillager2",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxMDgxMzUzNjUwMywKICAicHJvZmlsZUlkIiA6ICJmMjc0YzRkNjI1MDQ0ZTQxOGVmYmYwNmM3NWIyMDIxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIeXBpZ3NlbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xODgwNWU3NTNkOTZmYmMyNjFlYjJlMGZmZmMwNTBhYmRiNTEzMjZmYjI1OTE0N2VhZWM0OGIyOWZlMjVmNmFkIgogICAgfQogIH0KfQ==",
+      "signature": "k2pOipTn0v/mPHL0fE/QVMuMaEw5Aok0Gp4/TkH95xeM+s0Afd1mcAkzn6u3hxgD+SV4nKsYXr2NSst7HxOUs1tErgsoa0Q9fgyEaliK/nMDCJwZvzeF7lMHzQd08wV0g4BnHnVKRylijy41zu2oPiBBfAgwyuMfObr39A2c0nr0LK3XcE/xDh1x83G2oQnNYKF4DxsiGkWTll67gmihGkHSmsDPwWceIGUDu/zW92kYn4z6CwXA5pE7xeyYYOU2v/vDB68eIOsZhdObaMH3S5Uokuxv07lYavA7vWG1+GSVsGj24+pBQ3rfO+QauJ6V7Tc9Rj99WY7KvmiQivXcQGWmExHfJINWCrIkR5EY6iumJYKoOEF2kC7XdTkp+1LKRpdUUF5w4gMJrbFEvVG7C3NU9AgcThbI5ZzB8sjhk5tU7Cl6VbszH8hzp5LVWXXogVmimErSiQlTL5dL62cGgtJnqpRBbNOC/xX32TR2OqYoVia2/pVBBCBiCZWuUVkimYncBPJZQrW5vgJRodDQR6wWIBbGVKJj5P0RW1IQKKUitWEgS+drUJ9DaBD+5zA3Q/av40FdIwlZyBC9/KhewKqccl4ODzUsn22tFxdE6gB//U1oW6dtwScIEb0A6MktaFs3h3mp9csR2Z2L/tt0O/IuE2KZl+104nDYzgU+OxI="
+    },
+    "location": [2017.5, 26.0, 612.5, -177, -21],
+    "look": false,
+    "gravity": true
+  },
+  "Server": [],
+  "Hide": "AssemblyVillager2",
+
   "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
-  "Objective": ["Meet Agnes at one of the nether portals in the hub"],
 
   "RegionEntry": [1901, 37, 524, 1911, 39, 533],
   "If": [],
@@ -138,6 +162,7 @@
   "Leave": [],
 
   "Comment": "In_Range",
+  "KingdomObjective": [1, "Meet Agnes at the North-West nether portal in the hub."],
   "Show": "AgnesIntro",
   "SetPersistent": ["aptch_state", "Starter_dialog"],
   "ProgressiveDialog": ["&5&lAgnes", "Those bloody portals..."],
@@ -149,7 +174,7 @@
       "&5&lAgnes": "Ah, travelling through portals can be rough but i'll manage.",
       "&5&lAgnes": "Anyhow, who did they send to greet an old lady like me?",
       "[PLAYER]": "I am [PLAYER], ruler of [KINGDOM].",
-      "&5&lAgnes": "Please excuse an old lady like me.",
+      "&5&lAgnes": "Oh, please excuse me sire!",
       "&5&lAgnes": "I did not realise it was you.",
       "[PLAYER]": "All is good, no need to feel bad.",
       "&5&lAgnes": "You are too kind Your Majesty.",
@@ -197,7 +222,7 @@
   "Skip": "At_Jo",
 
   "Comment": "Easter_egg_walk",
-  "SendMessage": "&6&l★&r &3&lSecret found&7: &bA walk a day keeps the doctor away!",
+  "SendMessage": "\uA016 &r &3&lSecret found&7: &bA walk a day keeps the doctor away!",
 
   "Comment": "At_Jo",
   "Comment": "---- Catch for players leaving the server during the walk ----",
@@ -229,17 +254,21 @@
   "Dialog": [
     {
       "&5&lAgnes": "Perfect!",
-      "&5&lAgnes": "Make sure to check the &bStory guide&r so you understand an old lady like me."
+      "&5&lAgnes": "Make sure to check the &bStory guide&r so you understand me."
     },
     "Agnes.speech"
   ],
-  "SendMessage": "&5&l-=-=-=-=-=- &b&lStory Guide-=-=-=-=-=-",
-  "SendMessage": "&7During story quests, it is recommended to set the following settings:",
+  "SendMessage": "&5&l-=-=-=-=-=- &b&lStory Guide &5&l-=-=-=-=-=-",
+  "SendMessage": "&7During story quests, the following settings are recommended:",
+  "SendMessage": "",
   "SendMessage": "* &bFOV&7: &370",
+  "SendMessage": "* &bRender distance&7: &316",
   "SendMessage": "* &bSounds&7: &3Enabled",
   "SendMessage": "* &bMusic: &3Disabled",
-  "SendMessage": "뜀 &7Chat will be disabled during story quests.",
-
+  "SendMessage": "",
+  "SendMessage": "뜀 &bChat will be disabled during story quests &r뜀",
+  "SendMessage": "",
+  "Wait": 2.0,
   "SendMessageOptions": ["&7-> I am good to go."],
   "Dummy": [],
   "SetPersistent": ["aptch_state", "Starting_journey"],
@@ -345,8 +374,13 @@
   "ProgressiveMoveEntity": ["AssemblyRichard", 2002.5, 26.0, 601.0],
   "Show": "AssemblyArnold",
   "ProgressiveMoveEntity": ["AssemblyArnold", 2006.5, 26.0, 601.7],
+  "Show": "AssemblyVillager1",
+  "ProgressiveMoveEntity": ["AssemblyVillager1", 2004.3, 26.0, 598.2],
+  "Show": "AssemblyVillager2",
+  "ProgressiveMoveEntity": ["AssemblyVillager2", 2003.3, 26.0, 596.9],
   "Show": "AssemblyNicole",
   "MoveEntity": ["AssemblyNicole", 2003.2, 26.0, 597.0],
+
 
   "Wait": 3,
   "EntityLook": ["AssemblyAgnes", 2003, 34, 582],
@@ -354,6 +388,10 @@
   "EntityLook": ["AssemblyRichard", 2003, 34, 582],
   "Wait": 3,
   "EntityLook": ["AssemblyArnold", 2003, 34, 582],
+  "Wait": 3,
+  "EntityLook": ["AssemblyVillager1", 2003, 34, 582],
+  "Wait": 3,
+  "EntityLook": ["AssemblyVillager2", 2003, 34, 582],
   "Wait": 3,
   "EntityLook": ["AssemblyNicole", 2003, 34, 582],
 
@@ -410,7 +448,11 @@
   ],
   "MoveEntity": ["AssemblyArnold", 2004.5, 26.0, 591.3, 0.1, false],
   "MoveEntity": ["AssemblyArnold", 2004.6, 29.0, 588.7, 0.1, false],
-  "MoveEntity": ["AssemblyArnold", 2005.6, 29.0, 587.4, 0.1, false],
+  "MoveEntity": ["AssemblyArnold", 2004.6, 29.0, 587.4, 0.1, false],
+  "MoveEntity": ["AssemblyArnold", 2006.5, 34.0, 582.5, 0.1, false],
+  "MoveEntity": ["AssemblyArnold", 2006.4, 34.0, 582.0, 0.1, false],
+
+
   "EntityLook": ["AssemblyArnold", 2003, 29, 609],
   "Dialog": [
     {
@@ -451,7 +493,10 @@
   "AnimateEntity": ["DarkKnight", "Swing Main Hand"],
   "PlaySound": "entity_lightning_bolt_thunder",
   "PlaySound": "entity_lightning_bolt_impact",
-  "StrikeLightning": [2005.6, 29.0, 587.4],
+  "StrikeLightning": [2006.4, 34.0, 582.0],
+  "Wait": 1,
+  "PlaySound": "entity_lightning_bolt_impact",
+  "StrikeLightning": [2006.4, 34.0, 582.0],
   "Hide": "AssemblyArnold",
   "Wait": 3.0,
   "Dialog": [
@@ -459,7 +504,9 @@
       "&8&lDark Knight": "Good.",
       "&8&lDark Knight": "Let that be an example to all of you.",
       "&8&lDark Knight": "Before I forget...",
-      "&8&lDark Knight": "Nicole, I expect new feathers in my bed by tonight.",
+      "&8&lDark Knight": "Nicole...",
+      "&d&lNicole": "Y- Yes, your majesty?",
+      "&8&lDark Knight": "I need new feathers to stuff my pillow.",
       "&d&lNicole": "Of- Of course sir.",
       "&8&lDark Knight": "Back to work all of you."
     },
@@ -467,12 +514,25 @@
   ],
 
   "ProgressiveMoveEntity": ["DarkKnight", 2003.5, 35.0, 574.5],
-  "Hide": "DarkKnight",
-  "Wait": 5.0,
+  "Wait": 20,
+  "ProgressiveMoveEntity": ["AssemblyAgnes", 2010.9, 26.0, 611.1],
+  "Wait": 3,
+  "ProgressiveMoveEntity": ["AssemblyRichard", 1997.8, 26.0, 611.3],
+  "Wait": 3,
+  "ProgressiveMoveEntity": ["AssemblyArnold", 2010.9, 26.0, 611.1],
+  "Wait": 3,
+  "ProgressiveMoveEntity": ["AssemblyVillager1", 1997.8, 26.0, 611.3],
+  "Wait": 3,
+  "ProgressiveMoveEntity": ["AssemblyVillager2", 2002.3, 26.0, 610.6],
+  "Wait": 3,
+  "MoveEntity": ["AssemblyNicole", 2002.3, 26.0, 610.6],
   "Fade": [],
+  "Hide": "DarkKnight",
   "Hide": "AssemblyAgnes",
   "Hide": "AssemblyRichard",
   "Hide": "AssemblyNicole",
+  "Hide": "AssemblyVillager1",
+  "Hide": "AssemblyVillager2",
   "Unfreeze": [],
   "Teleport": [2063.5, 75.2, 632.0, 130, 17],
   "Freeze": true,
@@ -519,11 +579,10 @@
   "Fade": [],
   "Teleport": [1985.5, 29.0, 638.5, 180],
   "SetPersistent": ["aptch_state", "Intro_completed"],
-  "Dialog": [
-    {
-      "&&5&lA Place to call home": "* Part 1 completed *"
-    },
-    "Agnes.speech"
+  "PlaySound": "ui_toast_challenge_complete",
+  "SetTitle": [
+    "&5A place to call home",
+    "뜑 Intro completed 뜑"
   ],
   "CompleteKingdomQuest": []
 }
