@@ -6,7 +6,6 @@
 
   "ServerType": "hub",
   "Quest": true,
-  "ClickToStart": [],
   "Icon": {
     "material": "book"
   },
@@ -154,7 +153,7 @@
   "Hide": "AssemblyVillager2",
 
   "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
-
+  "Objective": ["Meet Agnes at the North-West nether portal in the hub.", "Found_Agnes"],
   "RegionEntry": [1901, 37, 524, 1911, 39, 533],
   "If": [],
   "Equals": ["aptch_state", "Waiting_for_region_entry"],
@@ -162,7 +161,8 @@
   "Leave": [],
 
   "Comment": "In_Range",
-  "Objective": "Meet Agnes at the North-West nether portal in the hub.",
+  "Comment": "Found_Agnes",
+
   "Show": "AgnesIntro",
   "SetPersistent": ["aptch_state", "Starter_dialog"],
   "ProgressiveDialog": ["&5&lAgnes", "Those bloody portals..."],
