@@ -433,16 +433,9 @@
   ],
   "Wait": 2.0,
   "PlaySound": "entity_lightning_bolt_thunder",
-  "Wait": 3,
-  "EntityLook": ["AssemblyAgnes", 2006.5, 27.0, 601.7],
-  "Wait": 3,
   "EntityLook": ["AssemblyRichard", 2006.5, 27.0, 601.7],
-  "Wait": 3,
-  "EntityLook": ["AssemblyVillager1", 2006.5, 27.0, 601.7],
-  "Wait": 3,
-  "EntityLook": ["AssemblyVillager2", 2006.5, 27.0, 601.7],
-  "Wait": 3,
-  "EntityLook": ["AssemblyNicole", 2006.5, 27.0, 601.7],
+  "Wait": 20,
+  "EntityLook": ["AssemblyRichard", 2003, 34, 582],
   "Dialog": [
     {
       "&8&lDark Knight": "Arnold",
@@ -456,12 +449,6 @@
       "&7Arnold": "Of course Sir, everything for you Sir!"
     }
   ],
-
-  "EntityLook": ["AssemblyAgnes", 2003, 34, 582],
-  "EntityLook": ["AssemblyRichard", 2003, 34, 582],
-  "EntityLook": ["AssemblyVillager1", 2003, 34, 582],
-  "EntityLook": ["AssemblyVillager2", 2003, 34, 582],
-  "EntityLook": ["AssemblyNicole", 2003, 34, 582],
   "MoveEntity": ["AssemblyArnold", 2004.5, 26.0, 595.3, 0.05, false],
   "PlaySound": "entity_lightning_bolt_thunder",
   "ProgressiveDialog": [

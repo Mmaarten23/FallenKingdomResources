@@ -1,5 +1,6 @@
 {
-  "Key": "A-place-to-call-home-intro",
+  "Name": "&5&lA place to call home",
+  "Key": "APTCH-intro",
   "Author": "Mmaarten",
   "AllowRejoining": true,
 
@@ -8,5 +9,50 @@
   "Icon": {
     "material": "book"
   },
-  "Description": "How it all began"
+  "Description": "How it all began",
+
+  "Dummy": [],
+  "Dummy": [],
+  "Dummy": [],
+
+
+
+  "Dummy": [],
+  "Dummy": [],
+  "Dummy": [],
+
+  "Dummy": [],
+  "Dummy": [],
+  "Dummy": [],
+
+  "Dummy": [],
+  "Dummy": [],
+  "Dummy": [],
+
+  "Dummy": [],
+  "Dummy": [],
+  "Dummy": [],
+
+  "Dummy": [],
+  "Dummy": [],
+  "Dummy": [],
+
+  "Dummy": [],
+  "Dummy": [],
+  "Dummy": [],
+
+  "Dummy": [],
+  "Dummy": [],
+  "Dummy": [],
+
+  "Dummy": [],
+  "Dummy": [],
+  "Dummy": [],
+
+  "Dummy": [],
+  "Dummy": [],
+  "Dummy": [],
+
+  "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
+  "Objective": ["Meet Agnes at the North-West nether portal in the hub.", 6]
 }
