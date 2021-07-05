@@ -153,7 +153,7 @@
   "Hide": "AssemblyVillager2",
 
   "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
-  "Objective": ["Meet Agnes at the North-West nether portal in the hub.", "Found_Agnes"],
+  "Objective": ["Meet Agnes at the North-West nether portal in the hub.", 6],
   "RegionEntry": [1901, 37, 524, 1911, 39, 533],
   "If": [],
   "Equals": ["aptch_state", "Waiting_for_region_entry"],
@@ -161,7 +161,6 @@
   "Leave": [],
 
   "Comment": "In_Range",
-  "Comment": "Found_Agnes",
 
   "Show": "AgnesIntro",
   "SetPersistent": ["aptch_state", "Starter_dialog"],
@@ -269,7 +268,7 @@
   ],
   "Comment": "Story_guide",
   "Book": "&5&l    Story Guide\n\n&8These settings are recommended for the best story quest experience:&r\n\n* &5FOV&7: &d70&r\n* &5Render distance&7: &d16&r\n* &5Sounds&7: &dEnabled&r\n\n뜀 &8Chat will be disabled during story quests&r",
-  "SendMessageOptions": [60, "&7-> Could I see that book again?", "&7-> I am good to go."],
+  "SendMessageOptions": [30, "&7-> Could I see that book again?", "&7-> I am good to go."],
   "Skip": "Story_guide",
   "Dummy": [],
   "SetPersistent": ["aptch_state", "Starting_journey"],
@@ -434,6 +433,16 @@
   ],
   "Wait": 2.0,
   "PlaySound": "entity_lightning_bolt_thunder",
+  "Wait": 3,
+  "EntityLook": ["AssemblyAgnes", 2006.5, 27.0, 601.7],
+  "Wait": 3,
+  "EntityLook": ["AssemblyRichard", 2006.5, 27.0, 601.7],
+  "Wait": 3,
+  "EntityLook": ["AssemblyVillager1", 2006.5, 27.0, 601.7],
+  "Wait": 3,
+  "EntityLook": ["AssemblyVillager2", 2006.5, 27.0, 601.7],
+  "Wait": 3,
+  "EntityLook": ["AssemblyNicole", 2006.5, 27.0, 601.7],
   "Dialog": [
     {
       "&8&lDark Knight": "Arnold",
@@ -447,6 +456,12 @@
       "&7Arnold": "Of course Sir, everything for you Sir!"
     }
   ],
+
+  "EntityLook": ["AssemblyAgnes", 2003, 34, 582],
+  "EntityLook": ["AssemblyRichard", 2003, 34, 582],
+  "EntityLook": ["AssemblyVillager1", 2003, 34, 582],
+  "EntityLook": ["AssemblyVillager2", 2003, 34, 582],
+  "EntityLook": ["AssemblyNicole", 2003, 34, 582],
   "MoveEntity": ["AssemblyArnold", 2004.5, 26.0, 595.3, 0.05, false],
   "PlaySound": "entity_lightning_bolt_thunder",
   "ProgressiveDialog": [
