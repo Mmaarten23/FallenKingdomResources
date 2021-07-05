@@ -54,5 +54,7 @@
   "Dummy": [],
 
   "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
-  "Objective": ["Meet Agnes at the North-West nether portal in the hub.", 6]
+  "Objective": ["Meet Agnes at the North-West nether portal in the hub.", 1],
+  "Hold": [],
+  "Dummy": []
 }
