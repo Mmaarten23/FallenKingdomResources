@@ -267,26 +267,20 @@
     },
     "Agnes.speech"
   ],
-
-
-  "SendMessage": "",
-  "SendMessage": "&5&l-=-=-=-=-=-=-=- &b&lStory Guide &5&l-=-=-=-=-=-=-=-",
-  "SendMessage": "&7During story quests, the following settings are recommended:",
-  "SendMessage": "* &bFOV&7: &370",
-  "SendMessage": "* &bRender distance&7: &316",
-  "SendMessage": "* &bSounds&7: &3Enabled",
-  "SendMessage": "",
-  "SendMessage": "뜀 &bChat will be disabled during story quests&r 뜀",
-  "SendMessage": "",
-  "SendMessage": "",
-
-
-
-
-  "Wait": 2.0,
-  "SendMessageOptions": ["&7-> I am good to go."],
+  "Comment": "Story_guide",
+  "Book": "&5&l    Story Guide\n\n&8These settings are recommended for the best story quest experience:&r\n\n* &5FOV&7: &d70&r\n* &5Render distance&7: &d16&r\n* &5Sounds&7: &dEnabled&r\n\n뜀 &8Chat will be disabled during story quests&r",
+  "SendMessageOptions": [60, "&7-> Could I see that book again?", "&7-> I am good to go."],
+  "Skip": "Story_guide",
   "Dummy": [],
   "SetPersistent": ["aptch_state", "Starting_journey"],
+  "ProgressiveDisableCommand": "k",
+  "ProgressiveDisableCommand": "kd",
+  "ProgressiveDisableCommand": "kingdom",
+  "ProgressiveDisableCommand": "hub",
+  "ProgressiveDisableCommand": "lobby",
+  "ProgressiveDisableCommand": "market",
+  "ProgressiveDisableCommand": "marketplace",
+  "ProgressiveDisableCommand": "raid",
   "Dialog": [
     {
       "&5&lAgnes": "Buckle up, Your Majesty.",
@@ -368,13 +362,13 @@
 
   "ProgressiveDialog": [
     {
-      "&5&lAgnes": "Every week, The dark knight would assemble his servants.",
-      "&5&lAgnes": "Reluctantly, the servants would gather around to hear the latest news",
-      "&5&lAgnes": "which was not always a fun thing..."
+      "&5&lAgnes": "Every day, The dark knight would assemble his servants.",
+      "&5&lAgnes": "Reluctantly, the servants would gather around the base of the stairs",
+      "&5&lAgnes": "and await what their ruler had to say..."
     },
     "Agnes.speech"
   ],
-  "Track": [2046.0, 69.0, 631.5, 2018.5, 32.0, 610.0, 0.1],
+  "Track": [2046.0, 69.0, 631.5, 2018.5, 32.0, 610.0, 0.2],
   "Track": [2018.5, 32.0, 610.0, 2003.5, 30.5, 610.5, 0.3],
   "Fade": [],
   "Teleport": [2003.5, 30.5, 610.5, 180, 6],
@@ -390,7 +384,7 @@
   "Show": "AssemblyArnold",
   "ProgressiveMoveEntity": ["AssemblyArnold", 2006.5, 26.0, 601.7],
   "Show": "AssemblyVillager1",
-  "ProgressiveMoveEntity": ["AssemblyVillager1", 2004.3, 26.0, 600.2],
+  "ProgressiveMoveEntity": ["AssemblyVillager1", 2005.3, 26.0, 600.2],
   "Show": "AssemblyVillager2",
   "ProgressiveMoveEntity": ["AssemblyVillager2", 2006.3, 26.0, 596.9],
   "Show": "AssemblyNicole",
@@ -572,8 +566,8 @@
   "SetPersistent": ["aptch_state", "End_dialog"],
   "Dialog": [
     {
-      "&5&lAgnes": "Whether poor Arnold ever stole something from The Dark Knight remains unknown.",
-      "&5&lAgnes": "That is where my story started "
+      "&5&lAgnes": "Noone ever found out whether or not Arnold actually stole something.",
+      "&5&lAgnes": "That is where my story started."
     },
     "Agnes.speech"
   ],
