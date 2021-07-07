@@ -160,7 +160,7 @@
   "Leave": [],
 
   "Comment": "In_Range",
-  "Progress": ["APTCH-intro_starter", 1],
+  "Progress": ["APTCH-intro_starter"],
 
   "Show": "AgnesIntro",
   "SetPersistent": ["aptch_state", "Starter_dialog"],
@@ -600,5 +600,5 @@
     "&5A place to call home",
     "뜑 Intro completed 뜑"
   ],
-  "Progress": ["APTCH-intro_starter", 1]
+  "Progress": ["APTCH-intro_starter"]
 }
