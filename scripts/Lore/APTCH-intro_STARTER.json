@@ -14,5 +14,7 @@
   "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
   "Objective": ["Meet Agnes at the North-West nether portal in the hub.", 2],
   "Hold": [],
-  "Complete": []
+  "Comment": "Met agnes -> objective complete",
+  "Hold": [],
+  "CompleteKingdomQuest": []
 }

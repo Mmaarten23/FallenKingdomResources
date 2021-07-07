@@ -11,20 +11,6 @@
   },
   "Description": "Where did it all begin? Join Agnes on a magical trip down memory lane.",
 
-  "Store": ["Agnes.speed", 0.15],
-  "Store": ["Agnes.speech", 90],
-  "Store": ["DarkKnight.speech", 80],
-
-
-  "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
-  "Objective": ["Meet Agnes at the North-West nether portal in the hub.", 6],
-  "RegionEntry": [1901, 37, 524, 1911, 39, 533],
-  "If": [],
-  "Equals": ["aptch_state", "Waiting_for_region_entry"],
-  "Skip": "In_Range",
-  "Leave": [],
-
-  "Comment": "In_Range",
 
   "CreateEntity": {
     "key": "AgnesIntro",
@@ -160,6 +146,21 @@
   },
   "Server": [],
   "Hide": "AssemblyVillager2",
+
+  "Store": ["Agnes.speed", 0.15],
+  "Store": ["Agnes.speech", 90],
+  "Store": ["DarkKnight.speech", 80],
+
+
+  "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
+  "RegionEntry": [1901, 37, 524, 1911, 39, 533],
+  "If": [],
+  "Equals": ["aptch_state", "Waiting_for_region_entry"],
+  "Skip": "In_Range",
+  "Leave": [],
+
+  "Comment": "In_Range",
+  "Progress": ["APTCH-intro_starter", 1],
 
   "Show": "AgnesIntro",
   "SetPersistent": ["aptch_state", "Starter_dialog"],
@@ -599,5 +600,5 @@
     "&5A place to call home",
     "뜑 Intro completed 뜑"
   ],
-  "CompleteKingdomQuest": []
+  "Progress": ["APTCH-intro_starter", 1]
 }
