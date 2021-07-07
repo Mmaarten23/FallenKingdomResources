@@ -1,5 +1,5 @@
 {
-  "Name": "&5&lA place to call home",
+  "Name": "&5&lA place to call home &7- &dIntro",
   "Key": "APTCH-intro",
   "Author": "Mmaarten",
   "AllowRejoining": true,
@@ -9,7 +9,7 @@
   "Icon": {
     "material": "book"
   },
-  "Description": "How it all began",
+  "Description": "Where did it all begin? Join Agnes on a magical trip down memory lane.",
 
   "Store": ["Agnes.speed", 0.15],
   "Store": ["Agnes.speech", 90],
@@ -17,6 +17,7 @@
 
 
   "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
+  "Objective": ["Meet Agnes at the North-West nether portal in the hub.", 6],
   "RegionEntry": [1901, 37, 524, 1911, 39, 533],
   "If": [],
   "Equals": ["aptch_state", "Waiting_for_region_entry"],

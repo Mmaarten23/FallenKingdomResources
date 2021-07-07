@@ -1,0 +1,13 @@
+{
+  "Name": "&5&lA place to call home &7- &dI",
+  "Key": "APTCH-I",
+  "Author": "Mmaarten",
+  "AllowRejoining": true,
+
+  "ServerType": "hub",
+  "Quest": true,
+  "Icon": {
+    "material": "book"
+  },
+  "Description": "After the assembly by the dark knight, Agnes was called to the throne room. She will tell you all about it!"
+}

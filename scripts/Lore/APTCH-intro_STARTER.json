@@ -1,0 +1,18 @@
+{
+  "Name": "&5&lA place to call home &7- &dIntro",
+  "Key": "APTCH-intro_starter",
+  "Author": "Mmaarten",
+  "AllowRejoining": true,
+
+  "ServerType": "kingdom",
+  "Quest": true,
+  "Icon": {
+    "material": "book"
+  },
+  "Description": "Where did it all begin? Join Agnes on a magical trip down memory lane.",
+
+  "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
+  "Objective": ["Meet Agnes at the North-West nether portal in the hub.", 2],
+  "Hold": [],
+  "Complete": []
+}
