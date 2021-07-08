@@ -152,10 +152,10 @@
   "Store": ["DarkKnight.speech", 80],
 
 
-  "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
+  "KingdomSet": ["aptch_state", "intro-waiting_for_region_entry"],
   "RegionEntry": [1901, 37, 524, 1911, 39, 533],
   "If": [],
-  "Equals": ["aptch_state", "Waiting_for_region_entry"],
+  "KingdomEquals": ["aptch_state", "intro-waiting_for_region_entry"],
   "Skip": "In_Range",
   "Leave": [],
 
@@ -163,7 +163,7 @@
   "Progress": ["APTCH-intro_starter"],
 
   "Show": "AgnesIntro",
-  "SetPersistent": ["aptch_state", "Starter_dialog"],
+  "KingdomSet": ["aptch_state", "intro-starter_dialog"],
   "ProgressiveDialog": ["&5&lAgnes", "Those bloody portals..."],
   "MoveEntity": ["AgnesIntro", 1905.5, 38.0, 529.0, "Agnes.speed", false],
   "Wait": 3.0,
@@ -214,7 +214,7 @@
   "MoveEntity": ["AgnesIntro", 1995.2, 26.0, 616.3, "Agnes.speed", false],
   "MoveEntity": ["AgnesIntro", 2002.7, 26.0, 605.4, "Agnes.speed", false],
   "MoveEntity": ["AgnesIntro", 2020.7, 26.0, 605.5, "Agnes.speed", false],
-  "SetPersistent": ["aptch_state", "At_Jo"],
+  "KingdomSet": ["aptch_state", "intro-waiting_at_jo"],
   "If": [],
   "InRange": ["AgnesIntro", 5.0],
   "Skip": "Easter_egg_walk",
@@ -271,7 +271,7 @@
   "SendMessageOptions": [30, "&7-> Could I see that book again?", "&7-> I am good to go."],
   "Skip": "Story_guide",
   "Dummy": [],
-  "SetPersistent": ["aptch_state", "Starting_journey"],
+  "KingdomSet": ["aptch_state", "intro-starting_journey"],
   "ProgressiveDisableCommand": "k",
   "ProgressiveDisableCommand": "kd",
   "ProgressiveDisableCommand": "kingdom",
@@ -321,7 +321,7 @@
   "Fade": [],
   "SetWorldTime": 18000,
   "SetWeather": "Storm",
-  "SetPersistent": ["aptch_state", "In_Dark_Knights_Kingdom"],
+  "KingdomSet": ["aptch_state", "intro-dark_knights_kingdom"],
 
   "Dialog": [
     {
@@ -375,7 +375,7 @@
   "Freeze": true,
 
   "Comment": "------- Dark knight dialogue --------",
-  "SetPersistent": ["aptch_state", "Dark_Knight_Speech"],
+  "KingdomSet": ["aptch_state", "intro-dark_knight_speech"],
   "Show": "AssemblyAgnes",
   "ProgressiveMoveEntity": ["AssemblyAgnes", 2004.5, 26.0, 598.5],
   "Show": "AssemblyRichard",
@@ -565,7 +565,7 @@
   "SetBlock": [2000, 28, 592, "air"],
   "SetBlock": [2006, 28, 592, "air"],
   "SetBlock": [2003, 33, 580, "chiseled_stone_bricks"],
-  "SetPersistent": ["aptch_state", "End_dialog"],
+  "KingdomSet": ["aptch_state", "intro-end_dialog"],
   "Dialog": [
     {
       "&5&lAgnes": "Noone ever found out whether or not Arnold actually stole something.",
@@ -594,7 +594,7 @@
   "Unfreeze": [],
   "Fade": [],
   "Teleport": [1985.5, 29.0, 638.5, 180],
-  "SetPersistent": ["aptch_state", "Intro_completed"],
+  "KingdomSet": ["aptch_state", "intro-completed"],
   "PlaySound": "ui_toast_challenge_complete",
   "SetTitle": [
     "&5A place to call home",

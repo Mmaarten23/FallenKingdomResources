@@ -1,15 +1,17 @@
 {
-  "Name": "&5&lA place to call home &7- &dIntro",
-  "Key": "APTCH-intro_starter",
+  "Name": "&5&lA place to call home &7- &dI",
+  "Key": "APTCH-I_starter",
   "Author": "Mmaarten",
   "AllowRejoining": true,
 
   "ServerType": "kingdom",
+  "If": [],
+  "KingdomEquals": ["aptch_state", "intro-completed"],
   "Quest": true,
   "Icon": {
     "material": "book"
   },
-  "Description": "Where did it all begin? Join Agnes on a magical trip down memory lane!",
+  "Description": "After the assembly in the kingdom of the dark knight, Agnes was called to the throne room. She will tell you all about it!",
 
   "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
   "Objective": ["Meet Agnes at the North-West nether portal in the hub.", 2],
