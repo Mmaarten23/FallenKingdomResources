@@ -152,7 +152,6 @@
   "Store": ["DarkKnight.speech", 80],
 
 
-  "KingdomSet": ["aptch_state", "intro-waiting_for_region_entry"],
   "RegionEntry": [1901, 37, 524, 1911, 39, 533],
   "If": [],
   "KingdomEquals": ["aptch_state", "intro-waiting_for_region_entry"],
