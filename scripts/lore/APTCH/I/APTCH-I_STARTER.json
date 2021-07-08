@@ -13,7 +13,7 @@
   },
   "Description": "After the assembly in the kingdom of the dark knight, Agnes was called to the throne room. She will tell you all about it!",
 
-  "SetPersistent": ["aptch_state", "Waiting_for_region_entry"],
+  "SetPersistent": ["aptch_state", "part_I-waiting_for_region_entry"],
   "Objective": ["Meet Agnes at the North-West nether portal in the hub.", 2],
   "Hold": [],
   "Comment": "Met agnes -> objective complete",
