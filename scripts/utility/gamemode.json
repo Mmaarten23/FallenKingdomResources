@@ -4,17 +4,13 @@
 
   "GlobalCommand": "mmgmc",
   "SetGameMode": "creative",
-  "Leave": [],
 
   "GlobalCommand": "mmgma",
   "SetGameMode": "adventure",
-  "Leave": [],
 
   "GlobalCommand": "mmgms",
   "SetGameMode": "survival",
-  "Leave": [],
 
   "GlobalCommand": "mmgmsp",
-  "SetGameMode": "spectator",
-  "Leave": []
+  "SetGameMode": "spectator"
 }
