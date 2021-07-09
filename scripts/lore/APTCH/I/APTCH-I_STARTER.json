@@ -6,7 +6,7 @@
 
   "ServerType": "kingdom",
   "If": [],
-  "KingdomEquals": ["aptch_state", "intro-completed"],
+  "NotCompletedKingdom": ["APTCH-intro_starter"],
   "Quest": true,
   "Icon": {
     "material": "book"
