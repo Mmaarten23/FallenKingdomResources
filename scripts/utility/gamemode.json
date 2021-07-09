@@ -2,19 +2,19 @@
   "Key": "mm_gamemode",
   "Author": "Mmaarten",
 
-  "Command": "mmgmc",
+  "GlobalCommand": "mmgmc",
   "SetGameMode": "creative",
   "Leave": [],
 
-  "Command": "mmgma",
+  "GlobalCommand": "mmgma",
   "SetGameMode": "adventure",
   "Leave": [],
 
-  "Command": "mmgms",
+  "GlobalCommand": "mmgms",
   "SetGameMode": "survival",
   "Leave": [],
 
-  "Command": "mmgmsp",
+  "GlobalCommand": "mmgmsp",
   "SetGameMode": "spectator",
   "Leave": []
 }
