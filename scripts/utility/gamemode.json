@@ -1,0 +1,20 @@
+{
+  "Key": "mm_gamemode",
+  "Author": "Mmaarten",
+
+  "Command": "mmgmc",
+  "SetGameMode": "creative",
+  "Leave": [],
+
+  "Command": "mmgma",
+  "SetGameMode": "adventure",
+  "Leave": [],
+
+  "Command": "mmgms",
+  "SetGameMode": "survival",
+  "Leave": [],
+
+  "Command": "mmgmsp",
+  "SetGameMode": "spectator",
+  "Leave": []
+}
