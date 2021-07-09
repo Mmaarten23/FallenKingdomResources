@@ -150,7 +150,8 @@
       "sunflower": 0.10,
       "emerald": 0.05,
       "barrier": 0.05
-    }
+    },
+    false
   ],
   "Skip": "rotten_flesh_lvl1",
   "Skip": "bone_lvl1",
@@ -197,7 +198,8 @@
       "sunflower": 0.10,
       "emerald": 0.05,
       "barrier": 0.05
-    }
+    },
+    false
   ],
   "Skip": "rotten_flesh_lvl2",
   "Skip": "bone_lvl2",
@@ -257,7 +259,8 @@
       "sunflower": 0.10,
       "emerald": 0.05,
       "barrier": 0.05
-    }
+    },
+    false
   ],
   "Skip": "rotten_flesh_lvl3",
   "Skip": "bone_lvl3",
@@ -324,7 +327,8 @@
       "sunflower": 0.10,
       "emerald": 0.05,
       "barrier": 0.05
-    }
+    },
+    false
   ],
   "Skip": "rotten_flesh_lvl4",
   "Skip": "bone_lvl4",
@@ -398,7 +402,8 @@
       "sunflower": 0.10,
       "emerald": 0.05,
       "barrier": 0.05
-    }
+    },
+    false
   ],
   "Skip": "rotten_flesh_lvl5",
   "Skip": "bone_lvl5",
