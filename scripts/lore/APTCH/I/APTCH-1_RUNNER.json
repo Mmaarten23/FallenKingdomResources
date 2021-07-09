@@ -107,6 +107,6 @@
   "Cinematic": [],
   "Teleport": [2008.5, 56.0, 540.5, 107, 27],
   "Freeze": true,
-  "HidePlayer": [],
+  "HidePlayer": []
 
 }
