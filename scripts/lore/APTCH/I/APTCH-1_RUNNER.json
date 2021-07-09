@@ -1,0 +1,112 @@
+{
+  "Name": "&5&lA place to call home &7- &dIntro",
+  "Key": "APTCH-intro",
+  "Author": "Mmaarten",
+  "AllowRejoining": true,
+
+  "ServerType": "hub",
+  "Quest": true,
+  "Icon": {
+    "material": "book"
+  },
+  "Description": "Where did it all begin? Join Agnes on a magical trip down memory lane.",
+
+  "CreateEntity": {
+    "key": "AgnesIntro",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQ0NzUwNjI0NiwKICAicHJvZmlsZUlkIiA6ICJkMGFkNThjOTNiMzY0ZjgyOWRjZWEzMTAzMzE5MTgyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FwcGhpcmVfTHVuYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlYTU1YjRiODcwZjc5YjVhNmYzOWRkMjgzMmVkNDY1ZjdjYzMxZmE4MGMwNjIzMmMwNWFhMDBlMGQ3NzZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+      "signature": "j9zav92rL72m954bvop7xBHUHKz/J6wEUNf1ohonapyoJb3vetBmoYW8UoOmMQCzYagf3z/PbfafecEIQ/cbQBtxZ7sDlQxfOqmhcIpOtBOj3qSHygs0TDa+YwHjybxCn00YT6eivyewi51O0+ZUDmmOD4V8YwD/RFmMDCd9TGtN9r1JYNmG7G4qpaOlcsnUzVbcxf3uT0vCssiEODByr06Kb8tiGSwH8MjvMjeWBOqzB9HuxWVoNV1NOtdvJEKWaOpeMl5tQUK6bSR6HsganSx6xNh+mG9SISL5wAUYdDFnHvgyBUwe6QHq3jFXBlHQs/0sf2PLfV1gLxvmSHUIx4RJR/qfI+VyVr/tW6m7ptehKRS40GacFN8t9V9CYkXFYM2+/Y6ab5owfUUpqicLvCqminwDyT7H9pfh+TO9/9gO06j0x0FNmHo8hdQf5YZrqTdQ1UZI908KpNTuii9vAtDKmANgeNYCMg9lcp00x5s+hv10FfIRVZeRCHvqsfb7BwIEu4l9CxEHqeZPDNm6yuTxlHLbOxnonn572YhcVDMHAZXzsmpG4styET14tdzkAVMF4c0P/FUm/qflVgpTFPMRIbZwXaho6tQpF6QCMoplB+kZvrZW5bcDUZIsq6m5HhY6Vp/eTqcOMhy+9B8eJI1WpyBWcCtEtHRGL157Vy8="
+    },
+    "location": [2048.5, 23.0, 560.7, -180],
+    "name": [
+      "&5&lAgnes"
+    ],
+    "hand": {
+      "material": "written_book"
+    },
+    "look": true,
+    "gravity": true
+  },
+  "Server": [],
+  "Hide": "AgnesIntro",
+
+  "Store": ["Agnes.speed", 0.15],
+  "Store": ["Agnes.speech", 90],
+
+
+
+
+  "Show": "AgnesIntro",
+  "RegionEntry": [2046, 22, 562, 2050, 23, 565],
+  "If": [],
+  "KingdomEquals": ["aptch_state", "part_I-waiting_for_region_entry"],
+  "Skip": "In_Range",
+  "Leave": [],
+
+  "Comment": "In_Range",
+  "KingdomSet": ["aptch_state", "part_1-starter_dialog"],
+  "Dialog": [
+    {
+      "&5&lAgnes": "Greetings your majesty.",
+      "[PLAYER]": "Good morning my lady.",
+      "[PLAYER]": "What brings you here?",
+      "&5&lAgnes": "I tried that beetroot juice you suggested when we last met",
+      "&5&lAgnes": "But apparently you have to pay for things these days.",
+      "&5&lAgnes": "So I came to richard to pick up some gold.",
+      "[PLAYER]": "I see. Richard is not here right now.",
+      "[PLAYER]": "But what if we made a deal?",
+      "&5&lAgnes": "What kind of deal are you thinking of your majesty?",
+      "[PLAYER]": "If you tell me what happened in that throne room and I will pay for the juice.",
+      "&5&lAgnes": "It would be an honor.",
+      "&5&lAgnes": "Do you need a reminder of the story guide?"
+    },
+    "Agnes.speech"
+  ],
+  "SetScoreboard": "",
+  "Comment": "Check_options",
+  "SendMessageOptions": [
+    "&7-> Could I do the message check again?", "&7-> Could I see the story guide again?", "&7-> I am all good to go!"
+  ],
+  "Skip": "Message_check",
+  "Skip": "Story_guide",
+  "Skip": "Ready",
+
+  "Comment": "Message_check",
+  "Dialog": [
+    {
+      "&5&lAgnes": "If you cannot read this message completely, you should decrease your gui scale.",
+      "&5&lAgnes": "Anything else that you would like to check?"
+    },
+    "Agnes.speech"
+  ],
+  "Skip": "Check_options",
+
+  "Comment": "Story_guide",
+  "Book": "&5&l    Story Guide\n\n&8These settings are recommended for the best story quest experience:&r\n\n* &5FOV&7: &d70&r\n* &5Render distance&7: &d16&r\n* &5Sounds&7: &dEnabled&r\n\n뜀 &8Chat will be disabled during story quests&r",
+  "Dialog": [
+    {
+      "&5&lAgnes": "Anything else that you would like to check?"
+    },
+    "Agnes.speech"
+  ],
+  "Skip": "Check_options",
+
+  "Comment": "Ready",
+  "Dialog": [
+    {
+      "&5&lAgnes": "I am ready too.",
+      "&5&lAgnes": "After the assembly where Arnold... unalived, I was called to the throne room."
+    },
+    "Agnes.speech"
+  ],
+  "Comment": "---- Prepare the throne room ----",
+  "SetBlocks": [1998, 53, 537, 1998, 60, 537, "Oak Log"],
+
+  "Fade": [],
+  "Cinematic": [],
+  "Teleport": [2008.5, 56.0, 540.5, 107, 27],
+  "Freeze": true,
+  "HidePlayer": [],
+
+}
