@@ -94,20 +94,20 @@
   ],
   "Comment": "Returning_gambler",
   "If": [],
-  "HasItem": ["feather", 32],
+  "HasItem": ["feather", 16],
   "Skip": "Has_feathers",
   "RandomDialog": [
     {
-      "&6&lDoran": "I am sorry [PLAYER], I cannot let you play without &l32 feathers&r."
+      "&6&lDoran": "I am sorry [PLAYER], I cannot let you play without &l16 feathers&r."
     },
     {
-      "&6&lDoran": "Without &l32 feathers&r, no deal [PLAYER]."
+      "&6&lDoran": "Without &l16 feathers&r, no deal [PLAYER]."
     },
     {
-      "&6&lDoran": "Last time I let someone in without paying &l32 feathers&r, I almost got fired."
+      "&6&lDoran": "Last time I let someone in without paying &l16 feathers&r, I almost got fired."
     },
     {
-      "&6&lDoran": "&l32 feathers&r is not that much..."
+      "&6&lDoran": "&l16 feathers&r is not that much..."
     }
   ],
   "Skip": "Come_back_with_feathers",
@@ -121,7 +121,7 @@
   ],
   "TakeItem": {
     "material": "feather",
-    "amount": 32
+    "amount": 16
   },
   "If": [],
   "HasKingdomBuilding": ["mine", 5],
@@ -185,6 +185,8 @@
   "SendMessage": "&7The wheel landed on... &a&l25 gems&7!",
   "BroadcastMessage": "[PLAYER] won the jackpot of &a&l25 GEMS&r at the casino!",
   "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
+  "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
+  "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
   "Skip": "End",
 
   "Comment": "Level_2",
@@ -245,6 +247,8 @@
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
   "BroadcastMessage": "[PLAYER] won the jackpot of &a&l25 GEMS&r at the casino!",
+  "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
+  "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
   "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
   "Skip": "End",
 
@@ -313,6 +317,8 @@
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
   "BroadcastMessage": "[PLAYER] won the jackpot of &a&l25 GEMS&r at the casino!",
+  "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
+  "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
   "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
   "Skip": "End",
 
@@ -388,6 +394,8 @@
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
   "BroadcastMessage": "[PLAYER] won the jackpot of &a&l25 GEMS&r at the casino!",
+  "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
+  "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
   "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
   "Skip": "End",
 
@@ -470,6 +478,8 @@
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
   "BroadcastMessage": "[PLAYER] won the jackpot of &a&l25 GEMS&r at the casino!",
+  "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
+  "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
   "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
   "Skip": "End",
 
