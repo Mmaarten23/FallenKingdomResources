@@ -38,7 +38,7 @@
   "Comment": "Has_kingdom",
   "Comment": "REPLACE WITH PROPER COOLDOWN",
   "If": [],
-  "NotCompleted": [0, 0, 1],
+  "NotCompleted": [0, 0, 10],
   "Skip": "Can_gamble",
   "Comment": "Cannot_gamble",
   "RandomDialog": [
