@@ -143,6 +143,7 @@
   "Comment": "Level_1",
   "AnimatedRandomOption": [
     "Casino",
+    false,
     {
       "rotten_flesh": 0.35,
       "bone": 0.35,
@@ -150,8 +151,7 @@
       "sunflower": 0.10,
       "emerald": 0.05,
       "barrier": 0.05
-    },
-    false
+    }
   ],
   "Skip": "rotten_flesh_lvl1",
   "Skip": "bone_lvl1",
@@ -189,6 +189,7 @@
   "Comment": "Level_2",
   "AnimatedRandomOption": [
     "Casino",
+    false,
     {
       "rotten_flesh": 0.20,
       "bone": 0.20,
@@ -198,8 +199,7 @@
       "sunflower": 0.10,
       "emerald": 0.05,
       "barrier": 0.05
-    },
-    false
+    }
   ],
   "Skip": "rotten_flesh_lvl2",
   "Skip": "bone_lvl2",
@@ -249,6 +249,7 @@
   "Comment": "Level_3",
   "AnimatedRandomOption": [
     "Casino",
+    false,
     {
       "rotten_flesh": 0.10,
       "bone": 0.10,
@@ -259,8 +260,7 @@
       "sunflower": 0.10,
       "emerald": 0.05,
       "barrier": 0.05
-    },
-    false
+    }
   ],
   "Skip": "rotten_flesh_lvl3",
   "Skip": "bone_lvl3",
@@ -316,6 +316,7 @@
   "Comment": "Level_4",
   "AnimatedRandomOption": [
     "Casino",
+    false,
     {
       "rotten_flesh": 0.10,
       "bone": 0.10,
@@ -327,8 +328,7 @@
       "sunflower": 0.10,
       "emerald": 0.05,
       "barrier": 0.05
-    },
-    false
+    }
   ],
   "Skip": "rotten_flesh_lvl4",
   "Skip": "bone_lvl4",
@@ -390,6 +390,7 @@
   "Comment": "Level_5",
   "AnimatedRandomOption": [
     "Casino",
+    false,
     {
       "rotten_flesh": 0.05,
       "bone": 0.10,
@@ -402,8 +403,7 @@
       "sunflower": 0.10,
       "emerald": 0.05,
       "barrier": 0.05
-    },
-    false
+    }
   ],
   "Skip": "rotten_flesh_lvl5",
   "Skip": "bone_lvl5",
