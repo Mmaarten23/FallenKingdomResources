@@ -12,5 +12,6 @@
   "SetGameMode": "survival",
 
   "GlobalCommand": "mmgmsp",
-  "SetGameMode": "spectator"
+  "SetGameMode": "spectator",
+  "Hold": []
 }
