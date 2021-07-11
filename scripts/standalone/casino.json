@@ -184,6 +184,7 @@
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 gems&7!",
   "BroadcastMessage": "[PLAYER] won the jackpot of &a&l25 GEMS&r at the casino!",
+  "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
   "Skip": "End",
 
   "Comment": "Level_2",
@@ -244,6 +245,7 @@
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
   "BroadcastMessage": "[PLAYER] won the jackpot of &a&l25 GEMS&r at the casino!",
+  "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
   "Skip": "End",
 
   "Comment": "Level_3",
@@ -311,6 +313,7 @@
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
   "BroadcastMessage": "[PLAYER] won the jackpot of &a&l25 GEMS&r at the casino!",
+  "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
   "Skip": "End",
 
   "Comment": "Level_4",
@@ -385,6 +388,7 @@
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
   "BroadcastMessage": "[PLAYER] won the jackpot of &a&l25 GEMS&r at the casino!",
+  "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
   "Skip": "End",
 
   "Comment": "Level_5",
@@ -466,11 +470,13 @@
   "GiveKingdomGems": [25],
   "SendMessage": "&7The wheel landed on... &a&l25 Gems&7!",
   "BroadcastMessage": "[PLAYER] won the jackpot of &a&l25 GEMS&r at the casino!",
+  "Firework": [1971.6, 27.0, 567.6, "Burst", "Green", "Lime", true, false, true],
   "Skip": "End",
 
 
   "Comment": "---------- Reward determined and paid out. Final dialog ----------",
   "Comment": "End",
+  "PlaySound": "entity_player_levelup",
   "Dialog": [
     {
       "&6&lDoran": "Congratulations!",
