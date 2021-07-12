@@ -1,6 +1,6 @@
 {
   "Name": "&5&lA place to call home &7- &dIntro",
-  "Key": "aptch_1_runner",
+  "Key": "aptch_1",
   "Author": "Mmaarten",
   "AllowRejoining": true,
 
@@ -37,7 +37,7 @@
 
   "RegionEntry": [1901, 37, 524, 1911, 39, 533],
   "If": [],
-  "Equals": ["selected_lore", "aptch_intro"],
+  "Equals": ["selected_lore", "aptch_part_1"],
   "Skip": "In_Range",
   "Leave": [],
 
@@ -109,9 +109,9 @@
   "Teleport": [2008.5, 56.0, 540.5, 107, 27],
   "Freeze": true,
   "HidePlayer": [],
+  "Wait": 5.0,
 
-
-
+  "Unfreeze": [],
   "Teleport": [1985.5, 29.0, 638.5, 180],
   "PlaySound": "ui_toast_challenge_complete",
   "SetTitle": [

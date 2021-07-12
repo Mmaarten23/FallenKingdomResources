@@ -77,7 +77,6 @@
   "Leave": [],
   "Skip": "story_guide",
   "Skip": "aptch",
-  "Skip": "main_menu",
 
   "Comment": "story_guide",
   "Wait": 1,
@@ -85,6 +84,15 @@
   "Skip": "main_menu",
 
   "Comment": "aptch",
+  "If": [],
+  "Completed": ["aptch_1"],
+  "Skip": "aptch_1_completed",
+  "Dummy": [],
+
+  "If": [],
+  "Completed": ["aptch_intro"],
+  "Skip": "aptch_intro_completed",
+
   "Menu": [
     "Pick your episode",
     6,
@@ -107,7 +115,64 @@
       "10": {
         "name": "&dIntro",
         "description": [
-          "&7Where did it all begin? Join Agnes on a magical trip down memory lane!"
+          "&7Where did it all begin? Join Agnes on a magical trip down memory lane!",
+          "",
+          "&7▶ Click to start this episode!"
+        ],
+        "material": "Book",
+        "glow": true
+      },
+      "11": {
+        "name": "&dPart I",
+        "description": [
+          "&7Complete the &dintro&7 to unlock this episode."
+        ],
+        "material": "Book",
+        "glow": false
+      }
+    },
+    false
+  ],
+  "Leave": [],
+  "Skip": "main_menu",
+  "Skip": "aptch_intro",
+  "Skip": "aptch",
+
+  "Comment": "aptch_intro_completed",
+  "Menu": [
+    "Pick your episode",
+    6,
+    {
+      "8": {
+        "name": "&4&lClose",
+        "description": [
+          "&c▶ Click to close this menu!"
+        ],
+        "material": "Barrier"
+      },
+      "0": {
+        "name": "&4&lBack",
+        "description": [
+          "&c▶ Click to go back to the main menu!"
+        ],
+        "material": "Arrow"
+      },
+
+      "10": {
+        "name": "&dIntro",
+        "description": [
+          "&7Where did it all begin? Join Agnes on a magical trip down memory lane!",
+          "",
+          "&7▶ Click to restart this episode!"
+        ],
+        "material": "enchanted_book"
+      },
+      "11": {
+        "name": "&dPart I",
+        "description": [
+          "&7The throne room... what could the dark knight want from Agnes?",
+          "",
+          "&7▶ Click to start this episode!"
         ],
         "material": "Book",
         "glow": true
@@ -118,8 +183,54 @@
   "Leave": [],
   "Skip": "main_menu",
   "Skip": "aptch_intro",
-  "Skip": "aptch",
+  "Skip": "aptch_part_1",
 
+
+  "Comment": "aptch_1_completed",
+  "Menu": [
+    "Pick your episode",
+    6,
+    {
+      "8": {
+        "name": "&4&lClose",
+        "description": [
+          "&c▶ Click to close this menu!"
+        ],
+        "material": "Barrier"
+      },
+      "0": {
+        "name": "&4&lBack",
+        "description": [
+          "&c▶ Click to go back to the main menu!"
+        ],
+        "material": "Arrow"
+      },
+
+      "10": {
+        "name": "&dIntro",
+        "description": [
+          "&7Where did it all begin? Join Agnes on a magical trip down memory lane!",
+          "",
+          "&7▶ Click to restart this episode!"
+        ],
+        "material": "enchanted_book"
+      },
+      "11": {
+        "name": "&dPart I",
+        "description": [
+          "&7The throne room... what could the dark knight want from Agnes?",
+          "",
+          "&7▶ Click to restart this episode!"
+        ],
+        "material": "enchanted_book"
+      }
+    },
+    false
+  ],
+  "Leave": [],
+  "Skip": "main_menu",
+  "Skip": "aptch_intro",
+  "Skip": "aptch_part_1",
 
   "Comment": "aptch_intro",
   "SetPersistent": ["selected_lore", "aptch_intro"],
@@ -130,5 +241,17 @@
     "Meet Agnes at the North-West nether portal in the hub"
   ],
   "SendMessage": "&e&l➤ New objective&7 > Meet Agnes at the North-West nether portal in the hub.",
+  "Leave": [],
+
+
+  "Comment": "aptch_part_1",
+  "SetPersistent": ["selected_lore", "aptch_part_1"],
+  "SendMessage": "&7&oStarting A place to call home - part I...",
+  "PlaySound": "entity_player_levelup",
+  "SetTitle": [
+    "&e&lNew objective",
+    "Meet Agnes at the North-West nether portal in the hub"
+  ],
+  "SendMessage": "&e&l➤ New objective&7 > Meet Agnes at the bank the hub.",
   "Leave": []
 }
