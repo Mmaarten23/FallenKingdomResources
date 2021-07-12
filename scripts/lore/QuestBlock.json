@@ -117,7 +117,7 @@
         "description": [
           "&7Where did it all begin? Join Agnes on a magical trip down memory lane!",
           "",
-          "&7▶ Click to start this episode!"
+          "&7▶ &dClick to start this episode!"
         ],
         "material": "Book",
         "glow": true
@@ -163,7 +163,7 @@
         "description": [
           "&7Where did it all begin? Join Agnes on a magical trip down memory lane!",
           "",
-          "&7▶ Click to restart this episode!"
+          "&7▶ &dClick to restart this episode!"
         ],
         "material": "enchanted_book"
       },
@@ -172,7 +172,7 @@
         "description": [
           "&7The throne room... what could the dark knight want from Agnes?",
           "",
-          "&7▶ Click to start this episode!"
+          "&7▶ &dClick to start this episode!"
         ],
         "material": "Book",
         "glow": true
@@ -211,7 +211,7 @@
         "description": [
           "&7Where did it all begin? Join Agnes on a magical trip down memory lane!",
           "",
-          "&7▶ Click to restart this episode!"
+          "&7▶ &dClick to restart this episode!"
         ],
         "material": "enchanted_book"
       },
@@ -220,7 +220,7 @@
         "description": [
           "&7The throne room... what could the dark knight want from Agnes?",
           "",
-          "&7▶ Click to restart this episode!"
+          "&7▶ &dClick to restart this episode!"
         ],
         "material": "enchanted_book"
       }
