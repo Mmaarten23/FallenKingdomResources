@@ -261,7 +261,7 @@
   "Dialog": [
     {
       "&5&lAgnes": "Perfect!",
-      "&5&lAgnes": "I will send you the &bStory guide&r. Make sure to give it a good read!"
+      "&5&lAgnes": "I will send you the &5Story guide&r. Make sure to give it a good read!"
     },
     "Agnes.speech"
   ],

@@ -1,0 +1,120 @@
+{
+  "Key": "lore_table",
+  "Author": "Mmaarten",
+  "GlobalParticle": [
+    "enchantment_table",
+    1976.0, 62.0, 683.0,
+    80,
+    1.0
+  ],
+
+  "Comment": "---- Put one higher and make enchanting table ----",
+  "ClickBlock": [1976, 61, 683],
+  "If": [],
+  "Equals": ["selected_lore", null],
+  "SendMessage": "It was NONE",
+  "SendMessage": "It was not NONE",
+  "If": [],
+  "NotCompleted": [],
+  "Skip": "intro",
+  "Skip": "main_menu",
+  "Comment": "intro",
+  "Dialog": [
+    {
+      "&7&oSoft whisper": "Psstt, hey!",
+      "&7&oSoft whisper": "You look like an intellectual 뜋",
+      "&7&oSoft whisper": "If you want to take a dive into history...",
+      "&7&oSoft whisper": "I can point you to the right people 뜧",
+      "[PLAYER]": "Euuh, okay thank you?",
+      "&7&oSoft whisper": "No thanks!",
+      "&7&oSoft whisper": "Just come to me when you want to watch history unfold in front of you."
+    },
+    80
+  ],
+  "Complete": [],
+
+  "Comment": "main_menu",
+  "Menu": [
+    "Pick your storyline",
+    6,
+    {
+      "8": {
+        "name": "&4&lClose",
+        "description": [
+          "&c▶ Click to close this menu!"
+        ],
+        "material": "Barrier"
+      },
+      "49": {
+        "name": "&5Story Guide",
+        "description": [
+          "&7A guide containing all the &dsettings&7, &dtips&7 and &dtricks&7 to get the best experiences during story quests.",
+          "",
+          "뜀 &7It is recommended to check this guide before starting your first quest&r 뜀",
+          "",
+          "&5▶ Click to open!"
+        ],
+        "material": "Book"
+      },
+
+      "10": {
+        "name": "&5&lA place to call home",
+        "description": [
+          "&7Meet Agnes for the first time and learn all about how fallen kingdom came to be."
+        ],
+        "material": "compass"
+      }
+    },
+    false
+  ],
+  "Leave": [],
+  "Skip": "story_guide",
+  "Skip": "aptch",
+  "Skip": "main_menu",
+
+  "Comment": "story_guide",
+  "Wait": 1,
+  "Book": "&5&l    Story Guide\n\n&8These settings are recommended for the best story quest experience:&r\n\n* &5FOV&7: &d70&r\n* &5Render distance&7: &d16&r\n* &5Sounds&7: &dEnabled&r\n\n뜀 &8Chat will be disabled during story quests&r",
+  "Skip": "main_menu",
+
+  "Comment": "aptch",
+  "Menu": [
+    "Pick your episode",
+    6,
+    {
+      "8": {
+        "name": "&4&lClose",
+        "description": [
+          "&c▶ Click to close this menu!"
+        ],
+        "material": "Barrier"
+      },
+      "0": {
+        "name": "&4&lBack",
+        "description": [
+          "&c▶ Click to go back to the main menu!"
+        ],
+        "material": "Arrow"
+      },
+
+      "10": {
+        "name": "&dIntro",
+        "description": [
+          "&7Where did it all begin? Join Agnes on a magical trip down memory lane!"
+        ],
+        "material": "Book",
+        "glow": true
+      }
+    },
+    false
+  ],
+  "Leave": [],
+  "Skip": "main_menu",
+  "Skip": "aptch_intro",
+  "Skip": "aptch",
+
+
+  "Comment": "aptch_intro",
+  "SetPersistent": ["selected_lore", "aptch_intro"],
+  "Leave": []
+}
