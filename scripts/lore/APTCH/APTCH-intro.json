@@ -315,8 +315,9 @@
     "Agnes.speech"
   ],
   "Fade": [],
-  "SetWorldTime": 18000,
   "SetWeather": "Storm",
+  "SetWorldTime": 18000,
+
 
   "Dialog": [
     {
@@ -537,6 +538,9 @@
   "MoveEntity": ["AssemblyAgnes", 2003.4, 34.0, 582.0, 0.2, false],
   "MoveEntity": ["AssemblyAgnes", 2003.5, 35.0, 574.5, 0.2, false],
   "Fade": [],
+  "SetWeather": "Clear",
+  "SetWorldTime": 2500,
+
   "Hide": "DarkKnight",
   "Hide": "AssemblyAgnes",
   "Hide": "AssemblyRichard",
@@ -546,8 +550,7 @@
   "Unfreeze": [],
   "Teleport": [2063.5, 75.2, 632.0, 130, 17],
   "Freeze": true,
-  "SetWorldTime": 2500,
-  "SetWeather": "Clear",
+
   "SetBlocks": [1999, 34, 583, 1999, 34, 586, "air"],
   "SetBlocks": [2007, 34, 583, 2007, 34, 586, "air"],
   "SetBlock": [1999, 31, 587, "air"],
