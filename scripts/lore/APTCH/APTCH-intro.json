@@ -1,6 +1,6 @@
 {
   "Name": "&5&lA place to call home &7- &dIntro",
-  "Key": "aptch_intro_runner",
+  "Key": "aptch_intro",
   "Author": "Mmaarten",
   "AllowRejoining": true,
 
@@ -154,15 +154,14 @@
 
   "RegionEntry": [1901, 37, 524, 1911, 39, 533],
   "If": [],
-  "KingdomEquals": ["aptch_state", "intro-waiting_for_region_entry"],
+  "Equals": ["selected_lore", "aptch_intro"],
   "Skip": "In_Range",
   "Leave": [],
 
   "Comment": "In_Range",
-  "Progress": ["APTCH-intro_starter"],
+  "SetPersistent": ["selected_lore", "RUNNING"],
 
   "Show": "AgnesIntro",
-  "KingdomSet": ["aptch_state", "intro-starter_dialog"],
   "ProgressiveDialog": ["&5&lAgnes", "Those bloody portals..."],
   "MoveEntity": ["AgnesIntro", 1905.5, 38.0, 529.0, "Agnes.speed", false],
   "Wait": 3.0,
@@ -213,7 +212,6 @@
   "MoveEntity": ["AgnesIntro", 1995.2, 26.0, 616.3, "Agnes.speed", false],
   "MoveEntity": ["AgnesIntro", 2002.7, 26.0, 605.4, "Agnes.speed", false],
   "MoveEntity": ["AgnesIntro", 2020.7, 26.0, 605.5, "Agnes.speed", false],
-  "KingdomSet": ["aptch_state", "intro-waiting_at_jo"],
   "If": [],
   "InRange": ["AgnesIntro", 5.0],
   "Skip": "Easter_egg_walk",
@@ -270,7 +268,6 @@
   "SendMessageOptions": [30, "&7-> Could I see that book again?", "&7-> I am good to go."],
   "Skip": "Story_guide",
   "Dummy": [],
-  "KingdomSet": ["aptch_state", "intro-starting_journey"],
   "ProgressiveDisableCommand": "k",
   "ProgressiveDisableCommand": "kd",
   "ProgressiveDisableCommand": "kingdom",
@@ -320,7 +317,6 @@
   "Fade": [],
   "SetWorldTime": 18000,
   "SetWeather": "Storm",
-  "KingdomSet": ["aptch_state", "intro-dark_knights_kingdom"],
 
   "Dialog": [
     {
@@ -374,7 +370,6 @@
   "Freeze": true,
 
   "Comment": "------- Dark knight dialogue --------",
-  "KingdomSet": ["aptch_state", "intro-dark_knight_speech"],
   "Show": "AssemblyAgnes",
   "ProgressiveMoveEntity": ["AssemblyAgnes", 2004.5, 26.0, 598.5],
   "Show": "AssemblyRichard",
@@ -564,7 +559,6 @@
   "SetBlock": [2000, 28, 592, "air"],
   "SetBlock": [2006, 28, 592, "air"],
   "SetBlock": [2003, 33, 580, "chiseled_stone_bricks"],
-  "KingdomSet": ["aptch_state", "intro-end_dialog"],
   "Dialog": [
     {
       "&5&lAgnes": "Noone ever found out whether or not Arnold actually stole something.",
@@ -592,12 +586,14 @@
   "Hide": "AgnesOnHill",
   "Unfreeze": [],
   "Fade": [],
+
+
+
   "Teleport": [1985.5, 29.0, 638.5, 180],
-  "KingdomSet": ["aptch_state", "intro-completed"],
   "PlaySound": "ui_toast_challenge_complete",
   "SetTitle": [
     "&5A place to call home",
     "뜑 Intro completed 뜑"
   ],
-  "Progress": ["APTCH-intro_starter"]
+  "SetPersistent": ["selected_lore", "NONE"]
 }

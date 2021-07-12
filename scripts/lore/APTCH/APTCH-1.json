@@ -35,8 +35,14 @@
   "Store": ["Agnes.speech", 90],
 
 
+  "RegionEntry": [1901, 37, 524, 1911, 39, 533],
+  "If": [],
+  "Equals": ["selected_lore", "aptch_intro"],
+  "Skip": "In_Range",
+  "Leave": [],
 
-
+  "Comment": "In_Range",
+  "SetPersistent": ["selected_lore", "RUNNING"],
   "Show": "AgnesIntro",
 
 
@@ -102,6 +108,15 @@
   "Cinematic": [],
   "Teleport": [2008.5, 56.0, 540.5, 107, 27],
   "Freeze": true,
-  "HidePlayer": []
+  "HidePlayer": [],
 
+
+
+  "Teleport": [1985.5, 29.0, 638.5, 180],
+  "PlaySound": "ui_toast_challenge_complete",
+  "SetTitle": [
+    "&5A place to call home",
+    "뜑 Intro completed 뜑"
+  ],
+  "SetPersistent": ["selected_lore", "NONE"]
 }

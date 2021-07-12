@@ -11,13 +11,18 @@
   "Comment": "---- Put one higher and make enchanting table ----",
   "ClickBlock": [1976, 61, 683],
   "If": [],
-  "Equals": ["selected_lore", null],
-  "SendMessage": "It was NONE",
-  "SendMessage": "It was not NONE",
-  "If": [],
   "NotCompleted": [],
   "Skip": "intro",
+  "Dummy": [],
+  "If": [],
+  "Equals": ["selected_lore", "RUNNING"],
+  "Skip": "running",
   "Skip": "main_menu",
+
+  "Comment": "running",
+  "SendMessage": "&4You are already watching an episode. Come back later.",
+  "Leave": [],
+
   "Comment": "intro",
   "Dialog": [
     {
@@ -31,7 +36,9 @@
     },
     80
   ],
+  "SetPersistent": ["selected_lore", "NONE"],
   "Complete": [],
+  "Leave": [],
 
   "Comment": "main_menu",
   "Menu": [
@@ -116,5 +123,12 @@
 
   "Comment": "aptch_intro",
   "SetPersistent": ["selected_lore", "aptch_intro"],
+  "SendMessage": "&7&oStarting A place to call home - intro...",
+  "PlaySound": "entity_player_levelup",
+  "SetTitle": [
+    "&e&lNew objective",
+    "Meet Agnes at the North-West nether portal in the hub"
+  ],
+  "SendMessage": "&e&l➤ New objective&7 > Meet Agnes at the North-West nether portal in the hub.",
   "Leave": []
 }
