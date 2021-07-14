@@ -347,7 +347,6 @@
   "SetBlock": [2003, 33, 580, "beacon"],
   "SetBlocks": [2002, 32, 579, 2004, 32, 581, "iron block"],
 
-  "Look": ["camera", "DarkKnight"],
 
 
   "ProgressiveDialog": [
@@ -492,6 +491,7 @@
     },
     10
   ],
+  "EntityLook": ["DarkKnight",  2003, 30, 610],
   "AnimateEntity": ["DarkKnight", "Swing Main Hand"],
   "PlaySound": "entity_lightning_bolt_thunder",
   "PlaySound": "entity_lightning_bolt_impact",
