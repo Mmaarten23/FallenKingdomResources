@@ -18,7 +18,7 @@
       "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQ0NzUwNjI0NiwKICAicHJvZmlsZUlkIiA6ICJkMGFkNThjOTNiMzY0ZjgyOWRjZWEzMTAzMzE5MTgyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FwcGhpcmVfTHVuYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlYTU1YjRiODcwZjc5YjVhNmYzOWRkMjgzMmVkNDY1ZjdjYzMxZmE4MGMwNjIzMmMwNWFhMDBlMGQ3NzZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
       "signature": "j9zav92rL72m954bvop7xBHUHKz/J6wEUNf1ohonapyoJb3vetBmoYW8UoOmMQCzYagf3z/PbfafecEIQ/cbQBtxZ7sDlQxfOqmhcIpOtBOj3qSHygs0TDa+YwHjybxCn00YT6eivyewi51O0+ZUDmmOD4V8YwD/RFmMDCd9TGtN9r1JYNmG7G4qpaOlcsnUzVbcxf3uT0vCssiEODByr06Kb8tiGSwH8MjvMjeWBOqzB9HuxWVoNV1NOtdvJEKWaOpeMl5tQUK6bSR6HsganSx6xNh+mG9SISL5wAUYdDFnHvgyBUwe6QHq3jFXBlHQs/0sf2PLfV1gLxvmSHUIx4RJR/qfI+VyVr/tW6m7ptehKRS40GacFN8t9V9CYkXFYM2+/Y6ab5owfUUpqicLvCqminwDyT7H9pfh+TO9/9gO06j0x0FNmHo8hdQf5YZrqTdQ1UZI908KpNTuii9vAtDKmANgeNYCMg9lcp00x5s+hv10FfIRVZeRCHvqsfb7BwIEu4l9CxEHqeZPDNm6yuTxlHLbOxnonn572YhcVDMHAZXzsmpG4styET14tdzkAVMF4c0P/FUm/qflVgpTFPMRIbZwXaho6tQpF6QCMoplB+kZvrZW5bcDUZIsq6m5HhY6Vp/eTqcOMhy+9B8eJI1WpyBWcCtEtHRGL157Vy8="
     },
-    "location": [2048.5, 23.0, 560.7, -180],
+    "location": [2045.3, 23.0, 558.5, -90],
     "name": [
       "&5&lAgnes"
     ],
@@ -31,11 +31,30 @@
   "Server": [],
   "Hide": "AgnesIntro",
 
+  "CreateEntity": {
+    "key": "ThroneAgnes",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQ0NzUwNjI0NiwKICAicHJvZmlsZUlkIiA6ICJkMGFkNThjOTNiMzY0ZjgyOWRjZWEzMTAzMzE5MTgyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FwcGhpcmVfTHVuYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlYTU1YjRiODcwZjc5YjVhNmYzOWRkMjgzMmVkNDY1ZjdjYzMxZmE4MGMwNjIzMmMwNWFhMDBlMGQ3NzZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+      "signature": "j9zav92rL72m954bvop7xBHUHKz/J6wEUNf1ohonapyoJb3vetBmoYW8UoOmMQCzYagf3z/PbfafecEIQ/cbQBtxZ7sDlQxfOqmhcIpOtBOj3qSHygs0TDa+YwHjybxCn00YT6eivyewi51O0+ZUDmmOD4V8YwD/RFmMDCd9TGtN9r1JYNmG7G4qpaOlcsnUzVbcxf3uT0vCssiEODByr06Kb8tiGSwH8MjvMjeWBOqzB9HuxWVoNV1NOtdvJEKWaOpeMl5tQUK6bSR6HsganSx6xNh+mG9SISL5wAUYdDFnHvgyBUwe6QHq3jFXBlHQs/0sf2PLfV1gLxvmSHUIx4RJR/qfI+VyVr/tW6m7ptehKRS40GacFN8t9V9CYkXFYM2+/Y6ab5owfUUpqicLvCqminwDyT7H9pfh+TO9/9gO06j0x0FNmHo8hdQf5YZrqTdQ1UZI908KpNTuii9vAtDKmANgeNYCMg9lcp00x5s+hv10FfIRVZeRCHvqsfb7BwIEu4l9CxEHqeZPDNm6yuTxlHLbOxnonn572YhcVDMHAZXzsmpG4styET14tdzkAVMF4c0P/FUm/qflVgpTFPMRIbZwXaho6tQpF6QCMoplB+kZvrZW5bcDUZIsq6m5HhY6Vp/eTqcOMhy+9B8eJI1WpyBWcCtEtHRGL157Vy8="
+    },
+    "location": [2003.5, 51.1, 565.1, -180],
+    "name": [
+      "&5&lAgnes"
+    ],
+    "look": false,
+    "gravity": false
+  },
+  "Server": [],
+  "Hide": "ThroneAgnes",
+
+
+
   "Store": ["Agnes.speed", 0.15],
   "Store": ["Agnes.speech", 90],
 
 
-  "RegionEntry": [1901, 37, 524, 1911, 39, 533],
+  "RegionEntry": [2046, 21, 563, 2050, 23, 570],
   "If": [],
   "Equals": ["selected_lore", "aptch_part_1"],
   "Skip": "In_Range",
@@ -47,18 +66,24 @@
 
 
   "Comment": "In_Range",
+  "MoveEntity": ["AgnesIntro", 2048.5, 22.4, 558.5, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 2048.5, 23.0, 560.5, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 2048.5, 23.0, 562.2, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 2048.5, 21.9, 564.0, "Agnes.speed", false],
+  "SendMessage": "DEBUG: Skipping to cinematic",
+  "Skip": "DEV-cinematic",
   "Dialog": [
     {
       "&5&lAgnes": "Greetings your majesty.",
       "[PLAYER]": "Good morning my lady.",
       "[PLAYER]": "What brings you here?",
       "&5&lAgnes": "I tried that beetroot juice you suggested when we last met",
-      "&5&lAgnes": "But apparently you have to pay for things these days.",
+      "&5&lAgnes": "but apparently you have to pay for things these days.",
       "&5&lAgnes": "So I came to richard to pick up some gold.",
       "[PLAYER]": "I see. Richard is not here right now.",
       "[PLAYER]": "But what if we made a deal?",
       "&5&lAgnes": "What kind of deal are you thinking of your majesty?",
-      "[PLAYER]": "If you tell me what happened in that throne room and I will pay for the juice.",
+      "[PLAYER]": "If you tell me what happened in that throne room, I will pay for the juice.",
       "&5&lAgnes": "It would be an honor.",
       "&5&lAgnes": "Do you need a reminder of the story guide?"
     },
@@ -93,22 +118,94 @@
   ],
   "Skip": "Check_options",
 
+  "Comment": "DEV-cinematic",
   "Comment": "Ready",
   "Dialog": [
     {
       "&5&lAgnes": "I am ready too.",
-      "&5&lAgnes": "After the assembly where Arnold... unalived, I was called to the throne room."
+      "&5&lAgnes": "After the assembly where Arnold... unalived, I was called to the throne room..."
     },
     "Agnes.speech"
   ],
   "Comment": "---- Prepare the throne room ----",
   "SetBlocks": [1998, 53, 537, 1998, 60, 537, "Oak Log"],
+  "SetWeather": "Storm",
+  "SetWorldTime": 18000,
+
 
   "Fade": [],
   "Cinematic": [],
-  "Teleport": [2008.5, 56.0, 540.5, 107, 27],
+  "Teleport": [2008.0, 53.5, 558.0, 70, 20],
   "Freeze": true,
   "HidePlayer": [],
+  "Show": "ThroneAgnes",
+
+  "Wait": 2.0,
+  "PlaySound": "block_anvil_use",
+  "SetBlocks": [2001, 51, 562, 2005, 51, 562, "structure_void"],
+  "SetBlocks": [2001, 52, 562, 2005, 52, 562, "hopper"],
+  "SetBlocks": [2001, 53, 562, 2005, 53, 562, "cauldron"],
+  "SetBlock": [2001, 54, 562, "cobblestone_wall"],
+  "SetBlock": [2003, 54, 562, "cobblestone_wall"],
+  "SetBlock": [2005, 54, 562, "cobblestone_wall"],
+  "SetBlock": [2001, 55, 562, "cauldron"],
+  "SetBlock": [2003, 55, 562, "cauldron"],
+  "SetBlock": [2005, 55, 562, "cauldron"],
+  "SetBlock": [2001, 56, 562, "cobblestone_wall"],
+  "SetBlock": [2002, 56, 562, "anvil"],
+  "SetBlock": [2003, 56, 562, "cobblestone_wall"],
+  "SetBlock": [2004, 56, 562, "anvil"],
+  "SetBlock": [2005, 56, 562, "cobblestone_wall"],
+  "SetBlocks": [2001, 57, 562, 2005, 57, 562, "cauldron"],
+
+
+  "Wait": 1.5,
+  "PlaySound": "block_anvil_use",
+  "SetBlocks": [2001, 52, 562, 2005, 52, 562, "structure_void"],
+  "SetBlocks": [2001, 53, 562, 2005, 53, 562, "hopper"],
+  "SetBlocks": [2001, 54, 562, 2005, 54, 562, "cauldron"],
+  "SetBlock": [2001, 55, 562, "cobblestone_wall"],
+  "SetBlock": [2003, 55, 562, "cobblestone_wall"],
+  "SetBlock": [2005, 55, 562, "cobblestone_wall"],
+  "SetBlock": [2001, 56, 562, "cauldron"],
+  "SetBlock": [2003, 56, 562, "cauldron"],
+  "SetBlock": [2005, 56, 562, "cauldron"],
+  "SetBlock": [2001, 57, 562, "cobblestone_wall"],
+  "SetBlock": [2002, 57, 562, "anvil"],
+  "SetBlock": [2003, 57, 562, "cobblestone_wall"],
+  "SetBlock": [2004, 57, 562, "anvil"],
+  "SetBlock": [2005, 57, 562, "cobblestone_wall"],
+
+  "Wait": 1.5,
+  "PlaySound": "block_anvil_use",
+  "SetBlocks": [2001, 53, 562, 2005, 53, 562, "structure_void"],
+  "SetBlocks": [2001, 54, 562, 2005, 54, 562, "hopper"],
+  "SetBlocks": [2001, 55, 562, 2005, 55, 562, "cauldron"],
+  "SetBlock": [2001, 56, 562, "cobblestone_wall"],
+  "SetBlock": [2003, 56, 562, "cobblestone_wall"],
+  "SetBlock": [2005, 56, 562, "cobblestone_wall"],
+  "SetBlock": [2001, 57, 562, "cauldron"],
+  "SetBlock": [2003, 57, 562, "cauldron"],
+  "SetBlock": [2005, 57, 562, "cauldron"],
+
+  "ProgressiveMoveEntity": ["ThroneAgnes", 2003.5, 51.1, 547.5],
+  "Wait": 1.5,
+  "PlaySound": "block_anvil_use",
+  "SetBlocks": [2001, 54, 562, 2005, 54, 562, "structure_void"],
+  "SetBlocks": [2001, 55, 562, 2005, 55, 562, "hopper"],
+  "SetBlocks": [2001, 56, 562, 2005, 56, 562, "cauldron"],
+  "SetBlock": [2001, 57, 562, "cobblestone_wall"],
+  "SetBlock": [2003, 57, 562, "cobblestone_wall"],
+  "SetBlock": [2005, 57, 562, "cobblestone_wall"],
+
+  "Wait": 1.5,
+  "PlaySound": "block_anvil_destroy",
+  "SetBlocks": [2001, 55, 562, 2005, 55, 562, "structure_void"],
+  "SetBlocks": [2001, 56, 562, 2005, 56, 562, "hopper"],
+  "SetBlocks": [2001, 57, 562, 2005, 57, 562, "cauldron"],
+
+
+
   "Wait": 5.0,
 
   "Unfreeze": [],
@@ -116,7 +213,7 @@
   "PlaySound": "ui_toast_challenge_complete",
   "SetTitle": [
     "&5A place to call home",
-    "뜑 Intro completed 뜑"
+    "뜑 Part I completed 뜑"
   ],
   "SetPersistent": ["selected_lore", "NONE"]
 }
