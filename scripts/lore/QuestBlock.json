@@ -285,7 +285,7 @@
 
   "Comment": "aptch_intro",
   "SetPersistent": ["selected_lore", "aptch_intro"],
-  "SendMessage": "&7&oStarting A place to call home - intro...",
+  "SendMessage": "&7[DEBUG] &oStarting A place to call home - intro...",
   "PlaySound": "entity_player_levelup",
   "SetTitle": [
     "&e&lNew objective",
@@ -297,7 +297,7 @@
 
   "Comment": "aptch_part_1",
   "SetPersistent": ["selected_lore", "aptch_part_1"],
-  "SendMessage": "&7&oStarting A place to call home - part I...",
+  "SendMessage": "&7[DEBUG] &oStarting A place to call home - part I...",
   "PlaySound": "entity_player_levelup",
   "SetTitle": [
     "&e&lNew objective",
