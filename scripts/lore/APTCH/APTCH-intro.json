@@ -283,6 +283,7 @@
   "Freeze": true,
   "HidePlayer": [],
   "SetScoreboard": "",
+  "DisableChat": [],
   "Show": "AgnesOnHill",
   "SetBlock": [2060, 73, 625, "enchanting_table"],
 
@@ -345,6 +346,8 @@
 
   "SetBlock": [2003, 33, 580, "beacon"],
   "SetBlocks": [2002, 32, 579, 2004, 32, 581, "iron block"],
+
+  "Look": ["camera", "DarkKnight"],
 
 
   "ProgressiveDialog": [
@@ -451,7 +454,7 @@
   "MoveEntity": ["AssemblyArnold", 2006.4, 34.0, 582.0, 0.1, false],
 
 
-  "EntityLook": ["AssemblyArnold", 2003, 29, 609],
+  "EntityLook": ["AssemblyArnold", 2003, 34, 580],
   "Dialog": [
     {
       "&8&lDark Knight": "Is there anything you would like to tell me?"
@@ -467,6 +470,7 @@
     30
   ],
   "PlaySound": "entity_lightning_bolt_thunder",
+  "Look": ["DarkKnight", "AssemblyArnold"],
   "Dialog": [
     {
       "&8&lDark Knight": "&lSILENCE"
