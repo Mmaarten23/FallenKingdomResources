@@ -130,6 +130,20 @@
         ],
         "material": "Book",
         "glow": false
+      },
+      "12": {
+        "name": "&dPart II",
+        "description": [
+          "&7Complete the &dpart I&7 to unlock this episode."
+        ],
+        "material": "book"
+      },
+      "13": {
+        "name": "&dPart III",
+        "description": [
+          "&7Complete the &dpart II&7 to unlock this episode."
+        ],
+        "material": "book"
       }
     },
     false
@@ -137,6 +151,8 @@
   "Leave": [],
   "Skip": "main_menu",
   "Skip": "aptch_intro",
+  "Skip": "aptch",
+  "Skip": "aptch",
   "Skip": "aptch",
 
   "Comment": "aptch_intro_completed",
@@ -177,6 +193,20 @@
         ],
         "material": "Book",
         "glow": true
+      },
+      "12": {
+        "name": "&dPart II",
+        "description": [
+          "&7Complete the &dpart I&7 to unlock this episode."
+        ],
+        "material": "book"
+      },
+      "13": {
+        "name": "&dPart III",
+        "description": [
+          "&7Complete the &dpart II&7 to unlock this episode."
+        ],
+        "material": "book"
       }
     },
     false
@@ -185,6 +215,8 @@
   "Skip": "main_menu",
   "Skip": "aptch_intro",
   "Skip": "aptch_part_1",
+  "Skip": "aptch",
+  "Skip": "aptch",
 
 
   "Comment": "aptch_1_completed",
@@ -224,6 +256,23 @@
           "&7▶ &dClick to restart this episode!"
         ],
         "material": "enchanted_book"
+      },
+      "12": {
+        "name": "&dPart II",
+        "description": [
+          "This part has not been made yet!",
+          "",
+          "&7▶ &dClick to start this episode!"
+        ],
+        "material": "book",
+        "glow": true
+      },
+      "13": {
+        "name": "&dPart III",
+        "description": [
+          "&7Complete the &dpart II&7 to unlock this episode."
+        ],
+        "material": "book"
       }
     },
     false
@@ -232,6 +281,8 @@
   "Skip": "main_menu",
   "Skip": "aptch_intro",
   "Skip": "aptch_part_1",
+  "Skip": "aptch",
+  "Skip": "aptch",
 
   "Comment": "aptch_intro",
   "SetPersistent": ["selected_lore", "aptch_intro"],
