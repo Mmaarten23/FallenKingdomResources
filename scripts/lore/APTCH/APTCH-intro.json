@@ -149,7 +149,7 @@
 
   "Store": ["Agnes.speed", 0.15],
   "Store": ["Agnes.speech", 90],
-  "Store": ["DarkKnight.speech", 80],
+  "Store": ["DarkKnight.speech", 90],
 
 
   "RegionEntry": [1901, 37, 524, 1911, 39, 533],
@@ -268,14 +268,6 @@
   "SendMessageOptions": [30, "&7-> Could I see that book again?", "&7-> I am good to go."],
   "Skip": "Story_guide",
   "Dummy": [],
-  "ProgressiveDisableCommand": "k",
-  "ProgressiveDisableCommand": "kd",
-  "ProgressiveDisableCommand": "kingdom",
-  "ProgressiveDisableCommand": "hub",
-  "ProgressiveDisableCommand": "lobby",
-  "ProgressiveDisableCommand": "market",
-  "ProgressiveDisableCommand": "marketplace",
-  "ProgressiveDisableCommand": "raid",
   "Dialog": [
     {
       "&5&lAgnes": "Buckle up, Your Majesty.",
@@ -512,7 +504,7 @@
       "&8&lDark Knight": "Before I forget...",
       "&8&lDark Knight": "Agnes...",
       "&5&lAgnes": "Y- Yes, your majesty?",
-      "&8&lDark Knight": "Come to my quarters. My logbook needs updating.",
+      "&8&lDark Knight": "Come to the throne room. I have a job for you.",
       "&5&lNicole": "Of- Of course sir.",
       "&8&lDark Knight": "Back to work all of you."
     },
@@ -598,5 +590,6 @@
     "&5A place to call home",
     "뜑 Intro completed 뜑"
   ],
+  "Complete": [],
   "SetPersistent": ["selected_lore", "NONE"]
 }
