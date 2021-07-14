@@ -134,14 +134,14 @@
       "12": {
         "name": "&dPart II",
         "description": [
-          "&7Complete the &dpart I&7 to unlock this episode."
+          "&7Complete &dpart I&7 to unlock this episode."
         ],
         "material": "book"
       },
       "13": {
         "name": "&dPart III",
         "description": [
-          "&7Complete the &dpart II&7 to unlock this episode."
+          "&7Complete &dpart II&7 to unlock this episode."
         ],
         "material": "book"
       }
@@ -197,14 +197,14 @@
       "12": {
         "name": "&dPart II",
         "description": [
-          "&7Complete the &dpart I&7 to unlock this episode."
+          "&7Complete &dpart I&7 to unlock this episode."
         ],
         "material": "book"
       },
       "13": {
         "name": "&dPart III",
         "description": [
-          "&7Complete the &dpart II&7 to unlock this episode."
+          "&7Complete &dpart II&7 to unlock this episode."
         ],
         "material": "book"
       }
@@ -270,7 +270,7 @@
       "13": {
         "name": "&dPart III",
         "description": [
-          "&7Complete the &dpart II&7 to unlock this episode."
+          "&7Complete &dpart II&7 to unlock this episode."
         ],
         "material": "book"
       }
