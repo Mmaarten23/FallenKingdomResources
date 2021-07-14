@@ -470,7 +470,7 @@
     30
   ],
   "PlaySound": "entity_lightning_bolt_thunder",
-  "Look": ["DarkKnight", "AssemblyArnold"],
+  "EntityLook": ["DarkKnight", "AssemblyArnold"],
   "Dialog": [
     {
       "&8&lDark Knight": "&lSILENCE"
