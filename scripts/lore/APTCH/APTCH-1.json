@@ -131,6 +131,7 @@
   "SetBlocks": [1998, 53, 537, 1998, 60, 537, "Oak Log"],
   "SetWeather": "Storm",
   "SetWorldTime": 18000,
+  "Wait": 1,
 
 
   "Fade": [],
@@ -188,7 +189,7 @@
   "SetBlock": [2003, 57, 562, "cauldron"],
   "SetBlock": [2005, 57, 562, "cauldron"],
 
-  "ProgressiveMoveEntity": ["ThroneAgnes", 2003.5, 51.1, 547.5],
+  "ProgressiveMoveEntity": ["ThroneAgnes", 2003.5, 51.1, 547.5, "Agnes.speed", false],
   "Wait": 1.5,
   "PlaySound": "block_anvil_use",
   "SetBlocks": [2001, 54, 562, 2005, 54, 562, "structure_void"],

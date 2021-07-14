@@ -9,7 +9,7 @@
   ],
 
   "Comment": "---- Put one higher and make enchanting table ----",
-  "ClickBlock": [1976, 61, 683],
+  "ClickBlock": [1976, 62, 683],
   "If": [],
   "NotCompleted": [],
   "Skip": "intro",
