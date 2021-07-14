@@ -193,7 +193,7 @@
   "ProgressiveMoveEntity": ["ThroneAgnes", 2003.5, 51.1, 547.5, "Agnes.speed", false],
   "Wait": 1.5,
   "Look": ["camera", "ThroneAgnes"],
-  "ProgressiveMoveEntity": ["camera", 2006.7,51.9,552.7, false],
+  "ProgressiveMoveEntity": ["camera", 2006.7,51.9,552.7, 0.1, false],
   "PlaySound": "block_anvil_use",
   "SetBlocks": [2001, 54, 562, 2005, 54, 562, "structure_void"],
   "SetBlocks": [2001, 55, 562, 2005, 55, 562, "hopper"],
