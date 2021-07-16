@@ -301,8 +301,8 @@
   "PlaySound": "entity_player_levelup",
   "SetTitle": [
     "&e&lNew objective",
-    "Meet Agnes at the bank the hub"
+    "Meet Agnes at the bank in the hub"
   ],
-  "SendMessage": "&e&l➤ New objective&7 > Meet Agnes at the bank the hub.",
+  "SendMessage": "&e&l➤ New objective&7 > Meet Agnes at the bank in the hub.",
   "Leave": []
 }
