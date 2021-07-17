@@ -1,0 +1,23 @@
+{
+  "Key": "floating_book_test",
+  "Author": "mmaarten",
+  "CreateEntity": {
+    "key": "floating_book",
+    "entity": "ITEM",
+    "location": [2003.5, 52.0, 544.0, 0],
+    "item": "written_book",
+    "gravity": false,
+    "glow": true
+  },
+  "Server": [],
+  "Hide": "floating_book",
+
+  "Show": "floating_book",
+  "MoveEntity": ["floating_book", 2003.5, 52.5, 544.875, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.6, 545.3, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.7, 545.75, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.6, 546.2, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.5, 546.625, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.0, 547.5, 0.07, false],
+  "Hide": "floating_book"
+}

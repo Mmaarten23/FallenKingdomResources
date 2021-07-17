@@ -65,10 +65,100 @@
   "Server": [],
   "Hide": "DarkKnight",
 
+  "CreateEntity": {
+    "key": "floating_book",
+    "entity": "ITEM",
+    "location": [2003.5, 52.0, 544.0, 0],
+    "item": "written_book",
+    "gravity": false,
+    "glow": true
+  },
+  "Server": [],
+  "Hide": "floating_book",
+
+  "CreateEntity": {
+    "key": "FarmerAgnes",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQ0NzUwNjI0NiwKICAicHJvZmlsZUlkIiA6ICJkMGFkNThjOTNiMzY0ZjgyOWRjZWEzMTAzMzE5MTgyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FwcGhpcmVfTHVuYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlYTU1YjRiODcwZjc5YjVhNmYzOWRkMjgzMmVkNDY1ZjdjYzMxZmE4MGMwNjIzMmMwNWFhMDBlMGQ3NzZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+      "signature": "j9zav92rL72m954bvop7xBHUHKz/J6wEUNf1ohonapyoJb3vetBmoYW8UoOmMQCzYagf3z/PbfafecEIQ/cbQBtxZ7sDlQxfOqmhcIpOtBOj3qSHygs0TDa+YwHjybxCn00YT6eivyewi51O0+ZUDmmOD4V8YwD/RFmMDCd9TGtN9r1JYNmG7G4qpaOlcsnUzVbcxf3uT0vCssiEODByr06Kb8tiGSwH8MjvMjeWBOqzB9HuxWVoNV1NOtdvJEKWaOpeMl5tQUK6bSR6HsganSx6xNh+mG9SISL5wAUYdDFnHvgyBUwe6QHq3jFXBlHQs/0sf2PLfV1gLxvmSHUIx4RJR/qfI+VyVr/tW6m7ptehKRS40GacFN8t9V9CYkXFYM2+/Y6ab5owfUUpqicLvCqminwDyT7H9pfh+TO9/9gO06j0x0FNmHo8hdQf5YZrqTdQ1UZI908KpNTuii9vAtDKmANgeNYCMg9lcp00x5s+hv10FfIRVZeRCHvqsfb7BwIEu4l9CxEHqeZPDNm6yuTxlHLbOxnonn572YhcVDMHAZXzsmpG4styET14tdzkAVMF4c0P/FUm/qflVgpTFPMRIbZwXaho6tQpF6QCMoplB+kZvrZW5bcDUZIsq6m5HhY6Vp/eTqcOMhy+9B8eJI1WpyBWcCtEtHRGL157Vy8="
+    },
+    "location": [1924.3, 24.0, 565.5, 90],
+    "hand": {
+      "material": "written_book"
+    },
+    "sitting": true,
+    "look": false,
+    "gravity": true
+  },
+  "Server": [],
+  "Hide": "FarmerAgnes",
+
+  "CreateEntity": {
+    "key": "Farmer",
+    "entity": "PLAYER",
+    "skin": "fallen_farmer",
+    "location": [1921.5, 23.0, 562.7, 0],
+    "hand": {
+      "material": "wheat"
+    },
+    "offhand": {
+      "material": "wheat"
+    },
+    "look": false,
+    "gravity": true
+  },
+  "Server": [],
+  "Hide": "Farmer",
+
+  "CreateEntity": {
+    "key": "ShadyAgnes",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQ0NzUwNjI0NiwKICAicHJvZmlsZUlkIiA6ICJkMGFkNThjOTNiMzY0ZjgyOWRjZWEzMTAzMzE5MTgyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FwcGhpcmVfTHVuYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlYTU1YjRiODcwZjc5YjVhNmYzOWRkMjgzMmVkNDY1ZjdjYzMxZmE4MGMwNjIzMmMwNWFhMDBlMGQ3NzZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+      "signature": "j9zav92rL72m954bvop7xBHUHKz/J6wEUNf1ohonapyoJb3vetBmoYW8UoOmMQCzYagf3z/PbfafecEIQ/cbQBtxZ7sDlQxfOqmhcIpOtBOj3qSHygs0TDa+YwHjybxCn00YT6eivyewi51O0+ZUDmmOD4V8YwD/RFmMDCd9TGtN9r1JYNmG7G4qpaOlcsnUzVbcxf3uT0vCssiEODByr06Kb8tiGSwH8MjvMjeWBOqzB9HuxWVoNV1NOtdvJEKWaOpeMl5tQUK6bSR6HsganSx6xNh+mG9SISL5wAUYdDFnHvgyBUwe6QHq3jFXBlHQs/0sf2PLfV1gLxvmSHUIx4RJR/qfI+VyVr/tW6m7ptehKRS40GacFN8t9V9CYkXFYM2+/Y6ab5owfUUpqicLvCqminwDyT7H9pfh+TO9/9gO06j0x0FNmHo8hdQf5YZrqTdQ1UZI908KpNTuii9vAtDKmANgeNYCMg9lcp00x5s+hv10FfIRVZeRCHvqsfb7BwIEu4l9CxEHqeZPDNm6yuTxlHLbOxnonn572YhcVDMHAZXzsmpG4styET14tdzkAVMF4c0P/FUm/qflVgpTFPMRIbZwXaho6tQpF6QCMoplB+kZvrZW5bcDUZIsq6m5HhY6Vp/eTqcOMhy+9B8eJI1WpyBWcCtEtHRGL157Vy8="
+    },
+    "location": [2072.6, 26.0, 608.7, 54],
+    "hand": {
+      "material": "written_book"
+    },
+    "look": false,
+    "gravity": true
+  },
+  "Server": [],
+  "Hide": "FarmerAgnes",
+
+  "CreateEntity": {
+    "key": "ShadyVillager1",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNTI1OTQwNzQzNCwKICAicHJvZmlsZUlkIiA6ICI4MmM2MDZjNWM2NTI0Yjc5OGI5MWExMmQzYTYxNjk3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3ROb3RvcmlvdXNOZW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y0NTQyYjQ2YmE3OGMxM2Y1YTNmODcwZTE3MzNmMjdlZTIyMWEwMDRmNjc2NDllNGYzZmNlMTQ4NGU0OTEwNjYiCiAgICB9CiAgfQp9",
+      "signature": "aNO2ICsdvkwV6DkN0vQkNa1ivJzN4MOrH+afzZWgZMFt5FQ9gioLI9XjDLEgxOCSOwsAZjYst/o+z36Ouy785/BCSP7/nJT+8AuO+q+IkMTjcH/NKPUgJNlkimr5ir0+8JWkeHL0dagXMnfPAJCVM+hLSHagpFVS5x2XaTv8CCsegNp4Pw20S8jKUbppQgb9ieVo/FU5drCmux8+AITKL/ZqTbjxbD2LULJYBDlKUzlo8MauOXmIiZjqc9IC8GyvIxzmEENSla/CTP5812DVy9CtOXm5FlkAwz6NctewwoiT1qTJgR+JnSxP5S1kmGf/WYRw/dIEfyzR37ZC9zIsOsl/4z/vbpD2CwgoH6n3lDN3+RFaTOS7u+gB3rTdl/ADGG86QWmyndXtBtQIisLuG5PmvNsPMCjzP7ODMlioupTjf1ZAs6BCag7O8KtMkkH5RY7Un9SVUGzvUpsmXsgBPTQHJ6kE00vb0mCQz9hdvcaAAr6UQzIVeDpC3XZhTJQYVSEE15XXZ8vqeveQd3KBSNXwNvEzqwdYBgAQ0m6SJkO2wFSbPLYgkjwqnwWUOXr+RLwEXAAMLI/2lVX3/PI55qlhvnjygu92Ig+VbSgRLXGqk190tWo1CBDGDwkbUKFg28otUR4Gs4doy7ZKeDNY7OYyLLiq9Q/SBIebudh+3OY="
+    },
+    "location": [2069.3, 26.0, 610.9, 265, 5],
+    "look": false,
+    "gravity": true
+  },
+  "Server": [],
+  "Hide": "ShadyVillager1",
+
+  "CreateEntity": {
+    "key": "ShadyVillager2",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxMDgxMzUzNjUwMywKICAicHJvZmlsZUlkIiA6ICJmMjc0YzRkNjI1MDQ0ZTQxOGVmYmYwNmM3NWIyMDIxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIeXBpZ3NlbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xODgwNWU3NTNkOTZmYmMyNjFlYjJlMGZmZmMwNTBhYmRiNTEzMjZmYjI1OTE0N2VhZWM0OGIyOWZlMjVmNmFkIgogICAgfQogIH0KfQ==",
+      "signature": "k2pOipTn0v/mPHL0fE/QVMuMaEw5Aok0Gp4/TkH95xeM+s0Afd1mcAkzn6u3hxgD+SV4nKsYXr2NSst7HxOUs1tErgsoa0Q9fgyEaliK/nMDCJwZvzeF7lMHzQd08wV0g4BnHnVKRylijy41zu2oPiBBfAgwyuMfObr39A2c0nr0LK3XcE/xDh1x83G2oQnNYKF4DxsiGkWTll67gmihGkHSmsDPwWceIGUDu/zW92kYn4z6CwXA5pE7xeyYYOU2v/vDB68eIOsZhdObaMH3S5Uokuxv07lYavA7vWG1+GSVsGj24+pBQ3rfO+QauJ6V7Tc9Rj99WY7KvmiQivXcQGWmExHfJINWCrIkR5EY6iumJYKoOEF2kC7XdTkp+1LKRpdUUF5w4gMJrbFEvVG7C3NU9AgcThbI5ZzB8sjhk5tU7Cl6VbszH8hzp5LVWXXogVmimErSiQlTL5dL62cGgtJnqpRBbNOC/xX32TR2OqYoVia2/pVBBCBiCZWuUVkimYncBPJZQrW5vgJRodDQR6wWIBbGVKJj5P0RW1IQKKUitWEgS+drUJ9DaBD+5zA3Q/av40FdIwlZyBC9/KhewKqccl4ODzUsn22tFxdE6gB//U1oW6dtwScIEb0A6MktaFs3h3mp9csR2Z2L/tt0O/IuE2KZl+104nDYzgU+OxI="
+    },
+    "location": [2070.7, 26.0, 610.8, 92, 11],
+    "look": false,
+    "gravity": true
+  },
+  "Server": [],
+  "Hide": "ShadyVillager2",
 
 
   "Store": ["Agnes.speed", 0.15],
-  "Store": ["Agnes.speech", 90],
+  "Store": ["Agnes.speech", 100],
 
 
   "RegionEntry": [2046, 21, 563, 2050, 23, 570],
@@ -87,8 +177,8 @@
   "MoveEntity": ["AgnesIntro", 2048.5, 23.0, 560.5, "Agnes.speed", false],
   "MoveEntity": ["AgnesIntro", 2048.5, 23.0, 562.2, "Agnes.speed", false],
   "MoveEntity": ["AgnesIntro", 2048.5, 21.9, 564.0, "Agnes.speed", false],
-  "SendMessage": "DEBUG: Skipping to throne",
-  "Skip": "DEV-Throne_dialog",
+  "SendMessage": "DEBUG: Skipping to cinematic",
+  "Skip": "DEV-cinematic",
   "Dialog": [
     {
       "&5&lAgnes": "Greetings your majesty.",
@@ -147,7 +237,6 @@
   "Comment": "DEV-cinematic",
   "Comment": "---- Prepare the throne room ----",
   "SetBlocks": [1998, 53, 537, 1998, 60, 537, "Oak Log"],
-  "SetWeather": "Storm",
   "SetWorldTime": 18000,
   "Wait": 1,
 
@@ -208,7 +297,7 @@
   "SetBlock": [2003, 57, 562, "cauldron"],
   "SetBlock": [2005, 57, 562, "cauldron"],
 
-  "ProgressiveMoveEntity": ["ThroneAgnes", 2003.5, 51.1, 547.5, "Agnes.speed", false],
+  "ProgressiveMoveEntity": ["ThroneAgnes", 2003.5, 51.0, 547.5, "Agnes.speed", false],
   "Wait": 1.5,
   "PlaySound": "block_anvil_destroy",
   "SetBlocks": [2001, 54, 562, 2005, 54, 562, "structure_void"],
@@ -221,19 +310,8 @@
   "Unfreeze": [],
   "Look": ["camera", "ThroneAgnes"],
   "MoveEntity": ["camera", 2006.0, 51.0, 558.0, 0.025, false],
-  "RemoveFilter": [],
   "ProgressiveMoveEntity": ["camera", 2005.5, 51.0, 549.5, 0.005, false],
   "EntityLook": ["ThroneAgnes", "DarkKnight"],
-
-  "Comment": "DEV-Throne_dialog",
-  "Teleport": [],
-  "Show": "ThroneAgnes",
-  "Show": "DarkKnight",
-  "Teleport": [2008.0, 52.5, 558.0, 70, 10],
-  "TeleportEntity": ["ThroneAgnes", 2003.5, 51.1, 547.5],
-  "EntityLook": ["ThroneAgnes", "DarkKnight"],
-  "Cinematic": [],
-  "Comment": "END OF DEV",
 
   "Dialog": [
     {
@@ -267,8 +345,7 @@
     {
       "&8&lDark Knight": "From this point forward, you have a new responsibility.",
       "&8&lDark Knight": "You are now in charge of the logbook of my kingdom.",
-      "&5&lAgnes": "T- the logbook, Sir?",
-      "&8&lDark Knight": "You will note down everything that happens in my kingdom",
+      "&8&lDark Knight": "You will note down everything that happens,",
       "&8&lDark Knight": "and every night, you will report back to me.",
       "&5&lAgnes": "E- every night?"
     },
@@ -279,12 +356,148 @@
     {
       "&8&lDark Knight": "Did I stutter?",
       "&5&lAgnes": "No Sir. Every night.",
-      "&8&lDark Knight": "Rest of dialogue"
+      "&8&lDark Knight": "Good."
     },
     "Agnes.speech"
   ],
+  "ProgressiveDialog": [
+    {
+      "&8&lDark Knight": "I want to know &oeverything",
+      "&8&lDark Knight": "did I make myself clear?",
+      "&5&lAgnes": "Yes, Sir. I will try my best."
+    },
+    "Agnes.speech"
+  ],
+  "MoveEntity": ["DarkKnight", 2003.6, 53.5, 541.3, "Agnes.speed", false],
+  "MoveEntity": ["DarkKnight", 2003.5, 51.0, 543.7, "Agnes.speed", false],
+  "Wait": 10.0,
+  "ProgressiveDialog": [
+    {
+      "&8&lDark Knight": "Take this book.",
+      "&8&lDark Knight": "It contains everything that happened in this kingdom so far,"
+    },
+    "Agnes.speech"
+  ],
+  "Show": "floating_book",
+  "MoveEntity": ["floating_book", 2003.5, 52.5, 544.875, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.6, 545.3, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.7, 545.75, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.6, 546.2, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.5, 546.625, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.0, 547.5, 0.07, false],
+  "Hide": "floating_book",
+  "Dialog": [
+    {
+      "&8&lDark Knight": "make sure it stays that way.",
+      "&5&lAgnes": "Of course, Sir."
+    },
+    "Agnes.speech"
+  ],
+  "Wait": 10.0,
+  "Unfreeze": [],
+  "Fade": [],
+  "Teleport": [2048.5, 21.9, 566.0, 180],
+  "SetWorldTime": 2500,
+  "StopCinematic": [],
+  "Freeze": true,
 
+  "Dialog": [
+    {
+      "&5&lAgnes": "And that is how I became the master of stories.",
+      "[PLAYER]": "Impressive!",
+      "&5&lAgnes": "I did not want it at first, I felt like a spy in my own home."
+    }
+  ],
 
+  "Unfreeze": [],
+  "Fade": [],
+  "Teleport": [1925.0, 23.0, 568.5, 135, 12],
+  "SetWorldTime": 18000,
+  "Wait": 1,
+  "Freeze": true,
+  "Cinematic": [],
+  "Show": "FarmerAgnes",
+  "Show": "Farmer",
+  "EntityLook": ["FarmerAgnes", "Farmer"],
+  "ProgressiveDialog": [
+    {
+      "&5&lAgnes": "I took note of the work the other kingdom members did"
+    }
+  ],
+  "MoveEntity": ["Farmer", 1921.5, 23.0, 565.5, 0.1, false],
+  "MoveEntity": ["Farmer", 1921.4, 26.0, 568.2, 0.1, false],
+
+  "Hide": "FarmerAgnes",
+  "Hide": "Farmer",
+
+  "Unfreeze": [],
+  "Fade": [],
+  "Teleport": [2072.1, 26.7, 604.1, 29, 15],
+  "Freeze": true,
+  "Show": "ShadyVillager1",
+  "Show": "ShadyVillager2",
+  "Show": "ShadyAgnes",
+  "ProgressiveDialog": [
+    {
+      "&5&lAgnes": "I was present at every shady deal"
+    }
+  ],
+  "Wait": 1.0,
+  "AnimateEntity": [
+    "ShadyVillager1",
+    "Swing Main Hand"
+  ],
+  "Wait": 0.5,
+  "AnimateEntity": [
+    "ShadyVillager2",
+    "Swing Main Hand"
+  ],
+  "Wait": 0.5,
+  "AnimateEntity": [
+    "ShadyVillager1",
+    "Swing Main Hand"
+  ],
+  "Wait": 0.5,
+  "AnimateEntity": [
+    "ShadyVillager2",
+    "Swing Main Hand"
+  ],
+  "Wait": 0.5,
+  "AnimateEntity": [
+    "ShadyVillager1",
+    "Swing Main Hand"
+  ],
+  "Wait": 1.0,
+  "Hide": "ShadyVillager1",
+  "Hide": "ShadyVillager2",
+  "Hide": "ShadyAgnes",
+  "Unfreeze": [],
+  "Fade": [],
+  "Teleport": [2008.5, 52.7, 544.4, 90, 29],
+  "Freeze": true,
+  "ProgressiveDialog": [
+    {
+      "&5&lAgnes": "And every night, I would tell the Dark Knight everything I knew"
+    }
+  ],
+  "TeleportEntity": ["floating_book", 2003.5, 52.0, 547.5],
+  "Show": "floating_book",
+  "MoveEntity": ["floating_book", 2003.5, 52.0, 547.5, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.5, 546.625, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.6, 546.2, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.7, 545.75, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.6, 545.3, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.0, 544.0, 0.07, false],
+  "Hide": "floating_book",
+  "Wait": 1.0,
+  "Show": "floating_book",
+  "MoveEntity": ["floating_book", 2003.5, 52.5, 544.875, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.6, 545.3, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.7, 545.75, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.6, 546.2, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.5, 546.625, 0.07, false],
+  "MoveEntity": ["floating_book", 2003.5, 52.0, 547.5, 0.07, false],
+  "Hide": "floating_book",
 
   "Wait": 5.0,
 
