@@ -244,6 +244,8 @@
   "Fade": [],
   "Cinematic": [],
   "Teleport": [2008.0, 52.5, 558.0, 70, 10],
+  "TeleportEntity": ["ThroneAgnes", 2003.5, 51.1, 565.1, -180],
+  "TeleportEntity": ["DarkKnight", 2003.5, 53.5, 538.0, -180],
   "Freeze": true,
   "HidePlayer": [],
   "Show": "ThroneAgnes",
@@ -373,8 +375,7 @@
   "Wait": 10.0,
   "ProgressiveDialog": [
     {
-      "&8&lDark Knight": "Take this book.",
-      "&8&lDark Knight": "It contains everything that happened in this kingdom so far,"
+      "&8&lDark Knight": "Take this book."
     },
     "Agnes.speech"
   ],
@@ -388,6 +389,7 @@
   "Hide": "floating_book",
   "Dialog": [
     {
+      "&8&lDark Knight": "It contains everything that happened in this kingdom so far,",
       "&8&lDark Knight": "make sure it stays that way.",
       "&5&lAgnes": "Of course, Sir."
     },
@@ -424,8 +426,8 @@
       "&5&lAgnes": "I took note of the work the other kingdom members did"
     }
   ],
-  "MoveEntity": ["Farmer", 1921.5, 23.0, 565.5, 0.1, false],
-  "MoveEntity": ["Farmer", 1921.4, 26.0, 568.2, 0.1, false],
+  "MoveEntity": ["Farmer", 1921.5, 23.0, 565.5, 0.08, false],
+  "MoveEntity": ["Farmer", 1921.4, 26.0, 568.2, 0.08, false],
 
   "Hide": "FarmerAgnes",
   "Hide": "Farmer",
@@ -477,12 +479,11 @@
   "Freeze": true,
   "ProgressiveDialog": [
     {
-      "&5&lAgnes": "And every night, I would tell the Dark Knight everything I knew"
+      "&5&lAgnes": "And every night, I would tell the Dark Knight everything I knew."
     }
   ],
   "TeleportEntity": ["floating_book", 2003.5, 52.0, 547.5],
   "Show": "floating_book",
-  "MoveEntity": ["floating_book", 2003.5, 52.0, 547.5, 0.07, false],
   "MoveEntity": ["floating_book", 2003.5, 52.5, 546.625, 0.07, false],
   "MoveEntity": ["floating_book", 2003.5, 52.6, 546.2, 0.07, false],
   "MoveEntity": ["floating_book", 2003.5, 52.7, 545.75, 0.07, false],
@@ -498,9 +499,33 @@
   "MoveEntity": ["floating_book", 2003.5, 52.5, 546.625, 0.07, false],
   "MoveEntity": ["floating_book", 2003.5, 52.0, 547.5, 0.07, false],
   "Hide": "floating_book",
+  "Wait": 1.0,
+  "ProgressiveMoveEntity": ["ThroneAgnes", 2003.5, 51.1, 565.1],
+  "Wait": 2.0,
 
-  "Wait": 5.0,
+  "Hide": "DarkKnight",
+  "Hide": "ThroneAgnes",
+  "Unfreeze": [],
+  "Fade": [],
+  "Teleport": [2048.5, 21.9, 566.0, 180],
+  "SetWorldTime": 2500,
+  "StopCinematic": [],
+  "Freeze": true,
 
+  "Dialog": [
+    {
+      "[PLAYER]": "That must have been a weird position to be in...",
+      "&5&lAgnes": "It was for sure.",
+      "[PLAYER]": "What did the other kingdom members think about you back then?",
+      "&5&lAgnes": "That is a story for another day.",
+      "&5&lAgnes": "I do not want to disturb your Highness' day too much.",
+      "[PLAYER]": "Never, but we will talk later!"
+    },
+    "Agnes.speech"
+  ],
+  "MoveEntity": ["AgnesIntro", 2050.5, 22.0, 570.5, "Agnes.speed", false],
+  "Unfreeze": [],
+  "Fade": [],
   "Teleport": [1985.5, 29.0, 638.5, 180],
   "PlaySound": "ui_toast_challenge_complete",
   "SetTitle": [
