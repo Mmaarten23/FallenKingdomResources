@@ -81,144 +81,122 @@
   "Wait": 1,
   "Book": "&5&l    Story Guide\n\n&8These settings are recommended for the best story quest experience:&r\n\n* &5FOV&7: &d70&r\n* &5Render distance&7: &d16&r\n* &5Sounds&7: &dEnabled&r\n\n뜀 &8Chat will be disabled during story quests&r",
   "Leave": [],
+
+
   "Comment": "reopen_aptch",
   "Wait": 1,
+
   "Comment": "aptch",
-  "If": [],
-  "Completed": ["aptch_1"],
-  "Skip": "aptch_1_completed",
-  "Dummy": [],
+  "Comment": "---- Loading defaults ----",
+  "Store": [
+    "aptch.intro.item",
+    {
+      "name": "&dIntro",
+      "description": [
+        "&7Where did it all begin? Join Agnes on a magical trip down memory lane!",
+        "",
+        "&7▶ &dClick to start this episode!"
+      ],
+      "material": "Book",
+      "glow": true
+    }
+  ],
+  "Store": [
+    "aptch.part_1.item",
+    {
+      "name": "&dPart I",
+      "description": [
+        "&7Complete the &dintro&7 to unlock this episode."
+      ],
+      "material": "Book",
+      "glow": false
+    }
+  ],
+  "Store": [
+    "aptch.part_2.item",
+    {
+      "name": "&dPart II",
+      "description": [
+        "&7Complete &dpart I&7 to unlock this episode."
+      ],
+      "material": "book"
+    }
+  ],
+  "Store": [
+    "aptch.part_3.item",
+    {
+      "name": "&dPart III",
+      "description": [
+        "&7Complete &dpart II&7 to unlock this episode."
+      ],
+      "material": "book"
+    }
+  ],
 
   "If": [],
   "Completed": ["aptch_intro"],
-  "Skip": "aptch_intro_completed",
-  "Dummy": [],
-  "Menu": [
-    "Pick your episode",
-    6,
+  "Skip": "aptch-intro_completed",
+  "Skip": "aptch-show_menu",
+  "Comment": "aptch-intro_completed",
+  "Store": [
+    "aptch.intro.item",
     {
-      "8": {
-        "name": "&4&lClose",
-        "description": [
-          "&c▶ Click to close this menu!"
-        ],
-        "material": "Barrier"
-      },
-      "0": {
-        "name": "&4&lBack",
-        "description": [
-          "&c▶ Click to go back to the main menu!"
-        ],
-        "material": "Arrow"
-      },
-
-      "10": {
-        "name": "&dIntro",
-        "description": [
-          "&7Where did it all begin? Join Agnes on a magical trip down memory lane!",
-          "",
-          "&7▶ &dClick to start this episode!"
-        ],
-        "material": "Book",
-        "glow": true
-      },
-      "11": {
-        "name": "&dPart I",
-        "description": [
-          "&7Complete the &dintro&7 to unlock this episode."
-        ],
-        "material": "Book",
-        "glow": false
-      },
-      "12": {
-        "name": "&dPart II",
-        "description": [
-          "&7Complete &dpart I&7 to unlock this episode."
-        ],
-        "material": "book"
-      },
-      "13": {
-        "name": "&dPart III",
-        "description": [
-          "&7Complete &dpart II&7 to unlock this episode."
-        ],
-        "material": "book"
-      }
-    },
-    false
+      "name": "&dIntro",
+      "description": [
+        "&7Where did it all begin? Join Agnes on a magical trip down memory lane!",
+        "",
+        "&7▶ &dClick to restart this episode!"
+      ],
+      "material": "enchanted_book"
+    }
   ],
-  "Leave": [],
-  "Skip": "main_menu",
-  "Skip": "aptch_intro",
-  "Skip": "reopen_aptch",
-  "Skip": "reopen_aptch",
-  "Skip": "reopen_aptch",
-
-  "Comment": "aptch_intro_completed",
-  "Menu": [
-    "Pick your episode",
-    6,
+  "Store": [
+    "aptch.part_1.item",
     {
-      "8": {
-        "name": "&4&lClose",
-        "description": [
-          "&c▶ Click to close this menu!"
-        ],
-        "material": "Barrier"
-      },
-      "0": {
-        "name": "&4&lBack",
-        "description": [
-          "&c▶ Click to go back to the main menu!"
-        ],
-        "material": "Arrow"
-      },
-
-      "10": {
-        "name": "&dIntro",
-        "description": [
-          "&7Where did it all begin? Join Agnes on a magical trip down memory lane!",
-          "",
-          "&7▶ &dClick to restart this episode!"
-        ],
-        "material": "enchanted_book"
-      },
-      "11": {
-        "name": "&dPart I",
-        "description": [
-          "&7The throne room... what could the dark knight want from Agnes?",
-          "",
-          "&7▶ &dClick to start this episode!"
-        ],
-        "material": "Book",
-        "glow": true
-      },
-      "12": {
-        "name": "&dPart II",
-        "description": [
-          "&7Complete &dpart I&7 to unlock this episode."
-        ],
-        "material": "book"
-      },
-      "13": {
-        "name": "&dPart III",
-        "description": [
-          "&7Complete &dpart II&7 to unlock this episode."
-        ],
-        "material": "book"
-      }
-    },
-    false
+      "name": "&dPart I",
+      "description": [
+        "&7The throne room... what could the dark knight want from Agnes?",
+        "",
+        "&7▶ &dClick to start this episode!"
+      ],
+      "material": "Book",
+      "glow": true
+    }
   ],
-  "Leave": [],
-  "Skip": "main_menu",
-  "Skip": "aptch_intro",
-  "Skip": "aptch_part_1",
-  "Skip": "reopen_aptch",
-  "Skip": "reopen_aptch",
+
+  "If": [],
+  "Completed": ["aptch_part_1"],
+  "Skip": "aptch-part_1_completed",
+  "Skip": "aptch-show_menu",
+  "Comment": "aptch-part_1_completed",
+  "Store": [
+    "aptch.part_1.item",
+    {
+      "name": "&dPart I",
+      "description": [
+        "&7The throne room... what could the dark knight want from Agnes?",
+        "",
+        "&7▶ &dClick to restart this episode!"
+      ],
+      "material": "enchanted_book"
+    }
+  ],
+  "Store": [
+    "aptch.part_2.item",
+    {
+      "name": "&dPart II",
+      "description": [
+        "This part has not been made yet!",
+        "",
+        "&7▶ &dClick to start this episode!"
+      ],
+      "material": "book",
+      "glow": true
+    }
+  ],
 
 
-  "Comment": "aptch_1_completed",
+  "Comment": "aptch-show_menu",
   "Menu": [
     "Pick your episode",
     6,
@@ -238,41 +216,10 @@
         "material": "Arrow"
       },
 
-      "10": {
-        "name": "&dIntro",
-        "description": [
-          "&7Where did it all begin? Join Agnes on a magical trip down memory lane!",
-          "",
-          "&7▶ &dClick to restart this episode!"
-        ],
-        "material": "enchanted_book"
-      },
-      "11": {
-        "name": "&dPart I",
-        "description": [
-          "&7The throne room... what could the dark knight want from Agnes?",
-          "",
-          "&7▶ &dClick to restart this episode!"
-        ],
-        "material": "enchanted_book"
-      },
-      "12": {
-        "name": "&dPart II",
-        "description": [
-          "This part has not been made yet!",
-          "",
-          "&7▶ &dClick to start this episode!"
-        ],
-        "material": "book",
-        "glow": true
-      },
-      "13": {
-        "name": "&dPart III",
-        "description": [
-          "&7Complete &dpart II&7 to unlock this episode."
-        ],
-        "material": "book"
-      }
+      "10": "[aptch.intro.item]",
+      "11": "[aptch.part_1.item]",
+      "12": "[aptch.part_2.item]",
+      "13": "[aptch.part_3.item]"
     },
     false
   ],
@@ -296,6 +243,10 @@
 
 
   "Comment": "aptch_part_1",
+  "If": [],
+  "NotCompleted": ["aptch_intro"],
+  "Skip": "reopen_aptch",
+  "Dummy": [],
   "SetPersistent": ["selected_lore", "aptch_part_1"],
   "SendMessage": "&7[DEBUG] &oStarting A place to call home - part I...",
   "PlaySound": "entity_player_levelup",

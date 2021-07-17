@@ -530,6 +530,14 @@
   ],
   "MoveEntity": ["AgnesIntro", 2050.5, 22.0, 570.5, "Agnes.speed", false],
   "Hide": ["AgnesIntro"],
+
+  "GlobalProgressiveRegionEntry": [
+    1988,26,615,
+    1991,27,617
+  ],
+  "Skip": "Easter_egg_pay",
+
+
   "Unfreeze": [],
   "Fade": [],
   "Teleport": [1985.5, 29.0, 638.5, 180],
@@ -539,5 +547,12 @@
     "뜑 Part I completed 뜑"
   ],
   "Complete": [],
-  "SetPersistent": ["selected_lore", "NONE"]
+  "SetPersistent": ["selected_lore", "NONE"],
+  "Wait": 10.0,
+  "Leave": [],
+
+  "Comment": "Easter_egg_pay",
+  "PlaySound": "entity_player_levelup",
+  "SendMessage": "\uA016 &3&lSecret found&7: &bA deal is a deal!",
+  "Leave": []
 }
