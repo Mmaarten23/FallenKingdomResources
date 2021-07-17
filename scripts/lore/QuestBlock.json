@@ -92,7 +92,6 @@
   "Completed": ["aptch_intro"],
   "Skip": "aptch_intro_completed",
   "Dummy": [],
-  "Wait": 1,
   "Menu": [
     "Pick your episode",
     6,
