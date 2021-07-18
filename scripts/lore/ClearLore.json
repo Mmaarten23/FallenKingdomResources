@@ -1,0 +1,10 @@
+{
+  "Key": "clear_lore",
+  "Author": "Mmaarten",
+  "PlayerJoin": [],
+  "Comment": "start",
+  "Command": "/clearlore [PLAYER]",
+  "SetPersistent": ["selected_lore", "NONE"],
+  "SendMessage": "Your lore has been cleared",
+  "Skip": "start"
+}
