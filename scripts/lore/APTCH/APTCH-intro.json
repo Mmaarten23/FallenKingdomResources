@@ -252,7 +252,7 @@
     },
     "Agnes.speech"
   ],
-  "SendMessageOptions": ["&7➠ &c&nCould you say that again?", "&7➠ &e&nI can read it!"],
+  "SendMessageOptions": ["&7➠ &e&nCould you say that again?", "&7➠ &a&nI can read it!"],
   "Skip": "Message_check",
   "Dummy": [],
   "SetScoreboard": [],
@@ -265,7 +265,7 @@
   ],
   "Comment": "Story_guide",
   "Book": "&5&l    Story Guide\n\n&8These settings are recommended for the best story quest experience:&r\n\n* &5FOV&7: &d70&r\n* &5Render distance&7: &d16&r\n* &5Sounds&7: &dEnabled&r\n\n뜀 &8Chat will be disabled during story quests&r",
-  "SendMessageOptions": ["&7➠ &c&nCould I see that book again?", "&7➠ &e&nI am good to go."],
+  "SendMessageOptions": ["&7➠ &e&nCould I see that book again?", "&7➠ &a&nI am good to go."],
   "Skip": "Story_guide",
   "Dummy": [],
   "Dialog": [
