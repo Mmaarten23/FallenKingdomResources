@@ -198,7 +198,7 @@
   "SetScoreboard": "",
   "Comment": "Check_options",
   "SendMessageOptions": [
-    "&7-> Could I do the message check again?", "&7-> Could I see the story guide again?", "&7-> I am all good to go!"
+    "&7-> &c&nCould I do the message check again?", "&7-> &c&nCould I see the story guide again?", "&7-> &a&nI am all good to go!"
   ],
   "Skip": "Message_check",
   "Skip": "Story_guide",

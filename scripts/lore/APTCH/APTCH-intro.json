@@ -182,7 +182,7 @@
     },
     "Agnes.speech"
   ],
-  "SendMessageOptions": ["&7-> I would like that very much.", "&7-> I am a bit busy right now, maybe later?"],
+  "SendMessageOptions": ["&7-> &a&nI would like that very much.", "&7-> &c&nI am a bit busy right now, maybe later?"],
   "Skip": "Start_journey",
   "Skip": "Wait_before_start",
   "Comment": "Wait_before_start",
@@ -231,8 +231,8 @@
 
   "Dialog": ["&5&lAgnes", "Are you ready to explore history?"],
   "SendMessageOptions": [
-    "&7-> Sounds good!",
-    "&7-> I have some other stuff to take care of first."
+    "&7-> &a&nSounds good!",
+    "&7-> &c&nI have some other stuff to take care of first."
   ],
   "Skip": "Start_journey",
   "Dialog": ["&5&lAgnes", "I will be here when you are!"],
@@ -252,7 +252,7 @@
     },
     "Agnes.speech"
   ],
-  "SendMessageOptions": ["&7-> Could you say that again?", "&7-> I can read it!"],
+  "SendMessageOptions": ["&7-> &c&nCould you say that again?", "&7-> &a&nI can read it!"],
   "Skip": "Message_check",
   "Dummy": [],
   "SetScoreboard": [],
@@ -265,7 +265,7 @@
   ],
   "Comment": "Story_guide",
   "Book": "&5&l    Story Guide\n\n&8These settings are recommended for the best story quest experience:&r\n\n* &5FOV&7: &d70&r\n* &5Render distance&7: &d16&r\n* &5Sounds&7: &dEnabled&r\n\n뜀 &8Chat will be disabled during story quests&r",
-  "SendMessageOptions": [30, "&7-> Could I see that book again?", "&7-> I am good to go."],
+  "SendMessageOptions": ["&7-> &c&nCould I see that book again?", "&7-> &a&nI am good to go."],
   "Skip": "Story_guide",
   "Dummy": [],
   "Dialog": [
