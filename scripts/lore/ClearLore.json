@@ -5,6 +5,6 @@
   "Comment": "start",
   "Command": "/clearlore [PLAYER]",
   "SetPersistent": ["selected_lore", "NONE"],
-  "SendMessage": "Your lore has been cleared",
+  "SendMessage": "&7Your lore has been cleared",
   "Skip": "start"
 }

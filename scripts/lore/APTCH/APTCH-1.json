@@ -198,7 +198,7 @@
   "SetScoreboard": "",
   "Comment": "Check_options",
   "SendMessageOptions": [
-    "&7➠ &e&nCould I do the message check again?", "&7➠ &e&nCould I see the story guide again?", "&7-> &a&nI am all good to go!"
+    "&7➠ &e&nCould I do the message check again?", "&7➠ &e&nCould I see the story guide again?", "&7➠ &a&nI am all good to go!"
   ],
   "Skip": "Message_check",
   "Skip": "Story_guide",
@@ -450,6 +450,9 @@
     }
   ],
   "Wait": 1.0,
+  "Set": ["handshake_count", 0],
+  "Comment": "handshake",
+  "Add": "handshake_count",
   "AnimateEntity": [
     "ShadyVillager1",
     "Swing Main Hand"
@@ -459,19 +462,11 @@
     "Swing Main Hand"
   ],
   "Wait": 0.5,
-  "AnimateEntity": [
-    "ShadyVillager1",
-    "Swing Main Hand"
-  ],
-  "AnimateEntity": [
-    "ShadyVillager2",
-    "Swing Main Hand"
-  ],
-  "Wait": 0.5,
-  "AnimateEntity": [
-    "ShadyVillager1",
-    "Swing Main Hand"
-  ],
+  "If": [],
+  "Equals": ["handshake_count", "<", 7],
+  "Skip": "handshake",
+  "Set": ["handshake_count", "REMOVE"],
+
   "Wait": 2.0,
   "Hide": "ShadyVillager1",
   "Hide": "ShadyVillager2",
@@ -537,7 +532,7 @@
   ],
   "Skip": "Easter_egg_pay",
 
-
+  "SetScoreboard": [],
   "Unfreeze": [],
   "Fade": [],
   "Teleport": [1985.5, 29.0, 638.5, 180],
