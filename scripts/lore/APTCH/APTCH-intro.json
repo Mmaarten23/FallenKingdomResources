@@ -5,11 +5,6 @@
   "AllowRejoining": true,
 
   "ServerType": "hub",
-  "Quest": true,
-  "Icon": {
-    "material": "book"
-  },
-  "Description": "Where did it all begin? Join Agnes on a magical trip down memory lane!",
 
 
   "CreateEntity": {
