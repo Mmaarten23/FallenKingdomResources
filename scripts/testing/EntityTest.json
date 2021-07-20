@@ -1,0 +1,15 @@
+{
+  "Key": "entity_test",
+  "Author": "Mmaarten",
+  "CreateEntity": {
+    "key": "Test",
+    "entity": "PLAYER",
+    "skin": "fallen_banker",
+    "location": [1983.8, 29.0, 633.0]
+  },
+
+  "Look": ["camera", "Test"],
+  "MoveEntity": ["camera", 1987.2, 29.0, 636.8, 0.025, false],
+  "ProgressiveMoveEntity": ["camera", 1989.2, 29.0, 638.8, 0.025, false],
+  "Wait": 10.0
+}
