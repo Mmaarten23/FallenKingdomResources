@@ -96,7 +96,7 @@
   "EntityLook": ["MineAgnes", 1918, 27, 604],
 
 
-
+  "Wait": 20.0,
 
   "SetScoreboard": [],
   "Unfreeze": [],
