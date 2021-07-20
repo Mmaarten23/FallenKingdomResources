@@ -116,7 +116,7 @@
   "Teleport": [1929.0, 27.0, 609.0, 136, 25],
   "SetWorldTime": 18000,
   "SetScoreboard": "",
-  "Look": ["camera", 136, 25],
+  "Look": [136, 25],
   "HidePlayer": [],
   "Cinematic": [],
 
