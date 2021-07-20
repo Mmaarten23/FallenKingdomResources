@@ -13,7 +13,7 @@
       "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQ0NzUwNjI0NiwKICAicHJvZmlsZUlkIiA6ICJkMGFkNThjOTNiMzY0ZjgyOWRjZWEzMTAzMzE5MTgyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FwcGhpcmVfTHVuYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlYTU1YjRiODcwZjc5YjVhNmYzOWRkMjgzMmVkNDY1ZjdjYzMxZmE4MGMwNjIzMmMwNWFhMDBlMGQ3NzZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
       "signature": "j9zav92rL72m954bvop7xBHUHKz/J6wEUNf1ohonapyoJb3vetBmoYW8UoOmMQCzYagf3z/PbfafecEIQ/cbQBtxZ7sDlQxfOqmhcIpOtBOj3qSHygs0TDa+YwHjybxCn00YT6eivyewi51O0+ZUDmmOD4V8YwD/RFmMDCd9TGtN9r1JYNmG7G4qpaOlcsnUzVbcxf3uT0vCssiEODByr06Kb8tiGSwH8MjvMjeWBOqzB9HuxWVoNV1NOtdvJEKWaOpeMl5tQUK6bSR6HsganSx6xNh+mG9SISL5wAUYdDFnHvgyBUwe6QHq3jFXBlHQs/0sf2PLfV1gLxvmSHUIx4RJR/qfI+VyVr/tW6m7ptehKRS40GacFN8t9V9CYkXFYM2+/Y6ab5owfUUpqicLvCqminwDyT7H9pfh+TO9/9gO06j0x0FNmHo8hdQf5YZrqTdQ1UZI908KpNTuii9vAtDKmANgeNYCMg9lcp00x5s+hv10FfIRVZeRCHvqsfb7BwIEu4l9CxEHqeZPDNm6yuTxlHLbOxnonn572YhcVDMHAZXzsmpG4styET14tdzkAVMF4c0P/FUm/qflVgpTFPMRIbZwXaho6tQpF6QCMoplB+kZvrZW5bcDUZIsq6m5HhY6Vp/eTqcOMhy+9B8eJI1WpyBWcCtEtHRGL157Vy8="
     },
-    "location": [1922.6, 21.0, 605.6],
+    "location": [1922.6, 21.0, 605.6, 90],
     "name": [
       "&5&lAgnes"
     ],
@@ -33,7 +33,7 @@
       "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQ0NzUwNjI0NiwKICAicHJvZmlsZUlkIiA6ICJkMGFkNThjOTNiMzY0ZjgyOWRjZWEzMTAzMzE5MTgyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FwcGhpcmVfTHVuYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlYTU1YjRiODcwZjc5YjVhNmYzOWRkMjgzMmVkNDY1ZjdjYzMxZmE4MGMwNjIzMmMwNWFhMDBlMGQ3NzZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
       "signature": "j9zav92rL72m954bvop7xBHUHKz/J6wEUNf1ohonapyoJb3vetBmoYW8UoOmMQCzYagf3z/PbfafecEIQ/cbQBtxZ7sDlQxfOqmhcIpOtBOj3qSHygs0TDa+YwHjybxCn00YT6eivyewi51O0+ZUDmmOD4V8YwD/RFmMDCd9TGtN9r1JYNmG7G4qpaOlcsnUzVbcxf3uT0vCssiEODByr06Kb8tiGSwH8MjvMjeWBOqzB9HuxWVoNV1NOtdvJEKWaOpeMl5tQUK6bSR6HsganSx6xNh+mG9SISL5wAUYdDFnHvgyBUwe6QHq3jFXBlHQs/0sf2PLfV1gLxvmSHUIx4RJR/qfI+VyVr/tW6m7ptehKRS40GacFN8t9V9CYkXFYM2+/Y6ab5owfUUpqicLvCqminwDyT7H9pfh+TO9/9gO06j0x0FNmHo8hdQf5YZrqTdQ1UZI908KpNTuii9vAtDKmANgeNYCMg9lcp00x5s+hv10FfIRVZeRCHvqsfb7BwIEu4l9CxEHqeZPDNm6yuTxlHLbOxnonn572YhcVDMHAZXzsmpG4styET14tdzkAVMF4c0P/FUm/qflVgpTFPMRIbZwXaho6tQpF6QCMoplB+kZvrZW5bcDUZIsq6m5HhY6Vp/eTqcOMhy+9B8eJI1WpyBWcCtEtHRGL157Vy8="
     },
-    "location": [1919.4,27.0,604.5, 86],
+    "location": [1919.4, 27.0, 604.5, 86],
     "name": [
       "&5&lAgnes"
     ],
@@ -45,6 +45,34 @@
   },
   "Server": [],
   "Hide": "MineAgnes",
+
+  "CreateEntity": {
+    "key": "Miner1",
+    "entity": "PLAYER",
+    "skin": "fallen_miner_light",
+    "location": [1927.5,22.9,588.5, 90],
+    "hand": {
+      "material": "stone_pickaxe"
+    },
+    "offhand": {
+      "material": "torch"
+    },
+    "look": false,
+    "gravity": true
+  },
+  "Server": [],
+  "Hide": "Miner1",
+
+  "CreateEntity": {
+    "key": "Miner2",
+    "entity": "PLAYER",
+    "skin": "fallen_miner_worker",
+    "location": [1927.5,22.9,586.5, 90],
+    "look": false,
+    "gravity": true
+  },
+  "Server": [],
+  "Hide": "Miner2",
 
   "Store": ["Agnes.speed", 0.15],
   "Store": ["Agnes.speech", 110],
@@ -72,7 +100,7 @@
     },
     "Agnes.speech"
   ],
-  "ProgressiveMoveEntity": ["AgnesIntro", 1924.3, 23.0, 605.6, "Agnes.speed", false],
+  "MoveEntity": ["AgnesIntro", 1924.5, 23.0, 605.5, 0.1, false],
   "Dialog": [
     {
       "&5&lAgnes": "I was just thinking about what you asked me last time.",
@@ -88,12 +116,23 @@
   "Teleport": [1929.0, 27.0, 609.0, 136, 25],
   "SetWorldTime": 18000,
   "SetScoreboard": "",
-  "Freeze": true,
+  "Look": ["camera", 136, 25],
   "HidePlayer": [],
   "Cinematic": [],
 
+
   "Show": "MineAgnes",
-  "EntityLook": ["MineAgnes", 1918, 27, 604],
+  "EntityLook": ["MineAgnes", 1918, 26, 604],
+  "Show": "Miner1",
+  "Show": "Miner2",
+
+  "Dialog": [
+    {
+      "&5&lAgnes": "It was a few eeks after I received the logbook.",
+      "&5&lAgnes": "I was checking the miners' work when all of a sudden, two workers showed up."
+    },
+    "Agnes.speech"
+  ],
 
 
   "Wait": 20.0,
