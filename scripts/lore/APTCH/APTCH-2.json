@@ -1,0 +1,112 @@
+{
+  "Name": "&5&lA place to call home &7- &dII",
+  "Key": "aptch_2",
+  "Author": "Mmaarten",
+  "AllowRejoining": false,
+
+  "ServerType": "hub",
+
+  "CreateEntity": {
+    "key": "AgnesIntro",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQ0NzUwNjI0NiwKICAicHJvZmlsZUlkIiA6ICJkMGFkNThjOTNiMzY0ZjgyOWRjZWEzMTAzMzE5MTgyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FwcGhpcmVfTHVuYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlYTU1YjRiODcwZjc5YjVhNmYzOWRkMjgzMmVkNDY1ZjdjYzMxZmE4MGMwNjIzMmMwNWFhMDBlMGQ3NzZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+      "signature": "j9zav92rL72m954bvop7xBHUHKz/J6wEUNf1ohonapyoJb3vetBmoYW8UoOmMQCzYagf3z/PbfafecEIQ/cbQBtxZ7sDlQxfOqmhcIpOtBOj3qSHygs0TDa+YwHjybxCn00YT6eivyewi51O0+ZUDmmOD4V8YwD/RFmMDCd9TGtN9r1JYNmG7G4qpaOlcsnUzVbcxf3uT0vCssiEODByr06Kb8tiGSwH8MjvMjeWBOqzB9HuxWVoNV1NOtdvJEKWaOpeMl5tQUK6bSR6HsganSx6xNh+mG9SISL5wAUYdDFnHvgyBUwe6QHq3jFXBlHQs/0sf2PLfV1gLxvmSHUIx4RJR/qfI+VyVr/tW6m7ptehKRS40GacFN8t9V9CYkXFYM2+/Y6ab5owfUUpqicLvCqminwDyT7H9pfh+TO9/9gO06j0x0FNmHo8hdQf5YZrqTdQ1UZI908KpNTuii9vAtDKmANgeNYCMg9lcp00x5s+hv10FfIRVZeRCHvqsfb7BwIEu4l9CxEHqeZPDNm6yuTxlHLbOxnonn572YhcVDMHAZXzsmpG4styET14tdzkAVMF4c0P/FUm/qflVgpTFPMRIbZwXaho6tQpF6QCMoplB+kZvrZW5bcDUZIsq6m5HhY6Vp/eTqcOMhy+9B8eJI1WpyBWcCtEtHRGL157Vy8="
+    },
+    "location": [1922.6, 21.0, 605.6],
+    "name": [
+      "&5&lAgnes"
+    ],
+    "hand": {
+      "material": "written_book"
+    },
+    "look": true,
+    "gravity": true
+  },
+  "Server": [],
+  "Hide": "AgnesIntro",
+
+  "CreateEntity": {
+    "key": "MineAgnes",
+    "entity": "PLAYER",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQ0NzUwNjI0NiwKICAicHJvZmlsZUlkIiA6ICJkMGFkNThjOTNiMzY0ZjgyOWRjZWEzMTAzMzE5MTgyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FwcGhpcmVfTHVuYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlYTU1YjRiODcwZjc5YjVhNmYzOWRkMjgzMmVkNDY1ZjdjYzMxZmE4MGMwNjIzMmMwNWFhMDBlMGQ3NzZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+      "signature": "j9zav92rL72m954bvop7xBHUHKz/J6wEUNf1ohonapyoJb3vetBmoYW8UoOmMQCzYagf3z/PbfafecEIQ/cbQBtxZ7sDlQxfOqmhcIpOtBOj3qSHygs0TDa+YwHjybxCn00YT6eivyewi51O0+ZUDmmOD4V8YwD/RFmMDCd9TGtN9r1JYNmG7G4qpaOlcsnUzVbcxf3uT0vCssiEODByr06Kb8tiGSwH8MjvMjeWBOqzB9HuxWVoNV1NOtdvJEKWaOpeMl5tQUK6bSR6HsganSx6xNh+mG9SISL5wAUYdDFnHvgyBUwe6QHq3jFXBlHQs/0sf2PLfV1gLxvmSHUIx4RJR/qfI+VyVr/tW6m7ptehKRS40GacFN8t9V9CYkXFYM2+/Y6ab5owfUUpqicLvCqminwDyT7H9pfh+TO9/9gO06j0x0FNmHo8hdQf5YZrqTdQ1UZI908KpNTuii9vAtDKmANgeNYCMg9lcp00x5s+hv10FfIRVZeRCHvqsfb7BwIEu4l9CxEHqeZPDNm6yuTxlHLbOxnonn572YhcVDMHAZXzsmpG4styET14tdzkAVMF4c0P/FUm/qflVgpTFPMRIbZwXaho6tQpF6QCMoplB+kZvrZW5bcDUZIsq6m5HhY6Vp/eTqcOMhy+9B8eJI1WpyBWcCtEtHRGL157Vy8="
+    },
+    "location": [1919.4,27.0,604.5, 86],
+    "name": [
+      "&5&lAgnes"
+    ],
+    "hand": {
+      "material": "written_book"
+    },
+    "look": false,
+    "gravity": true
+  },
+  "Server": [],
+  "Hide": "MineAgnes",
+
+  "Store": ["Agnes.speed", 0.15],
+  "Store": ["Agnes.speech", 110],
+
+
+  "RegionEntry": [1916, 23, 595, 1930, 24, 610],
+  "If": [],
+  "Equals": ["selected_lore", "aptch_part_2"],
+  "Skip": "In_Range",
+  "Leave": [],
+
+  "Comment": "In_Range",
+  "SetPersistent": ["selected_lore", "RUNNING"],
+
+  "Show": "AgnesIntro",
+
+  "RegionEntry": [1917, 20, 601, 1925, 24, 607],
+  "Dialog": [
+    {
+      "[PLAYER]": "Agnes?",
+      "&5&lAgnes": "Oh, good morning your majesty.",
+      "&5&lAgnes": "I did not know I was not alone.",
+      "[PLAYER]": "I apologize if I am interrupting something",
+      "&5&lAgnes": "It is okay."
+    },
+    "Agnes.speech"
+  ],
+  "ProgressiveMoveEntity": ["AgnesIntro", 1924.3, 23.0, 605.6, "Agnes.speed", false],
+  "Dialog": [
+    {
+      "&5&lAgnes": "I was just thinking about what you asked me last time.",
+      "&5&lAgnes": "&o\"What did the other kingdom members think about you back then?\"",
+      "[PLAYER]": "I assume this place has something to do with that?",
+      "&5&lAgnes": "It sure does...",
+      "&5&lAgnes": "It was here where I first doubted myself..."
+    },
+    "Agnes.speech"
+  ],
+  "Hide": "AgnesIntro",
+  "Fade": [],
+  "Teleport": [1929.0, 27.0, 609.0, 136, 25],
+  "SetWorldTime": 18000,
+  "SetScoreboard": "",
+  "Freeze": true,
+  "HidePlayer": [],
+  "Cinematic": [],
+
+  "Show": "MineAgnes",
+  "EntityLook": ["MineAgnes", 1918, 27, 604],
+
+
+
+
+  "SetScoreboard": [],
+  "Unfreeze": [],
+  "Fade": [],
+  "Teleport": [1985.5, 29.0, 638.5, 180],
+  "PlaySound": "ui_toast_challenge_complete",
+  "SetTitle": [
+    "&5A place to call home",
+    "뜑 Part II completed 뜑"
+  ],
+  "Complete": [],
+  "SetPersistent": ["selected_lore", "NONE"]
+}
