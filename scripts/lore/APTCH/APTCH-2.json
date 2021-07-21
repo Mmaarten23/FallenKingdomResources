@@ -50,7 +50,7 @@
     "key": "Miner1",
     "entity": "PLAYER",
     "skin": "fallen_miner_light",
-    "location": [1927.5,22.9,588.5, 90],
+    "location": [1927.5, 22.9, 588.5, 90],
     "hand": {
       "material": "stone_pickaxe"
     },
@@ -67,7 +67,7 @@
     "key": "Miner2",
     "entity": "PLAYER",
     "skin": "fallen_miner_worker",
-    "location": [1927.5,22.9,586.5, 90],
+    "location": [1927.5, 22.9, 586.5, 90],
     "look": false,
     "gravity": true
   },
@@ -78,7 +78,7 @@
   "Store": ["Agnes.speech", 110],
 
 
-  "RegionEntry": [1916, 23, 595, 1930, 24, 610],
+  "RegionEntry": [1916, 22, 595, 1930, 24, 610],
   "If": [],
   "Equals": ["selected_lore", "aptch_part_2"],
   "Skip": "In_Range",
@@ -95,7 +95,7 @@
       "[PLAYER]": "Agnes?",
       "&5&lAgnes": "Oh, good morning your majesty.",
       "&5&lAgnes": "I did not know I was not alone.",
-      "[PLAYER]": "I apologize if I am interrupting something",
+      "[PLAYER]": "I apologize if I am interrupting something.",
       "&5&lAgnes": "It is okay."
     },
     "Agnes.speech"
@@ -117,6 +117,7 @@
   "SetWorldTime": 18000,
   "SetScoreboard": "",
   "Look": [136, 25],
+  "Freeze": true,
   "HidePlayer": [],
   "Cinematic": [],
 
@@ -128,10 +129,24 @@
 
   "Dialog": [
     {
-      "&5&lAgnes": "It was a few eeks after I received the logbook.",
-      "&5&lAgnes": "I was checking the miners' work when all of a sudden, two workers showed up."
+      "&5&lAgnes": "It was a few weeks after I received the logbook.",
+      "&5&lAgnes": "I was checking the miners' work when all of a sudden,",
+      "&5&lAgnes": "Edward and Gibson, two miners, passed by."
     },
     "Agnes.speech"
+  ],
+  "ProgressiveMoveEntity": ["Miner1", 1924.5, 22.9, 588.5, 0.07, false],
+  "MoveEntity": ["Miner2", 1922.5, 22.9, 586.5, 0.07, false],
+  "MoveEntity": ["Miner2", 1922.5, 22.9, 588.5, 0.07, false],
+  "ProgressiveMoveEntity": ["Miner1", 1924.5, 22.9, 595.5, 0.07, false],
+  "MoveEntity": ["Miner2", 1922.5, 22.9, 595.5, 0.07, false],
+  "ProgressiveDialog": [
+    {
+      "&7&lGibson": "... has everything ready. It will happen later this week.",
+      "&7&lEdward": "Should we warn Agnes?",
+      "&7&lGibson": "No, the risk is too great.",
+      "&7&lGibson": "She is no longer one of us."
+    }
   ],
 
 
