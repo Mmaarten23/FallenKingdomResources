@@ -1,0 +1,31 @@
+{
+  "Key": "speed_test",
+
+  "CreateEntity": {
+    "key": "Miner1",
+    "entity": "PLAYER",
+    "skin": "fallen_miner_light",
+    "location": [1927.5, 22.9, 588.5, 90],
+    "hand": {
+      "material": "stone_pickaxe"
+    },
+    "offhand": {
+      "material": "torch"
+    },
+    "look": false,
+    "gravity": true
+  },
+
+  "CreateEntity": {
+    "key": "Miner2",
+    "entity": "PLAYER",
+    "skin": "fallen_miner_worker",
+    "location": [1927.5, 22.9, 586.5, 90],
+    "look": false,
+    "gravity": true
+  },
+
+  "ProgressiveDialog": [{"&7&lGibson": "Test message"}, 80],
+  "ProgressiveMoveEntity": ["Miner1", 1924.5, 22.9, 595.5, 0.06, false],
+  "MoveEntity": ["Miner2", 1922.5, 22.9, 595.5, 0.06, false]
+}
