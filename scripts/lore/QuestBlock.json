@@ -197,6 +197,12 @@
 
 
   "Comment": "aptch-show_menu",
+  "LeaveScript": [],
+  "Set": [ "aptch.intro.item", "REMOVE" ],
+  "LeaveScript": [],
+  "Set": [ "aptch.part_1.item", "REMOVE" ],
+  "LeaveScript": [],
+  "Set": [ "aptch.part_2.item", "REMOVE" ],
   "Menu": [
     "Pick your episode",
     6,
