@@ -88,7 +88,7 @@
 
   "Comment": "aptch",
   "Comment": "---- Loading defaults ----",
-  "Store": [
+  "Set": [
     "aptch.intro.item",
     {
       "name": "&dIntro",
@@ -101,7 +101,7 @@
       "glow": true
     }
   ],
-  "Store": [
+  "Set": [
     "aptch.part_1.item",
     {
       "name": "&dPart I",
@@ -112,7 +112,7 @@
       "glow": false
     }
   ],
-  "Store": [
+  "Set": [
     "aptch.part_2.item",
     {
       "name": "&dPart II",
@@ -122,7 +122,7 @@
       "material": "book"
     }
   ],
-  "Store": [
+  "Set": [
     "aptch.part_3.item",
     {
       "name": "&dPart III",
@@ -138,7 +138,7 @@
   "Skip": "aptch-intro_completed",
   "Skip": "aptch-show_menu",
   "Comment": "aptch-intro_completed",
-  "Store": [
+  "Set": [
     "aptch.intro.item",
     {
       "name": "&dIntro",
@@ -150,7 +150,7 @@
       "material": "enchanted_book"
     }
   ],
-  "Store": [
+  "Set": [
     "aptch.part_1.item",
     {
       "name": "&dPart I",
@@ -169,7 +169,7 @@
   "Skip": "aptch-part_1_completed",
   "Skip": "aptch-show_menu",
   "Comment": "aptch-part_1_completed",
-  "Store": [
+  "Set": [
     "aptch.part_1.item",
     {
       "name": "&dPart I",
@@ -181,7 +181,7 @@
       "material": "enchanted_book"
     }
   ],
-  "Store": [
+  "Set": [
     "aptch.part_2.item",
     {
       "name": "&dPart II",
