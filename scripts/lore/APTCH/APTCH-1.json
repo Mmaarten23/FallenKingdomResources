@@ -390,9 +390,9 @@
     "circle2",
     2003.5, 51.0, 545.5,
     2005.5, 51.0, 549.5,
-    0.01,
+    0.05,
     false,
-    65.0],
+    60.0],
   "ProgressiveDialog": [
     {
       "&8&lDark Knight": "Take this book."
