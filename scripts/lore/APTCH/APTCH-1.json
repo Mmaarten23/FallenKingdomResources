@@ -392,8 +392,7 @@
     2005.5, 51.0, 549.5,
     0.1,
     false,
-    90
-  ],
+    80.0],
   "ProgressiveDialog": [
     {
       "&8&lDark Knight": "Take this book."
