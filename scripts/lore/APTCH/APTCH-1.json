@@ -312,9 +312,9 @@
   "MoveEntity": ["circle", 2006.0, 51.0, 558.0, 0.025, false],
   "Teleport": "circle",
   "Wait": 1,
-  "Look": [165],
-  "Freeze": true,
+  "Look": 165,
   "Wait": 1,
+  "Freeze": true,
   "ProgressiveMoveEntity": ["camera", 2005.5, 51.0, 549.5, 0.005, false],
   "EntityLook": ["ThroneAgnes", "DarkKnight"],
 
