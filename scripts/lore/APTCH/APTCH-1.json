@@ -193,7 +193,8 @@
   "SetScoreboard": "",
   "Comment": "Check_options",
   "SendMessageOptions": [
-    "&7➠ &e&nCould I do the message check again?", "&7➠ &e&nCould I see the story guide again?", "&7➠ &a&nI am all good to go!"
+    "&7➠ &e&nCould I do the message check again?", "&7➠ &e&nCould I see the story guide again?",
+    "&7➠ &a&nI am all good to go!"
   ],
   "Skip": "Message_check",
   "Skip": "Story_guide",
@@ -307,6 +308,7 @@
   "Unfreeze": [],
   "Look": ["camera", "ThroneAgnes"],
   "MoveEntity": ["camera", 2006.0, 51.0, 558.0, 0.025, false],
+  "Look": ["camera2", -1],
   "ProgressiveMoveEntity": ["camera", 2005.5, 51.0, 549.5, 0.005, false],
   "EntityLook": ["ThroneAgnes", "DarkKnight"],
 
@@ -522,8 +524,8 @@
   "Hide": ["AgnesIntro"],
 
   "GlobalProgressiveRegionEntry": [
-    1988,26,615,
-    1991,27,617
+    1988, 26, 615,
+    1991, 27, 617
   ],
   "Skip": "Easter_egg_pay",
 
