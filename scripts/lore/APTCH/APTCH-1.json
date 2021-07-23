@@ -310,9 +310,9 @@
   "Unfreeze": [],
   "Look": ["camera", "ThroneAgnes"],
   "MoveEntity": ["camera", 2006.0, 51.0, 558.0, 0.025, false],
+  "Teleport": "camera",
   "Wait": 1,
   "Look": ["camera2", 165],
-  "TeleportEntity": ["camera2", "camera"],
   "ProgressiveMoveEntity": ["camera2", 2005.5, 51.0, 549.5, 0.005, false],
   "EntityLook": ["ThroneAgnes", "DarkKnight"],
 
