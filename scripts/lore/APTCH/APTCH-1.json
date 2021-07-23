@@ -377,8 +377,14 @@
   "MoveEntity": ["DarkKnight", 2003.5, 51.0, 543.7, "Agnes.speed", false],
   "Wait": 8.0,
   "RemoveFilter": [],
-  "Freeze": true,
-  "Wait": 3.0,
+  "Look": ["circle2", -1],
+  "MoveEntityCircle": [
+    "circle2",
+    2003.5,51.0,545.6,
+    2005.5, 51.0, 549.5,
+    0.5,
+    false
+  ],
   "ProgressiveDialog": [
     {
       "&8&lDark Knight": "Take this book."
