@@ -376,6 +376,7 @@
   "MoveEntity": ["DarkKnight", 2003.6, 53.5, 541.3, "Agnes.speed", false],
   "MoveEntity": ["DarkKnight", 2003.5, 51.0, 543.7, "Agnes.speed", false],
   "Wait": 11.0,
+  "Skip": "DEV-end",
   "ProgressiveDialog": [
     {
       "&8&lDark Knight": "Take this book."
@@ -535,6 +536,7 @@
   ],
   "Skip": "Easter_egg_pay",
 
+  "Comment": "DEV-end",
   "SetScoreboard": [],
   "Unfreeze": [],
   "Fade": [],
