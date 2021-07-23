@@ -316,6 +316,7 @@
   "Look": ["line", -1],
   "ProgressiveMoveEntity": ["line", 2005.5, 51.0, 549.5, 0.005, false],
   "EntityLook": ["ThroneAgnes", "DarkKnight"],
+  "Teleport": [2005.5, 51.0, 549.5, 165, 0],
 
   "Dialog": [
     {
@@ -374,8 +375,10 @@
   ],
   "MoveEntity": ["DarkKnight", 2003.6, 53.5, 541.3, "Agnes.speed", false],
   "MoveEntity": ["DarkKnight", 2003.5, 51.0, 543.7, "Agnes.speed", false],
-  "Wait": 11.0,
-  "Skip": "DEV-end",
+  "Wait": 8.0,
+  "RemoveFilter": [],
+  "Freeze": true,
+  "Wait": 3.0,
   "ProgressiveDialog": [
     {
       "&8&lDark Knight": "Take this book."
@@ -400,6 +403,7 @@
     "Agnes.speech"
   ],
   "Wait": 1.0,
+  "Skip": "DEV-end",
   "Unfreeze": [],
   "Fade": [],
   "Teleport": [2048.5, 21.9, 566.0, 180],
