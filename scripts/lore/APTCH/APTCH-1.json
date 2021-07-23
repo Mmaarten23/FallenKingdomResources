@@ -314,6 +314,7 @@
   "Wait": 1,
   "Look": [165],
   "Freeze": true,
+  "Wait": 1,
   "ProgressiveMoveEntity": ["camera", 2005.5, 51.0, 549.5, 0.005, false],
   "EntityLook": ["ThroneAgnes", "DarkKnight"],
 
