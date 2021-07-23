@@ -308,14 +308,9 @@
   "SetBlock": [2005, 57, 562, "cobblestone_wall"],
 
   "Unfreeze": [],
-  "Look": ["circle", "ThroneAgnes"],
+  "Look": ["circle", "ThroneAgnes", 2.0],
   "MoveEntity": ["circle", 2006.0, 51.0, 558.0, 0.025, false],
-  "Teleport": "circle",
-  "Wait": 1,
-  "Look": 165,
-  "Wait": 1,
-  "Freeze": true,
-  "ProgressiveMoveEntity": ["camera", 2005.5, 51.0, 549.5, 0.005, false],
+  "ProgressiveMoveEntity": ["circle", 2005.5, 51.0, 549.5, 0.005, false],
   "EntityLook": ["ThroneAgnes", "DarkKnight"],
 
   "Dialog": [
