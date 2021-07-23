@@ -151,6 +151,14 @@
   "Server": [],
   "Hide": "ShadyVillager2",
 
+  "CreateEntity": {
+    "key": "center",
+    "entity": "BAT",
+    "location": [2003.5, 51.0, 545.5, 0]
+  },
+  "Server": [],
+  "Hide": "center",
+
 
   "Store": ["Agnes.speed", 0.15],
   "Store": ["Agnes.speech", 110],
@@ -311,7 +319,7 @@
   "Look": ["circle", "ThroneAgnes"],
   "MoveEntity": ["circle", 2006.0, 51.0, 558.0, 0.025, false],
   "RemoveFilter": [],
-  "Teleport": [2006.0,51.0,558.0, 165, 0],
+  "Teleport": [2006.0, 51.0, 558.0, 165, 0],
   "Wait": 1,
   "Look": ["line", -1],
   "ProgressiveMoveEntity": ["line", 2005.5, 51.0, 549.5, 0.005, false],
@@ -377,13 +385,14 @@
   "MoveEntity": ["DarkKnight", 2003.5, 51.0, 543.7, "Agnes.speed", false],
   "Wait": 8.0,
   "RemoveFilter": [],
-  "Look": ["circle2", -1],
+  "Look": ["circle2", "center"],
   "MoveEntityCircle": [
     "circle2",
-    2003.5,51.0,545.6,
+    2003.5, 51.0, 545.5,
     2005.5, 51.0, 549.5,
-    0.5,
-    false
+    0.1,
+    false,
+    90
   ],
   "ProgressiveDialog": [
     {
