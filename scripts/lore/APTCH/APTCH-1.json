@@ -308,10 +308,13 @@
   "SetBlock": [2005, 57, 562, "cobblestone_wall"],
 
   "Unfreeze": [],
-  "Look": ["circle", "ThroneAgnes", 4.0],
+  "Look": ["circle", "ThroneAgnes"],
   "MoveEntity": ["circle", 2006.0, 51.0, 558.0, 0.025, false],
-  "Look": ["circle", -1],
-  "ProgressiveMoveEntity": ["circle", 2005.5, 51.0, 549.5, 0.005, false],
+  "RemoveFilter": [],
+  "Teleport": [2006.0,51.0,558.0, 165, 0],
+  "Wait": 1,
+  "Look": ["line", -1],
+  "ProgressiveMoveEntity": ["line", 2005.5, 51.0, 549.5, 0.005, false],
   "EntityLook": ["ThroneAgnes", "DarkKnight"],
 
   "Dialog": [
