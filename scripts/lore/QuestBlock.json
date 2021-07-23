@@ -13,8 +13,14 @@
   "NotCompleted": [],
   "Skip": "intro",
   "Dummy": [],
+
   "If": [],
   "Equals": ["selected_lore", "RUNNING"],
+  "Skip": "running",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["selected_lore", "RUNNING_rejoin_allowed"],
   "Skip": "running",
   "Skip": "main_menu",
 

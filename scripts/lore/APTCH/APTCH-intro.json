@@ -154,7 +154,7 @@
   "Leave": [],
 
   "Comment": "In_Range",
-  "SetPersistent": ["selected_lore", "RUNNING"],
+  "SetPersistent": ["selected_lore", "RUNNING_rejoin_allowed"],
 
   "Show": "AgnesIntro",
   "ProgressiveDialog": ["&5&lAgnes", "Those bloody portals..."],
@@ -177,9 +177,13 @@
     },
     "Agnes.speech"
   ],
-  "SendMessageOptions": ["&7➠ &a&nI would like that very much.", "&7➠ &e&nI am a bit busy right now, maybe later?"],
-  "Skip": "Start_journey",
+  "SendMessageOptions": [
+    "&7➠ &e&nI am a bit busy right now, maybe later?",
+    "&7➠ &a&nI would like that very much."
+  ],
   "Skip": "Wait_before_start",
+  "Skip": "Start_journey",
+
   "Comment": "Wait_before_start",
   "ProgressiveDialog": ["&5&lAgnes", "Ofcourse Your Majesty."],
   "MoveEntity": ["AgnesIntro", 1908.0, 38.0, 532.0, "Agnes.speed", false],
@@ -226,13 +230,16 @@
 
   "Dialog": ["&5&lAgnes", "Are you ready to explore history?"],
   "SendMessageOptions": [
-    "&7➠ &a&nSounds good!",
-    "&7➠ &e&nI have some other stuff to take care of first."
+    "&7➠ &e&nI have some other stuff to take care of first.",
+    "&7➠ &a&nSounds good!"
   ],
+  "Skip": "not_ready",
   "Skip": "Start_journey",
+  "Comment": "not_ready",
   "Dialog": ["&5&lAgnes", "I will be here when you are!"],
   "Skip": "Wait_at_jo",
   "Comment": "Start_journey",
+  "SetPersistent": ["selected_lore", "RUNNING"],
   "SetScoreboard": "",
   "Dialog": [
     {
@@ -247,7 +254,10 @@
     },
     "Agnes.speech"
   ],
-  "SendMessageOptions": ["&7➠ &e&nCould you say that again?", "&7➠ &a&nI can read it!"],
+  "SendMessageOptions": [
+    "&7➠ &e&nCould you say that again?",
+    "&7➠ &a&nI can read it!"
+  ],
   "Skip": "Message_check",
   "Dummy": [],
   "SetScoreboard": [],
@@ -260,7 +270,10 @@
   ],
   "Comment": "Story_guide",
   "Book": "&5&l    Story Guide\n\n&8These settings are recommended for the best story quest experience:&r\n\n* &5FOV&7: &d70&r\n* &5Render distance&7: &d16&r\n* &5Sounds&7: &dEnabled&r\n\n뜀 &8Chat will be disabled during story quests&r",
-  "SendMessageOptions": ["&7➠ &e&nCould I see that book again?", "&7➠ &a&nI am good to go."],
+  "SendMessageOptions": [
+    "&7➠ &e&nCould I see that book again?",
+    "&7➠ &a&nI am good to go."
+  ],
   "Skip": "Story_guide",
   "Dummy": [],
   "Dialog": [

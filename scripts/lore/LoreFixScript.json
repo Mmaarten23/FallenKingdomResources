@@ -1,0 +1,11 @@
+{
+  "Key": "lore_fix",
+  "Author": "mmaarten",
+  "Comment": "This script attempts to fix any inconsistency that may occur with the lore system. Whenever a player joins the server with the selected_lore variable set to RUNNING, the variable will be cleared.",
+
+  "PlayerJoin": [],
+  "If": [],
+  "Equals": ["selected_lore", "RUNNING"],
+  "SetPersistent": ["selected_lore", "NONE"],
+  "Leave": []
+}
