@@ -1,0 +1,47 @@
+{
+  "Comment": "---- Start of script ----",
+  "Name": "&5&l[STORYLINE] &7- &d[EPISODE]",
+  "Key": "[STORYLINE]_[EPISODE]",
+  "Author": "Mmaarten",
+  "AllowRejoining": false,
+
+  "ServerType": "hub",
+
+
+
+  "Comment": "---- Start of interaction ----",
+  "RegionEntry": [0, 0, 0, 0, 0, 0],
+  "If": [],
+  "Equals": ["selected_lore", "[STORYLINE]_[EPISODE]"],
+  "Skip": "In_Range",
+  "Leave": [],
+
+  "Comment": "In_Range",
+  "SetPersistent": ["selected_lore", "RUNNING(_rejoin_allowed)"],
+
+
+
+  "Comment": "---- End of interaction ----",
+  "Unfreeze": [],
+  "Fade": [],
+
+  "Teleport": [1985.5, 29.0, 638.5, 180],
+  "PlaySound": "ui_toast_challenge_complete",
+  "SetTitle": [
+    "&5[STORYLINE]",
+    "뜑 [EPISODE] completed 뜑"
+  ],
+  "Complete": [],
+  "SetPersistent": ["selected_lore", "NONE"],
+
+
+
+
+  "Comment": "---- Secret found ----",
+  "SendMessage": "\uA016 &3&lSecret found&7: &b[SECRET_NAME]!",
+
+  "Comment": "---- Story guide ----",
+  "Book": "&5&l    Story Guide\n\n&8These settings are recommended for the best story quest experience:&r\n\n* &5FOV&7: &d70&r\n* &5Render distance&7: &d16&r\n* &5Sounds&7: &dEnabled&r\n\n뜀 &8Chat will be disabled during story quests&r"
+
+
+}
