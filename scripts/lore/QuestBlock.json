@@ -233,7 +233,7 @@
     {
       "name": "&dPart III",
       "description": [
-        "This part has not been made yet!",
+        "&oCominng soon!",
         "",
         "&7▶ &dClick to start this episode!"
       ],
@@ -283,7 +283,7 @@
   "Skip": "aptch_intro",
   "Skip": "aptch_part_1",
   "Skip": "aptch_part_2",
-  "Skip": "reopen_aptch",
+  "Skip": "aptch_part_3",
 
   "Comment": "aptch_intro",
   "SetPersistent": ["selected_lore", "aptch_intro"],
@@ -326,5 +326,24 @@
     "Meet Agnes at the mine in the hub"
   ],
   "SendMessage": "&e&l➤ New objective&7 > Meet Agnes at the mine in the hub.",
-  "Leave": []
+  "Leave": [],
+
+
+
+
+
+  "Comment": "aptch_part_3",
+  "If": [],
+  "NotCompleted": ["aptch_2"],
+  "Skip": "reopen_aptch",
+  "Dummy": [],
+  "Dialog": [
+    {
+      "&7&oSoft whisper": "Heya!",
+      "&7&oSoft whisper": "Good to see you again!",
+      "&7&oSoft whisper": "This episode is not done yet unfortunately.",
+      "&7&oSoft whisper": "Check back later because it will be amazing when it is done!"
+    },
+    "Agnes.speech"
+  ]
 }
