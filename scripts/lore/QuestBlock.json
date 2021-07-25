@@ -233,7 +233,7 @@
     {
       "name": "&dPart III",
       "description": [
-        "&oCominng soon!",
+        "&f&oComing soon!",
         "",
         "&7▶ &dClick to start this episode!"
       ],
@@ -344,6 +344,6 @@
       "&7&oSoft whisper": "This episode is not done yet unfortunately.",
       "&7&oSoft whisper": "Check back later because it will be amazing when it is done!"
     },
-    "Agnes.speech"
+    90
   ]
 }
