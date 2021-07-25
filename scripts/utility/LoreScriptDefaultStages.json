@@ -17,6 +17,8 @@
   "Leave": [],
 
   "Comment": "In_Range",
+  "DisableAllCommands": [],
+  "DisableChat": [],
   "SetPersistent": ["selected_lore", "RUNNING(_rejoin_allowed)"],
 
 

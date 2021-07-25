@@ -291,6 +291,7 @@
   "HidePlayer": [],
   "SetScoreboard": "",
   "DisableChat": [],
+  "DisableAllCommands": [],
   "Show": "AgnesOnHill",
   "SetBlock": [2060, 73, 625, "enchanting_table"],
 

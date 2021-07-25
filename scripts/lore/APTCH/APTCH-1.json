@@ -232,6 +232,8 @@
 
 
   "Comment": "Ready",
+  "DisableChat": [],
+  "DisableAllCommands": [],
   "Dialog": [
     {
       "&5&lAgnes": "I am ready too.",
