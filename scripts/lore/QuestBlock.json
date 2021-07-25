@@ -138,6 +138,16 @@
       "material": "book"
     }
   ],
+  "Set": [
+    "aptch.part_4.item",
+    {
+      "name": "&dPart IV",
+      "description": [
+        "&7Complete &dpart III&7 to unlock this episode."
+      ],
+      "material": "book"
+    }
+  ],
 
   "If": [],
   "Completed": ["aptch_intro"],
@@ -192,6 +202,37 @@
     {
       "name": "&dPart II",
       "description": [
+        "&7Spying on your kingdom members must be tough. What would the other kingdom members think of Agnes now...",
+        "",
+        "&7▶ &dClick to start this episode!"
+      ],
+      "material": "book",
+      "glow": true
+    }
+  ],
+
+  "If": [],
+  "Completed": ["aptch_2"],
+  "Skip": "aptch-part_2_completed",
+  "Skip": "aptch-show_menu",
+  "Comment": "aptch-part_2_completed",
+  "Set": [
+    "aptch.part_2.item",
+    {
+      "name": "&dPart II",
+      "description": [
+        "&7Spying on your kingdom members must be tough. What would the other kingdom members think of Agnes now...",
+        "",
+        "&7▶ &dClick to restart this episode!"
+      ],
+      "material": "enchanted_book"
+    }
+  ],
+  "Set": [
+    "aptch.part_3.item",
+    {
+      "name": "&dPart III",
+      "description": [
         "This part has not been made yet!",
         "",
         "&7▶ &dClick to start this episode!"
@@ -209,6 +250,8 @@
   "Set": [ "aptch.part_1.item", "REMOVE" ],
   "LeaveScript": [],
   "Set": [ "aptch.part_2.item", "REMOVE" ],
+  "LeaveScript": [],
+  "Set": [ "aptch.part_3.item", "REMOVE" ],
   "Menu": [
     "Pick your episode",
     6,
@@ -239,7 +282,7 @@
   "Skip": "main_menu",
   "Skip": "aptch_intro",
   "Skip": "aptch_part_1",
-  "Skip": "reopen_aptch",
+  "Skip": "aptch_part_2",
   "Skip": "reopen_aptch",
 
   "Comment": "aptch_intro",
@@ -267,5 +310,21 @@
     "Meet Agnes at the bank in the hub"
   ],
   "SendMessage": "&e&l➤ New objective&7 > Meet Agnes at the bank in the hub.",
+  "Leave": [],
+
+
+  "Comment": "aptch_part_2",
+  "If": [],
+  "NotCompleted": ["aptch_1"],
+  "Skip": "reopen_aptch",
+  "Dummy": [],
+  "SetPersistent": ["selected_lore", "aptch_part_2"],
+  "SendMessage": "&7[DEBUG] &oStarting A place to call home - part II...",
+  "PlaySound": "entity_player_levelup",
+  "SetTitle": [
+    "&e&lNew objective",
+    "Meet Agnes at the mine in the hub"
+  ],
+  "SendMessage": "&e&l➤ New objective&7 > Meet Agnes at the mine in the hub.",
   "Leave": []
 }

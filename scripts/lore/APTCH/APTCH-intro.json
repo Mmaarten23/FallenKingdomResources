@@ -6,7 +6,6 @@
 
   "ServerType": "hub",
 
-
   "CreateEntity": {
     "key": "AgnesIntro",
     "entity": "PLAYER",
@@ -185,7 +184,7 @@
   "Skip": "Start_journey",
 
   "Comment": "Wait_before_start",
-  "ProgressiveDialog": ["&5&lAgnes", "Ofcourse Your Majesty."],
+  "ProgressiveDialog": ["&5&lAgnes", "Of  course Your Majesty."],
   "MoveEntity": ["AgnesIntro", 1908.0, 38.0, 532.0, "Agnes.speed", false],
   "ProgressiveDialog": ["&5&lAgnes", "I will be having a chat with my old friend Jo."],
   "MoveEntity": ["AgnesIntro", 1911.5, 38.0, 529.0, "Agnes.speed", false],
