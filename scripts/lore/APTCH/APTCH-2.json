@@ -183,7 +183,7 @@
   "EntityLook": ["MineAgnes", 1921, 27, 603],
   "Wait": 1,
   "ProgressiveMoveEntity": ["Gibson", 1924.0, 22.9, 596.3, 0.06, false],
-  "ProgressiveMoveEntity": ["Edward", 1924.5, 22.9, 601.0, 0.06, false],
+  "MoveEntity": ["Edward", 1924.5, 22.9, 601.0, 0.06, false],
   "MoveEntity": ["MineAgnes", 1919.4, 27.0, 604.5],
   "EntityLook": ["MineAgnes", 1918, 26, 604],
   "Wait": 1.7,
