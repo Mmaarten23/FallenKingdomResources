@@ -134,6 +134,7 @@
   "Wait": 1,
   "Freeze": true,
   "HidePlayer": [],
+  "HidePlayer": "Not in script",
   "Cinematic": [],
 
 
