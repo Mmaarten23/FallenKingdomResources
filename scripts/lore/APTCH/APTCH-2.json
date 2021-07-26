@@ -91,8 +91,6 @@
   "Leave": [],
 
   "Comment": "In_Range",
-  "DisableAllCommands": [],
-  "DisableChat": [],
   "SetPersistent": ["selected_lore", "RUNNING"],
 
   "TeleportEntity": ["Edward", 1927.5, 22.9, 588.5, 90],
@@ -103,6 +101,8 @@
   "RegionEntry": [1917, 20, 601, 1925, 24, 607],
   "SendMessage": "[DEBUG]: Skipping to cinematic",
   "Skip": "DEV-cinematic",
+  "DisableAllCommands": [],
+  "DisableChat": [],
   "Dialog": [
     {
       "[PLAYER]": "Agnes?",
@@ -135,6 +135,7 @@
   "Freeze": true,
   "HidePlayer": [],
   "HidePlayer": "Not in script",
+  "HidePlayer": "In script",
   "Cinematic": [],
 
 
