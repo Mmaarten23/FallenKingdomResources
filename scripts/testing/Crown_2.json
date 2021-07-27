@@ -1,0 +1,11 @@
+{
+  "Key": "crown_test_1",
+  "Author": "Mmaarten",
+  "SetItem": [
+    "helmet",
+    {
+      "material": "golden_pickaxe",
+      "model": 2
+    }
+  ]
+}
