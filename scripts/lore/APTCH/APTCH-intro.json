@@ -499,7 +499,7 @@
     },
     10
   ],
-  "EntityLook": ["DarkKnight",  2003, 30, 610],
+  "EntityLook": ["DarkKnight", 2003, 30, 610],
   "AnimateEntity": ["DarkKnight", "Swing Main Hand"],
   "PlaySound": "entity_lightning_bolt_thunder",
   "PlaySound": "entity_lightning_bolt_impact",
