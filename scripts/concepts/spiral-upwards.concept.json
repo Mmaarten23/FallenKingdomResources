@@ -7,13 +7,6 @@
     "entity": "ARMOR_STAND",
     "location": [1985.5, 29.0, 638.5]
   },
-  "Set": ["step", -180],
-  "Comment": "loop-start",
-  "Add": "step",
-  "EntityLook": ["entity", "step"],
-  "ProgressiveMoveEntityRelative": ["entity", 0.0, 0.01, 0.0, false],
-  "If": [],
-  "Equals": ["step", "<=", 180],
-  "Skip": "loop-start",
-  "Dummy": []
+  "ProgressiveMoveEntityRelative": ["entity", 0.0, 2, 0.0, 0.001, false],
+  "MoveEntityCircle": ["entity", 1985.5, 29.0, 636.5, 1985.5, 29.0, 638.5]
 }
