@@ -3,6 +3,10 @@
   "Author": "Mmaarten",
 
   "PlayerJoin": [],
+  "If": [],
+  "Equals": ["server", "opening_enabled", "true"],
+  "Leave": [],
+
   "Comment": "refresh",
   "SetScoreboard": [
     "",
@@ -10,5 +14,6 @@
     "",
     "Estimated time: [server:show_countdown_min] : [server:show_countdown_sec]"
   ],
+  "Wait": 0.5,
   "Skip": "refresh"
 }

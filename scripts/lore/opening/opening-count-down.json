@@ -2,8 +2,10 @@
   "Key": "opening_count_down",
   "Author": "Mmaarten",
 
+  "Server": true,
   "Set": ["server", "show_countdown_min", 5, true],
   "Set": ["server", "show_countdown_sec", 0, true],
+  "Hold": [],
 
   "Comment": "loop-start",
   "Wait": 1.0,
@@ -23,5 +25,6 @@
   "Skip": "loop-start",
 
   "Comment": "loop-end",
-  "BroadcastMessage": "Countdown ended"
+  "BroadcastMessage": "Countdown ended",
+  "Start": "opening_show"
 }
