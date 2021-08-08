@@ -2,5 +2,5 @@
   "Key": "opening_count_down_start",
   "Author": "Mmaarten",
 
-  "Set": ["server", "opening_start", "yes"]
+  "Set": ["server", "opening_start", 0]
 }

@@ -1,6 +1,6 @@
 {
-  "Key": "opening_count_down_start",
+  "Key": "opening_enable",
   "Author": "Mmaarten",
 
-  "Set": ["server", "opening_enabled", "yes"]
+  "Set": ["server", "opening_enabled", 1]
 }
