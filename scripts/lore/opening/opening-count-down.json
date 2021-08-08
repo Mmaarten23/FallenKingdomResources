@@ -2,12 +2,26 @@
   "Key": "opening_count_down",
   "Author": "Mmaarten",
 
-  "Set": ["server", "show_countdown", 20, true],
+  "Set": ["server", "show_countdown_min", 5, true],
+  "Set": ["server", "show_countdown_sec", 0, true],
+
   "Comment": "loop-start",
-  "Add": ["server","show_countdown", -1, true],
   "Wait": 1.0,
+
   "If": [],
-  "Equals": ["server","show_countdown", ">", 0],
+  "Equals": ["server", "show_countdown_sec", 0],
+  "Skip": "minute_passed",
+  "Add": ["server", "show_countdown_sec", -1, true],
   "Skip": "loop-start",
+
+  "Comment": "minute_passed",
+  "If": [],
+  "Equals": ["server", "show_countdown_min", 0],
+  "Skip": "loop-end",
+  "Add": ["server", "show_countdown_min", -1, true],
+  "Set": ["server", "show_countdown_sec", 59, true],
+  "Skip": "loop-start",
+
+  "Comment": "loop-end",
   "BroadcastMessage": "Countdown ended"
 }

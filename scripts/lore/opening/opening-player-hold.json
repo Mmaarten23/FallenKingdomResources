@@ -3,12 +3,12 @@
   "Author": "Mmaarten",
 
   "PlayerJoin": [],
+  "Comment": "refresh",
   "SetScoreboard": [
-    "      &c&lPOKÉFIND     ",
     "",
     "Waiting on opening...  ",
     "",
-    "Estimated time: [server:show_countdown]"
+    "Estimated time: [server:show_countdown_min] : [server:show_countdown_sec]"
   ],
-  "Hold": []
+  "Skip": "refresh"
 }
