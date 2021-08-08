@@ -1,0 +1,7 @@
+{
+  "Key": "opening_show_server",
+  "Author": "Mmaarten",
+
+  "Comment": "Script is -- SERVER ONLY --",
+  "BroadcastMessage": "Show started!"
+}

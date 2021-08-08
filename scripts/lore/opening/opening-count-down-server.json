@@ -3,6 +3,9 @@
   "Author": "Mmaarten",
 
   "Comment": "Script is -- SERVER ONLY --",
+  "Server": true,
+  "Set": ["server", "opening_enabled", "false"],
+  "Equals": ["server", "opening_enabled", "true"],
   "Set": ["server", "opening_state", "count_down"],
   "Set": ["server", "opening_start", "false"],
   "Set": ["server", "opening_countdown_min", 5, true],
@@ -28,5 +31,5 @@
 
   "Comment": "loop-end",
   "BroadcastMessage": "Countdown ended",
-  "Start": "opening_show"
+  "Start": "opening_show_server"
 }
