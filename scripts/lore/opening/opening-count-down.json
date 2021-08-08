@@ -1,29 +1,29 @@
 {
-  "Key": "opening_count_down",
+  "Key": "opening_count_down_server",
   "Author": "Mmaarten",
 
-  "Server": true,
+  "Comment": "Script is -- SERVER ONLY --",
+  "Set": ["server", "opening_state", "count_down"],
   "Set": ["server", "opening_start", "false"],
   "Set": ["server", "opening_countdown_min", 5, true],
   "Set": ["server", "opening_countdown_sec", 0, true],
   "Equals": ["server", "opening_start", "true"],
-  "Set": ["server", "opening_start", "false"],
 
   "Comment": "loop-start",
   "Wait": 1.0,
 
   "If": [],
-  "Equals": ["server", "show_countdown_sec", 0],
+  "Equals": ["server", "opening_countdown_sec", 0],
   "Skip": "minute_passed",
-  "Add": ["server", "show_countdown_sec", -1, true],
+  "Add": ["server", "opening_countdown_sec", -1, true],
   "Skip": "loop-start",
 
   "Comment": "minute_passed",
   "If": [],
-  "Equals": ["server", "show_countdown_min", 0],
+  "Equals": ["server", "opening_countdown_min", 0],
   "Skip": "loop-end",
-  "Add": ["server", "show_countdown_min", -1, true],
-  "Set": ["server", "show_countdown_sec", 59, true],
+  "Add": ["server", "opening_countdown_min", -1, true],
+  "Set": ["server", "opening_countdown_sec", 59, true],
   "Skip": "loop-start",
 
   "Comment": "loop-end",

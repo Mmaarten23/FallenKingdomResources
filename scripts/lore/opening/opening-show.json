@@ -1,13 +1,13 @@
 {
-  "Key": "opening_show",
+  "Key": "opening_show_server",
   "Author": "Mmaarten",
 
-
+  "Comment": "Script is -- SERVER ONLY --",
   "Dialog": [
     {
       "&c&lProfessor Hemlock": "Ladies and gentlemen,",
       "&c&lProfessor Hemlock": "welcome to ...",
-      "&c&lProfessor Hemlock": "&4Zeinova&r!"
+      "&c&lProfessor Hemlock": "&e&lFallen &c&lKingdom&r!"
     },
     80
   ]

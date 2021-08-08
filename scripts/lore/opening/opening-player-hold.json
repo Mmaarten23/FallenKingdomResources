@@ -1,18 +1,19 @@
 {
-  "Key": "opening_player_hold",
+  "Key": "opening_count_down_player_hold",
   "Author": "Mmaarten",
 
   "PlayerJoin": [],
   "If": [],
-  "Equals": ["server", "opening_enabled", "true"],
+  "Equals": ["server", "opening_state", "count_down"],
+  "Skip": "refresh",
   "Leave": [],
 
   "Comment": "refresh",
   "SetScoreboard": [
+    "&dWelcome!",
     "",
-    "Waiting on opening...  ",
-    "",
-    "Estimated time: [server:opening_countdown_min] : [server:opening_countdown_sec]"
+    "&7&oWaiting on opening...  ",
+    "&7Estimated time: &d[server:opening_countdown_min]&7 : &d[server:opening_countdown_sec]"
   ],
   "Wait": 0.5,
   "Skip": "refresh"
