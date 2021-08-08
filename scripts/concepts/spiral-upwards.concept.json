@@ -5,8 +5,9 @@
   "CreateEntity": {
     "key": "entity",
     "entity": "ARMOR_STAND",
-    "location": [1985.5, 29.0, 638.5]
+    "location": [1985.5, 29.0, 638.5],
+    "helmet": "skeleton_skull"
   },
-  "ProgressiveMoveEntityRelative": ["entity", 0.0, 2, 0.0, 0.001, false],
+  "ProgressiveMoveEntityRelative": ["entity", 0.0, 2.0, 0.0, 0.01, false],
   "MoveEntityCircle": ["entity", 1985.5, 29.0, 636.5, 1985.5, 29.0, 638.5]
 }
