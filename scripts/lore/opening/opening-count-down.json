@@ -1,0 +1,13 @@
+{
+  "Key": "opening_count_down",
+  "Author": "Mmaarten",
+
+  "Set": ["show_countdown", 20, true],
+  "Comment": "loop-start",
+  "Add": ["show_countdown", -1, true],
+  "Wait": 1.0,
+  "If": [],
+  "Equals": ["show_countdown", ">", 0],
+  "Skip": "loop-start",
+  "BroadcastMessage": "Countdown ended"
+}

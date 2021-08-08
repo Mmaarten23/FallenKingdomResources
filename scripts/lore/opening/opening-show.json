@@ -1,0 +1,15 @@
+{
+  "Key": "opening_show",
+  "Author": "Mmaarten",
+
+
+  "Dialog": [
+    {
+      "&c&lProfessor Hemlock": "Ladies and gentlemen,",
+      "&c&lProfessor Hemlock": "welcome to ...",
+      "&c&lProfessor Hemlock": "&4Zeinova&r!"
+    },
+    80
+  ]
+
+}

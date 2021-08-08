@@ -1,0 +1,14 @@
+{
+  "Key": "opening_player_hold",
+  "Author": "Mmaarten",
+
+  "PlayerJoin": [],
+  "SetScoreboard": [
+    "      &c&lPOKÉFIND     ",
+    "",
+    "Waiting on opening...  ",
+    "",
+    "Estimated time: [show_countdown]"
+  ],
+  "Hold": []
+}
