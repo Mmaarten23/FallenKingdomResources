@@ -4,13 +4,13 @@
 
   "Comment": "Script is -- SERVER ONLY --",
   "Server": true,
-  "Set": ["server", "opening_enabled", "false"],
-  "Equals": ["server", "opening_enabled", "true"],
+  "Set": ["server", "opening_enabled", "no"],
+  "Equals": ["server", "opening_enabled", "yes"],
   "Set": ["server", "opening_state", "count_down"],
-  "Set": ["server", "opening_start", "false"],
   "Set": ["server", "opening_countdown_min", 5, true],
   "Set": ["server", "opening_countdown_sec", 0, true],
-  "Equals": ["server", "opening_start", "true"],
+  "Set": ["server", "opening_start", "no"],
+  "Equals": ["server", "opening_start", "yes"],
 
   "Comment": "loop-start",
   "Wait": 1.0,
