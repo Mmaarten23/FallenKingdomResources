@@ -12,7 +12,7 @@
     "",
     "Waiting on opening...  ",
     "",
-    "Estimated time: [server:show_countdown_min] : [server:show_countdown_sec]"
+    "Estimated time: [server:opening_countdown_min] : [server:opening_countdown_sec]"
   ],
   "Wait": 0.5,
   "Skip": "refresh"

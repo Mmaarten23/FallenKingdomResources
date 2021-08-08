@@ -3,9 +3,11 @@
   "Author": "Mmaarten",
 
   "Server": true,
-  "Set": ["server", "show_countdown_min", 5, true],
-  "Set": ["server", "show_countdown_sec", 0, true],
-  "Hold": [],
+  "Set": ["server", "opening_start", "false"],
+  "Set": ["server", "opening_countdown_min", 5, true],
+  "Set": ["server", "opening_countdown_sec", 0, true],
+  "Equals": ["server", "opening_start", "true"],
+  "Set": ["server", "opening_start", "false"],
 
   "Comment": "loop-start",
   "Wait": 1.0,
